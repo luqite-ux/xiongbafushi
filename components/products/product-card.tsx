@@ -30,7 +30,7 @@ export function ProductCard({ product, index = 0, priority = false, className }:
             priority={priority}
             sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
             className={cn(
-              'object-contain p-3 transition-transform duration-500 ease-out group-hover/card:scale-[1.04] group-focus-within/card:scale-[1.04]',
+              'object-contain',
               cover.blendWhite && 'mix-blend-multiply',
             )}
           />
