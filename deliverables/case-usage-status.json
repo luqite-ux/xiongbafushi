@@ -1,0 +1,39 @@
+{
+  "context": {
+    "projectId": "project-8d6d849b-28c4-4cdc-ad21-42da5cf3f141",
+    "runId": "run-0a09f3ae-3cfd-451f-a9df-28c05bc347bc",
+    "purpose": "build"
+  },
+  "scope": "current-run-only",
+  "otherRunIds": [],
+  "checkedAt": "2026-11-13T04:34:07.150Z",
+  "complete": false,
+  "issues": [
+    "QUERY_FAILED",
+    "ADOPTION_UNRECORDED",
+    "DELIVERY_UNRECORDED"
+  ],
+  "pending": 0,
+  "failedQueryCount": 1,
+  "queries": [
+    {
+      "receiptPath": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\case-query-failed-38f4274a-f71a-407f-9863-824f24697d57.json",
+      "requestId": "failed-38f4274a-f71a-407f-9863-824f24697d57",
+      "request": {
+        "match": "fuzzy",
+        "sort": "relevance",
+        "limit": "5",
+        "query": "kids thermal underwear OEM ODM garment factory",
+        "industry": "textile apparel"
+      },
+      "status": 0,
+      "decision": "missing",
+      "decisionSent": false,
+      "caseSlugs": [],
+      "reason": "",
+      "externalReferences": []
+    }
+  ],
+  "deliveries": [],
+  "note": "Current run only; other runs are not certified. Adoption is agent-reported, not Owner acceptance or proven design improvement."
+}
