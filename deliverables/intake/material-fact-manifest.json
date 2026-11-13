@@ -1,0 +1,4086 @@
+{
+  "schema_version": 1,
+  "customer": "温州雄霸服饰有限公司",
+  "tenant_id": null,
+  "material_roots": [
+    "E:\\E暂存\\温州雄霸服饰有限公司"
+  ],
+  "sources": [
+    {
+      "source_id": "source-workbook",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\官网资料&产品&FQA收集表.xlsx",
+      "type": "xlsx",
+      "fingerprint": "sha256:9b3f32dc6ed268efea0eb2ef03baa35bb48343fcb7e42ea829b0442c81c5d47a",
+      "decision": "extract",
+      "extraction_evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+      "units": [
+        {
+          "unit_id": "unit-company-name-zh",
+          "locator": "企业资料!C3",
+          "decision": "fact",
+          "fact_ids": [
+            "company-name-zh"
+          ]
+        },
+        {
+          "unit_id": "unit-company-name-en",
+          "locator": "企业资料!C11",
+          "decision": "fact",
+          "fact_ids": [
+            "company-name-en"
+          ]
+        },
+        {
+          "unit_id": "unit-company-address",
+          "locator": "企业资料!C4",
+          "decision": "fact",
+          "fact_ids": [
+            "company-address"
+          ]
+        },
+        {
+          "unit_id": "unit-company-phone",
+          "locator": "企业资料!C6",
+          "decision": "fact",
+          "fact_ids": [
+            "company-phone"
+          ]
+        },
+        {
+          "unit_id": "unit-company-profile",
+          "locator": "企业资料!C15",
+          "decision": "fact",
+          "fact_ids": [
+            "company-profile"
+          ]
+        },
+        {
+          "unit_id": "unit-equipment",
+          "locator": "企业资料!C17:F17",
+          "decision": "fact",
+          "fact_ids": [
+            "equipment"
+          ]
+        },
+        {
+          "unit_id": "unit-product-xb-sr-001",
+          "locator": "产品信息!A5:H5",
+          "decision": "fact",
+          "fact_ids": [
+            "product-xb-sr-001"
+          ]
+        },
+        {
+          "unit_id": "unit-product-xb-ct-002",
+          "locator": "产品信息!A6:H6",
+          "decision": "fact",
+          "fact_ids": [
+            "product-xb-ct-002"
+          ]
+        },
+        {
+          "unit_id": "unit-product-xb-pt-003",
+          "locator": "产品信息!A7:H7",
+          "decision": "fact",
+          "fact_ids": [
+            "product-xb-pt-003"
+          ]
+        },
+        {
+          "unit_id": "unit-product-xb-ly-004",
+          "locator": "产品信息!A8:H8",
+          "decision": "fact",
+          "fact_ids": [
+            "product-xb-ly-004"
+          ]
+        },
+        {
+          "unit_id": "unit-faq-row-4",
+          "locator": "FAQ问题!B4:D4",
+          "decision": "fact",
+          "fact_ids": [
+            "faq-row-4"
+          ]
+        },
+        {
+          "unit_id": "unit-faq-row-5",
+          "locator": "FAQ问题!B5:D5",
+          "decision": "fact",
+          "fact_ids": [
+            "faq-row-5"
+          ]
+        },
+        {
+          "unit_id": "unit-faq-row-6",
+          "locator": "FAQ问题!B6:D6",
+          "decision": "fact",
+          "fact_ids": [
+            "faq-row-6"
+          ]
+        },
+        {
+          "unit_id": "unit-faq-row-7",
+          "locator": "FAQ问题!B7:D7",
+          "decision": "fact",
+          "fact_ids": [
+            "faq-row-7"
+          ]
+        },
+        {
+          "unit_id": "unit-faq-row-8",
+          "locator": "FAQ问题!B8:D8",
+          "decision": "fact",
+          "fact_ids": [
+            "faq-row-8"
+          ]
+        },
+        {
+          "unit_id": "unit-faq-row-9",
+          "locator": "FAQ问题!B9:D9",
+          "decision": "fact",
+          "fact_ids": [
+            "faq-row-9"
+          ]
+        },
+        {
+          "unit_id": "unit-faq-row-10",
+          "locator": "FAQ问题!B10:D10",
+          "decision": "fact",
+          "fact_ids": [
+            "faq-row-10"
+          ]
+        },
+        {
+          "unit_id": "unit-faq-row-11",
+          "locator": "FAQ问题!B11:D11",
+          "decision": "fact",
+          "fact_ids": [
+            "faq-row-11"
+          ]
+        },
+        {
+          "unit_id": "unit-faq-row-12",
+          "locator": "FAQ问题!B12:D12",
+          "decision": "fact",
+          "fact_ids": [
+            "faq-row-12"
+          ]
+        },
+        {
+          "unit_id": "unit-faq-row-13",
+          "locator": "FAQ问题!B13:D13",
+          "decision": "fact",
+          "fact_ids": [
+            "faq-row-13"
+          ]
+        },
+        {
+          "unit_id": "unit-faq-row-14",
+          "locator": "FAQ问题!B14:D14",
+          "decision": "fact",
+          "fact_ids": [
+            "faq-row-14"
+          ]
+        },
+        {
+          "unit_id": "unit-faq-row-15",
+          "locator": "FAQ问题!B15:D15",
+          "decision": "fact",
+          "fact_ids": [
+            "faq-row-15"
+          ]
+        },
+        {
+          "unit_id": "unit-faq-row-16",
+          "locator": "FAQ问题!B16:D16",
+          "decision": "fact",
+          "fact_ids": [
+            "faq-row-16"
+          ]
+        },
+        {
+          "unit_id": "unit-faq-row-17",
+          "locator": "FAQ问题!B17:D17",
+          "decision": "fact",
+          "fact_ids": [
+            "faq-row-17"
+          ]
+        },
+        {
+          "unit_id": "unit-faq-row-18",
+          "locator": "FAQ问题!B18:D18",
+          "decision": "fact",
+          "fact_ids": [
+            "faq-row-18"
+          ]
+        },
+        {
+          "unit_id": "unit-faq-row-19",
+          "locator": "FAQ问题!B19:D19",
+          "decision": "fact",
+          "fact_ids": [
+            "faq-row-19"
+          ]
+        },
+        {
+          "unit_id": "unit-faq-row-20",
+          "locator": "FAQ问题!B20:D20",
+          "decision": "fact",
+          "fact_ids": [
+            "faq-row-20"
+          ]
+        },
+        {
+          "unit_id": "unit-faq-row-21",
+          "locator": "FAQ问题!B21:D21",
+          "decision": "fact",
+          "fact_ids": [
+            "faq-row-21"
+          ]
+        },
+        {
+          "unit_id": "unit-faq-row-22",
+          "locator": "FAQ问题!B22:D22",
+          "decision": "fact",
+          "fact_ids": [
+            "faq-row-22"
+          ]
+        },
+        {
+          "unit_id": "unit-faq-row-23",
+          "locator": "FAQ问题!B23:D23",
+          "decision": "fact",
+          "fact_ids": [
+            "faq-row-23"
+          ]
+        },
+        {
+          "unit_id": "unit-faq-row-24",
+          "locator": "FAQ问题!B24:D24",
+          "decision": "fact",
+          "fact_ids": [
+            "faq-row-24"
+          ]
+        },
+        {
+          "unit_id": "unit-faq-row-25",
+          "locator": "FAQ问题!B25:D25",
+          "decision": "fact",
+          "fact_ids": [
+            "faq-row-25"
+          ]
+        },
+        {
+          "unit_id": "unit-faq-row-26",
+          "locator": "FAQ问题!B26:D26",
+          "decision": "fact",
+          "fact_ids": [
+            "faq-row-26"
+          ]
+        },
+        {
+          "unit_id": "unit-faq-row-27",
+          "locator": "FAQ问题!B27:D27",
+          "decision": "fact",
+          "fact_ids": [
+            "faq-row-27"
+          ]
+        },
+        {
+          "unit_id": "unit-faq-row-28",
+          "locator": "FAQ问题!B28:D28",
+          "decision": "fact",
+          "fact_ids": [
+            "faq-row-28"
+          ]
+        },
+        {
+          "unit_id": "unit-faq-row-29",
+          "locator": "FAQ问题!B29:D29",
+          "decision": "fact",
+          "fact_ids": [
+            "faq-row-29"
+          ]
+        },
+        {
+          "unit_id": "unit-faq-row-30",
+          "locator": "FAQ问题!B30:D30",
+          "decision": "fact",
+          "fact_ids": [
+            "faq-row-30"
+          ]
+        }
+      ],
+      "container_media_scan": {
+        "result": "PASS",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+        "embedded_media": [
+          {
+            "media_id": "xlsx-media-1",
+            "container_path": "xl/media/image1.jpeg",
+            "locator": "企业资料!C16",
+            "fingerprint": "sha256:d93dac649c5ddccf2fc59bd7b72fedacaa019a1723374e6cb22a5225461ca79d",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\huanqiu-admin\\deliverables\\customer-delivery-states\\xiongbafushi-com\\intake-extract\\workbook\\xl\\media\\image1.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "semantic_destination": "/about#manufacturing",
+            "business_entity": "factory",
+            "placement_reason": "The embedded image visually supports factory at its source cell.",
+            "source_binding": {
+              "sheet": "企业资料",
+              "cell_range": "C16",
+              "drawing_anchor": "drawing1 image1",
+              "entity_type": "company",
+              "entity_key": "factory",
+              "evidence": "Workbook relationship mapping and contact-sheet visual review."
+            }
+          },
+          {
+            "media_id": "xlsx-media-2",
+            "container_path": "xl/media/image2.jpeg",
+            "locator": "企业资料!C16",
+            "fingerprint": "sha256:78f3266dc7844946a2dd1befc112b09f0782e89bc859ad0ef235ec4521d86f9d",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\huanqiu-admin\\deliverables\\customer-delivery-states\\xiongbafushi-com\\intake-extract\\workbook\\xl\\media\\image2.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "semantic_destination": "/about#manufacturing",
+            "business_entity": "factory",
+            "placement_reason": "The embedded image visually supports factory at its source cell.",
+            "source_binding": {
+              "sheet": "企业资料",
+              "cell_range": "C16",
+              "drawing_anchor": "drawing1 image2",
+              "entity_type": "company",
+              "entity_key": "factory",
+              "evidence": "Workbook relationship mapping and contact-sheet visual review."
+            }
+          },
+          {
+            "media_id": "xlsx-media-3",
+            "container_path": "xl/media/image3.jpeg",
+            "locator": "企业资料!C16",
+            "fingerprint": "sha256:dfcf3ed674e81cf52c1ccc4c34e5af67cddeedac0e701d487e14ffc0723b0500",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\huanqiu-admin\\deliverables\\customer-delivery-states\\xiongbafushi-com\\intake-extract\\workbook\\xl\\media\\image3.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "semantic_destination": "/about#manufacturing",
+            "business_entity": "factory",
+            "placement_reason": "The embedded image visually supports factory at its source cell.",
+            "source_binding": {
+              "sheet": "企业资料",
+              "cell_range": "C16",
+              "drawing_anchor": "drawing1 image3",
+              "entity_type": "company",
+              "entity_key": "factory",
+              "evidence": "Workbook relationship mapping and contact-sheet visual review."
+            }
+          },
+          {
+            "media_id": "xlsx-media-4",
+            "container_path": "xl/media/image4.jpeg",
+            "locator": "企业资料!C22",
+            "fingerprint": "sha256:7e5ecbd4a7db7843650ff7b5dcae9869a3ebe1b5c438d8e6eb0fd2ef15af616b",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\huanqiu-admin\\deliverables\\customer-delivery-states\\xiongbafushi-com\\intake-extract\\workbook\\xl\\media\\image4.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "semantic_destination": "/about#manufacturing",
+            "business_entity": "factory",
+            "placement_reason": "The embedded image visually supports factory at its source cell.",
+            "source_binding": {
+              "sheet": "企业资料",
+              "cell_range": "C22",
+              "drawing_anchor": "drawing1 image4",
+              "entity_type": "company",
+              "entity_key": "factory",
+              "evidence": "Workbook relationship mapping and contact-sheet visual review."
+            }
+          },
+          {
+            "media_id": "xlsx-media-5",
+            "container_path": "xl/media/image5.jpeg",
+            "locator": "企业资料!C23",
+            "fingerprint": "sha256:de6e8c812b59ffaf9940a3b512f575065a29c018a1e173122af968f6597a674d",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\huanqiu-admin\\deliverables\\customer-delivery-states\\xiongbafushi-com\\intake-extract\\workbook\\xl\\media\\image5.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "semantic_destination": "/about#manufacturing",
+            "business_entity": "factory",
+            "placement_reason": "The embedded image visually supports factory at its source cell.",
+            "source_binding": {
+              "sheet": "企业资料",
+              "cell_range": "C23",
+              "drawing_anchor": "drawing1 image5",
+              "entity_type": "company",
+              "entity_key": "factory",
+              "evidence": "Workbook relationship mapping and contact-sheet visual review."
+            }
+          },
+          {
+            "media_id": "xlsx-media-6",
+            "container_path": "xl/media/image6.jpeg",
+            "locator": "企业资料!C23",
+            "fingerprint": "sha256:84ecfdfd7127effd49ac37751b7956d23a06f665803d41e7356c5e52edd1629b",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\huanqiu-admin\\deliverables\\customer-delivery-states\\xiongbafushi-com\\intake-extract\\workbook\\xl\\media\\image6.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "semantic_destination": "/about#manufacturing",
+            "business_entity": "factory",
+            "placement_reason": "The embedded image visually supports factory at its source cell.",
+            "source_binding": {
+              "sheet": "企业资料",
+              "cell_range": "C23",
+              "drawing_anchor": "drawing1 image6",
+              "entity_type": "company",
+              "entity_key": "factory",
+              "evidence": "Workbook relationship mapping and contact-sheet visual review."
+            }
+          },
+          {
+            "media_id": "xlsx-media-7",
+            "container_path": "xl/media/image7.jpeg",
+            "locator": "企业资料!C21",
+            "fingerprint": "sha256:1405633c4f5f9d244a37ec40b42525b487a6d3966705f1d6ea233216ebd7443c",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\huanqiu-admin\\deliverables\\customer-delivery-states\\xiongbafushi-com\\intake-extract\\workbook\\xl\\media\\image7.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "semantic_destination": "/about#facility",
+            "business_entity": "factory-exterior",
+            "placement_reason": "The embedded image visually supports factory-exterior at its source cell.",
+            "source_binding": {
+              "sheet": "企业资料",
+              "cell_range": "C21",
+              "drawing_anchor": "drawing1 image7",
+              "entity_type": "company",
+              "entity_key": "factory-exterior",
+              "evidence": "Workbook relationship mapping and contact-sheet visual review."
+            }
+          },
+          {
+            "media_id": "xlsx-media-8",
+            "container_path": "xl/media/image8.png",
+            "locator": "企业资料!C20",
+            "fingerprint": "sha256:e270dd0e7a2d28a4a88eb57c080ecc27264f8599cb608628a64365e1f9e07228",
+            "decision": "excluded_by_rule",
+            "reason_code": "privacy_sensitive",
+            "reason": "Business licence is retained for legal identity verification and is not published.",
+            "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+            "source_binding": {
+              "sheet": "企业资料",
+              "cell_range": "C20",
+              "drawing_anchor": "Picture 3",
+              "entity_type": "reference",
+              "entity_key": "legal-identity",
+              "evidence": "Excel drawing anchor and visual review."
+            }
+          },
+          {
+            "media_id": "xlsx-media-9",
+            "container_path": "xl/media/image9.png",
+            "locator": "企业资料!C25",
+            "fingerprint": "sha256:69973c0b7bd78673bfce89850c32aa95929699dc5e36492eaf7dcbd8e7b930a2",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\huanqiu-admin\\deliverables\\customer-delivery-states\\xiongbafushi-com\\intake-extract\\workbook\\xl\\media\\image9.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "semantic_destination": "/about#team-and-sampling",
+            "business_entity": "office-sample",
+            "placement_reason": "The embedded image visually supports office-sample at its source cell.",
+            "source_binding": {
+              "sheet": "企业资料",
+              "cell_range": "C25",
+              "drawing_anchor": "drawing1 image9",
+              "entity_type": "company",
+              "entity_key": "office-sample",
+              "evidence": "Workbook relationship mapping and contact-sheet visual review."
+            }
+          },
+          {
+            "media_id": "xlsx-media-10",
+            "container_path": "xl/media/image10.jpeg",
+            "locator": "企业资料!C25",
+            "fingerprint": "sha256:6401f089fcb7e623555f54c10aac57dcbbef06f6e48cb34ac9591fcfa3c62774",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\huanqiu-admin\\deliverables\\customer-delivery-states\\xiongbafushi-com\\intake-extract\\workbook\\xl\\media\\image10.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "semantic_destination": "/about#team-and-sampling",
+            "business_entity": "office-sample",
+            "placement_reason": "The embedded image visually supports office-sample at its source cell.",
+            "source_binding": {
+              "sheet": "企业资料",
+              "cell_range": "C25",
+              "drawing_anchor": "drawing1 image10",
+              "entity_type": "company",
+              "entity_key": "office-sample",
+              "evidence": "Workbook relationship mapping and contact-sheet visual review."
+            }
+          },
+          {
+            "media_id": "xlsx-media-11",
+            "container_path": "xl/media/image11.jpeg",
+            "locator": "企业资料!C24",
+            "fingerprint": "sha256:b48ddc462f9f48327995f737423b1a19a5f8408a37592029db72e1ecd850abdd",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\huanqiu-admin\\deliverables\\customer-delivery-states\\xiongbafushi-com\\intake-extract\\workbook\\xl\\media\\image11.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "semantic_destination": "/about#team-and-sampling",
+            "business_entity": "office-sample",
+            "placement_reason": "The embedded image visually supports office-sample at its source cell.",
+            "source_binding": {
+              "sheet": "企业资料",
+              "cell_range": "C24",
+              "drawing_anchor": "drawing1 image11",
+              "entity_type": "company",
+              "entity_key": "office-sample",
+              "evidence": "Workbook relationship mapping and contact-sheet visual review."
+            }
+          },
+          {
+            "media_id": "xlsx-media-12",
+            "container_path": "xl/media/image12.jpeg",
+            "locator": "企业资料!C23",
+            "fingerprint": "sha256:90db50a4c06321a95d0789bf49f0800a91462583b9b80cb3c5c369a0b52e9d65",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\huanqiu-admin\\deliverables\\customer-delivery-states\\xiongbafushi-com\\intake-extract\\workbook\\xl\\media\\image12.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "semantic_destination": "/about#team-and-sampling",
+            "business_entity": "office-sample",
+            "placement_reason": "The embedded image visually supports office-sample at its source cell.",
+            "source_binding": {
+              "sheet": "企业资料",
+              "cell_range": "C23",
+              "drawing_anchor": "drawing1 image12",
+              "entity_type": "company",
+              "entity_key": "office-sample",
+              "evidence": "Workbook relationship mapping and contact-sheet visual review."
+            }
+          },
+          {
+            "media_id": "xlsx-media-13",
+            "container_path": "xl/media/image13.jpeg",
+            "locator": "企业资料!C23",
+            "fingerprint": "sha256:4098afd8448d150ec3a42c45378f088dd252cd3f388f985607b2701ef1051b5f",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\huanqiu-admin\\deliverables\\customer-delivery-states\\xiongbafushi-com\\intake-extract\\workbook\\xl\\media\\image13.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "semantic_destination": "/about#manufacturing",
+            "business_entity": "warehouse",
+            "placement_reason": "The embedded image visually supports warehouse at its source cell.",
+            "source_binding": {
+              "sheet": "企业资料",
+              "cell_range": "C23",
+              "drawing_anchor": "drawing1 image13",
+              "entity_type": "company",
+              "entity_key": "warehouse",
+              "evidence": "Workbook relationship mapping and contact-sheet visual review."
+            }
+          },
+          {
+            "media_id": "xlsx-media-14",
+            "container_path": "xl/media/image14.jpeg",
+            "locator": "企业资料!D17",
+            "fingerprint": "sha256:1d3f1d144fc6c484dc710ebecc924aab607ee876e011683ed6b1b62f0b9c7cc0",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\huanqiu-admin\\deliverables\\customer-delivery-states\\xiongbafushi-com\\intake-extract\\workbook\\xl\\media\\image14.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "semantic_destination": "/manufacturing#equipment",
+            "business_entity": "sewing-equipment",
+            "placement_reason": "The embedded image visually supports sewing-equipment at its source cell.",
+            "source_binding": {
+              "sheet": "企业资料",
+              "cell_range": "D17",
+              "drawing_anchor": "DISPIMG image14",
+              "entity_type": "company",
+              "entity_key": "sewing-equipment",
+              "evidence": "Workbook relationship mapping and contact-sheet visual review."
+            }
+          },
+          {
+            "media_id": "xlsx-media-15",
+            "container_path": "xl/media/image15.jpeg",
+            "locator": "企业资料!E17",
+            "fingerprint": "sha256:26dfab8549ef765aeebd9a1413076173eefcc96122e3073795932b9d50264404",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\huanqiu-admin\\deliverables\\customer-delivery-states\\xiongbafushi-com\\intake-extract\\workbook\\xl\\media\\image15.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "semantic_destination": "/manufacturing#equipment",
+            "business_entity": "sewing-equipment",
+            "placement_reason": "The embedded image visually supports sewing-equipment at its source cell.",
+            "source_binding": {
+              "sheet": "企业资料",
+              "cell_range": "E17",
+              "drawing_anchor": "DISPIMG image15",
+              "entity_type": "company",
+              "entity_key": "sewing-equipment",
+              "evidence": "Workbook relationship mapping and contact-sheet visual review."
+            }
+          },
+          {
+            "media_id": "xlsx-media-16",
+            "container_path": "xl/media/image16.jpeg",
+            "locator": "企业资料!F17",
+            "fingerprint": "sha256:6a7430680cb20b4dbfa4d4dc88e54f1012d3b936d738f4786351466c02f5c660",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\huanqiu-admin\\deliverables\\customer-delivery-states\\xiongbafushi-com\\intake-extract\\workbook\\xl\\media\\image16.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "semantic_destination": "/manufacturing#equipment",
+            "business_entity": "sewing-equipment",
+            "placement_reason": "The embedded image visually supports sewing-equipment at its source cell.",
+            "source_binding": {
+              "sheet": "企业资料",
+              "cell_range": "F17",
+              "drawing_anchor": "DISPIMG image16",
+              "entity_type": "company",
+              "entity_key": "sewing-equipment",
+              "evidence": "Workbook relationship mapping and contact-sheet visual review."
+            }
+          },
+          {
+            "media_id": "xlsx-media-17",
+            "container_path": "xl/media/image17.png",
+            "locator": "产品信息!G5",
+            "fingerprint": "sha256:bbc7cde18391b400a8159c50b197cc48cd6a7a80ea7ee2762c8b1578aa492096",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\huanqiu-admin\\deliverables\\customer-delivery-states\\xiongbafushi-com\\intake-extract\\workbook\\xl\\media\\image17.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "semantic_destination": "/products/xb-sr-001",
+            "business_entity": "xb-sr-001",
+            "placement_reason": "The embedded image visually supports xb-sr-001 at its source cell.",
+            "source_binding": {
+              "sheet": "产品信息",
+              "cell_range": "G5",
+              "drawing_anchor": "DISPIMG image17",
+              "entity_type": "product",
+              "entity_key": "xb-sr-001",
+              "evidence": "Workbook relationship mapping and contact-sheet visual review."
+            }
+          },
+          {
+            "media_id": "xlsx-media-18",
+            "container_path": "xl/media/image18.png",
+            "locator": "产品信息!G6",
+            "fingerprint": "sha256:d734ebb4a50920b189406d7de2197dab78d8bc0cb2a467e599071dd3f085af29",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\huanqiu-admin\\deliverables\\customer-delivery-states\\xiongbafushi-com\\intake-extract\\workbook\\xl\\media\\image18.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "semantic_destination": "/products/xb-ct-002",
+            "business_entity": "xb-ct-002",
+            "placement_reason": "The embedded image visually supports xb-ct-002 at its source cell.",
+            "source_binding": {
+              "sheet": "产品信息",
+              "cell_range": "G6",
+              "drawing_anchor": "DISPIMG image18",
+              "entity_type": "product",
+              "entity_key": "xb-ct-002",
+              "evidence": "Workbook relationship mapping and contact-sheet visual review."
+            }
+          },
+          {
+            "media_id": "xlsx-media-19",
+            "container_path": "xl/media/image19.png",
+            "locator": "产品信息!G7",
+            "fingerprint": "sha256:1b9f416f9162aff7a0483372b3b0f83a926a08b811194145ec63c307e212da0d",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\huanqiu-admin\\deliverables\\customer-delivery-states\\xiongbafushi-com\\intake-extract\\workbook\\xl\\media\\image19.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "semantic_destination": "/products/xb-pt-003",
+            "business_entity": "xb-pt-003",
+            "placement_reason": "The embedded image visually supports xb-pt-003 at its source cell.",
+            "source_binding": {
+              "sheet": "产品信息",
+              "cell_range": "G7",
+              "drawing_anchor": "DISPIMG image19",
+              "entity_type": "product",
+              "entity_key": "xb-pt-003",
+              "evidence": "Workbook relationship mapping and contact-sheet visual review."
+            }
+          },
+          {
+            "media_id": "xlsx-media-20",
+            "container_path": "xl/media/image20.png",
+            "locator": "产品信息!G8",
+            "fingerprint": "sha256:30713c7fb66d0173ebd089a81712079059b4f5d51139e0b9df4cfb583bbb4e4e",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\huanqiu-admin\\deliverables\\customer-delivery-states\\xiongbafushi-com\\intake-extract\\workbook\\xl\\media\\image20.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "semantic_destination": "/products/xb-ly-004",
+            "business_entity": "xb-ly-004",
+            "placement_reason": "The embedded image visually supports xb-ly-004 at its source cell.",
+            "source_binding": {
+              "sheet": "产品信息",
+              "cell_range": "G8",
+              "drawing_anchor": "DISPIMG image20",
+              "entity_type": "product",
+              "entity_key": "xb-ly-004",
+              "evidence": "Workbook relationship mapping and contact-sheet visual review."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "source_id": "source-domain-email",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\域名+邮箱.txt",
+      "type": "txt",
+      "fingerprint": "sha256:2869e407d5d26a3d293480544aad5a785daa8ca4af190dbf55bdee9d551e9e5f",
+      "decision": "extract",
+      "extraction_evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+      "units": [
+        {
+          "unit_id": "domain-email",
+          "locator": "lines:1-2",
+          "decision": "fact",
+          "fact_ids": [
+            "formal-domain-email"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "source-image-001",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\白底.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:df20ddad513f145fcf44c704ae8e1df6709fa1af72d9ed36ec9b0218fb91481a",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-001",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\白底.jpg",
+        "fingerprint": "sha256:df20ddad513f145fcf44c704ae8e1df6709fa1af72d9ed36ec9b0218fb91481a",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-002",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9239.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:434773f4f210b3dd1d6b1b6d8c5b6f5ee4ba4b3bb3d7c49446207b786730e23e",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-002",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9239.jpg",
+        "fingerprint": "sha256:434773f4f210b3dd1d6b1b6d8c5b6f5ee4ba4b3bb3d7c49446207b786730e23e",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-003",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9240.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:5e230cc51718d557c4e5f2de3e81a4dbab6a429e8eb72768d46138e6ca53cde5",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-003",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9240.jpg",
+        "fingerprint": "sha256:5e230cc51718d557c4e5f2de3e81a4dbab6a429e8eb72768d46138e6ca53cde5",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-004",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9241.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:d0d5be1e2109855dafba11a66eb45adebe410cf20495e711adffa9ec76217ce6",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-004",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9241.jpg",
+        "fingerprint": "sha256:d0d5be1e2109855dafba11a66eb45adebe410cf20495e711adffa9ec76217ce6",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-005",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9242.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:386b4ed870ff92c0cbf8deba64466c7039efe5f8b23ab6f24ace5ff7014e0f90",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-005",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9242.jpg",
+        "fingerprint": "sha256:386b4ed870ff92c0cbf8deba64466c7039efe5f8b23ab6f24ace5ff7014e0f90",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-006",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9243.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:2d332d4d2a79b4c18ea444717a0c794b2338f1b5a3223893aaba930da1cb8c1a",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-006",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9243.jpg",
+        "fingerprint": "sha256:2d332d4d2a79b4c18ea444717a0c794b2338f1b5a3223893aaba930da1cb8c1a",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-007",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9244.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:130779032e7b086581f0a2cd25739573089faaae0a3aba3460bf68e8afa06509",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-007",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9244.jpg",
+        "fingerprint": "sha256:130779032e7b086581f0a2cd25739573089faaae0a3aba3460bf68e8afa06509",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-008",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9245.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:0a225bf87e51eaf68610e008a3b7583a1b7ad8b997deea6b2ee63331055e7f76",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-008",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9245.jpg",
+        "fingerprint": "sha256:0a225bf87e51eaf68610e008a3b7583a1b7ad8b997deea6b2ee63331055e7f76",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-009",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9246.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:e039c8aad8b956e8ae5371b388b3d71aa3495e7106a6f018196247830cbf743e",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-009",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9246.jpg",
+        "fingerprint": "sha256:e039c8aad8b956e8ae5371b388b3d71aa3495e7106a6f018196247830cbf743e",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-010",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9247.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:d0ef6b6c96010f5fd36078459babb2293cf838678ecbdb6e35386377849b7eba",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-010",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9247.jpg",
+        "fingerprint": "sha256:d0ef6b6c96010f5fd36078459babb2293cf838678ecbdb6e35386377849b7eba",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-011",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9248.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:e27fcafcc4a6a49db3fda06206e30f391cfdc2536899056747c401e17623d9ec",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-011",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9248.jpg",
+        "fingerprint": "sha256:e27fcafcc4a6a49db3fda06206e30f391cfdc2536899056747c401e17623d9ec",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-012",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9249.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:8c47d8e5a469e49c56d01fa963eca81771d4390e122f8f8c5f31e2e9bbc4f681",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-012",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9249.jpg",
+        "fingerprint": "sha256:8c47d8e5a469e49c56d01fa963eca81771d4390e122f8f8c5f31e2e9bbc4f681",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-013",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9250.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:a2cec3ea64002e3c7c9f73078930353ff17ea9fbc6d71dbefa973a4b5ccbef51",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-013",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9250.jpg",
+        "fingerprint": "sha256:a2cec3ea64002e3c7c9f73078930353ff17ea9fbc6d71dbefa973a4b5ccbef51",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-014",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9266.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:9727996dd1a131cb9cfb1593035ea43f2da7621e64e07a35a1e8ef4742e0129a",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-014",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9266.jpg",
+        "fingerprint": "sha256:9727996dd1a131cb9cfb1593035ea43f2da7621e64e07a35a1e8ef4742e0129a",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-015",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9267.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:e6ff599a3e2ffdbc33d13b6bddc9997e1da691857b38127266c14d5889f61d7d",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-015",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9267.jpg",
+        "fingerprint": "sha256:e6ff599a3e2ffdbc33d13b6bddc9997e1da691857b38127266c14d5889f61d7d",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-016",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9268.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:f4c1c8c5aac19d146e49deb2c413297fb171b2e37900f174531f133728297406",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-016",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9268.jpg",
+        "fingerprint": "sha256:f4c1c8c5aac19d146e49deb2c413297fb171b2e37900f174531f133728297406",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-017",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9269.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:5baefcaef9d5432dfaf95c00da1477e76fc4dae4f7d0de7d1e73ae8bda46dd8d",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-017",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9269.jpg",
+        "fingerprint": "sha256:5baefcaef9d5432dfaf95c00da1477e76fc4dae4f7d0de7d1e73ae8bda46dd8d",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-018",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9287.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:06e5967bf51225c73cb41a94bfc236128b48c17120cc455fb5cfec7d671f9afa",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-018",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9287.jpg",
+        "fingerprint": "sha256:06e5967bf51225c73cb41a94bfc236128b48c17120cc455fb5cfec7d671f9afa",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-019",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9310拷贝.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:11202095ca82d864ae0ef75a6b45f4b8f8ca3fc9aecb829c4b3ac17a9303368a",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-019",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9310拷贝.jpg",
+        "fingerprint": "sha256:11202095ca82d864ae0ef75a6b45f4b8f8ca3fc9aecb829c4b3ac17a9303368a",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-020",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9325.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:b72c9c982fc37ad44492fd0f1acc602a89c005f825458bb58d695e98db46a1e9",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-020",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9325.jpg",
+        "fingerprint": "sha256:b72c9c982fc37ad44492fd0f1acc602a89c005f825458bb58d695e98db46a1e9",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-021",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9477.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:e02a778ab2558a94f6ae481a7f0992c07c7141f61327b7bb97f4f03aaf6f2778",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-021",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9477.jpg",
+        "fingerprint": "sha256:e02a778ab2558a94f6ae481a7f0992c07c7141f61327b7bb97f4f03aaf6f2778",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-022",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9481.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:e7325ff0050061106ddab5bcc8abbcb9371f949bc7cd4c1a665a74cc4f98d5a8",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-022",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9481.jpg",
+        "fingerprint": "sha256:e7325ff0050061106ddab5bcc8abbcb9371f949bc7cd4c1a665a74cc4f98d5a8",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-023",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\SKU\\茶芽绿.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:ed197cb383a9936621b6ac686c44b9a07b7ca43831acc94b01fe7559855d275d",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-023",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\SKU\\茶芽绿.jpg",
+        "fingerprint": "sha256:ed197cb383a9936621b6ac686c44b9a07b7ca43831acc94b01fe7559855d275d",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-024",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\SKU\\高级灰.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:9b96dbb231824e7829f3b1245886883b629b28990957b9e6fafac3e2fffb97cc",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-024",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\SKU\\高级灰.jpg",
+        "fingerprint": "sha256:9b96dbb231824e7829f3b1245886883b629b28990957b9e6fafac3e2fffb97cc",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-025",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\SKU\\奶油肤.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:9d3a16bfd2272a53d5f59ee54a15b218a81a36c0e26b1f1667886d4ec944b49b",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-025",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\SKU\\奶油肤.jpg",
+        "fingerprint": "sha256:9d3a16bfd2272a53d5f59ee54a15b218a81a36c0e26b1f1667886d4ec944b49b",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-026",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\SKU\\肉桂粉.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:09c698ee560c2b64ee557d40651e7e22b33c393c2944dd77f33c155ee41a8060",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-026",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\SKU\\肉桂粉.jpg",
+        "fingerprint": "sha256:09c698ee560c2b64ee557d40651e7e22b33c393c2944dd77f33c155ee41a8060",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-027",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\SKU\\四色.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:bb48f7b7ff88995efb22ed5ae42130608e68997a230f0a70f240b4bf2d6cd593",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-027",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\SKU\\四色.jpg",
+        "fingerprint": "sha256:bb48f7b7ff88995efb22ed5ae42130608e68997a230f0a70f240b4bf2d6cd593",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-028",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\1.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:28547ebd5fb5ad0ab8983ec46d35386aa64aa8dee7b83481912a95af5d4853d2",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-028",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\1.jpg",
+        "fingerprint": "sha256:28547ebd5fb5ad0ab8983ec46d35386aa64aa8dee7b83481912a95af5d4853d2",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-029",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\10.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:1c5cefc06a5ac2a72de440588bdabeff5e6c0b996ac4609623f309a7513f7827",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-029",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\10.jpg",
+        "fingerprint": "sha256:1c5cefc06a5ac2a72de440588bdabeff5e6c0b996ac4609623f309a7513f7827",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-030",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\11.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:bc1c2a099a23a2439c56c6962b14bc6b76e3aad659bf6254f3dc9cba3b864d60",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-030",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\11.jpg",
+        "fingerprint": "sha256:bc1c2a099a23a2439c56c6962b14bc6b76e3aad659bf6254f3dc9cba3b864d60",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-031",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\12.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:a0f35eca379bacda75c7ff060a4768af2bea88bada97d592f3f336bae500dc7a",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-031",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\12.jpg",
+        "fingerprint": "sha256:a0f35eca379bacda75c7ff060a4768af2bea88bada97d592f3f336bae500dc7a",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-032",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\13.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:0e558b94fc835f42004135f4bd48d3c5f5251f30adf998faff2c07d68fb9d56e",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-032",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\13.jpg",
+        "fingerprint": "sha256:0e558b94fc835f42004135f4bd48d3c5f5251f30adf998faff2c07d68fb9d56e",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-033",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\14.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:ffb6ede36e67dd84de5e037e44d6585bc93541cbe1616b2b83a9ec319f54efa6",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-033",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\14.jpg",
+        "fingerprint": "sha256:ffb6ede36e67dd84de5e037e44d6585bc93541cbe1616b2b83a9ec319f54efa6",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-034",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\15.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:4c5f3b571892c6cb96eb24585e4d86caebb230d4c53650329ddb6b2c8363b9f0",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-034",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\15.jpg",
+        "fingerprint": "sha256:4c5f3b571892c6cb96eb24585e4d86caebb230d4c53650329ddb6b2c8363b9f0",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-035",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\16.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:4c546c65e7e0d93c297f3c23aa630a94b16c4808624389a1d4c5f89e11087468",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-035",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\16.jpg",
+        "fingerprint": "sha256:4c546c65e7e0d93c297f3c23aa630a94b16c4808624389a1d4c5f89e11087468",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-036",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\17.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:3a1cef72db75839c25d931b13500068fed2208833bf9d31ca6e5678ff54ec36c",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-036",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\17.jpg",
+        "fingerprint": "sha256:3a1cef72db75839c25d931b13500068fed2208833bf9d31ca6e5678ff54ec36c",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-037",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\2.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:f597c75f95509e3489c56378bd41ecdb59017c8c7214e54e21be800a3fbb1e9d",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-037",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\2.jpg",
+        "fingerprint": "sha256:f597c75f95509e3489c56378bd41ecdb59017c8c7214e54e21be800a3fbb1e9d",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-038",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\3.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:f3ac96cd300abcf232d244464c6759654df14eeab684656e4c96e27c45c3bc2a",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-038",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\3.jpg",
+        "fingerprint": "sha256:f3ac96cd300abcf232d244464c6759654df14eeab684656e4c96e27c45c3bc2a",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-039",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\4.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:3b79bbf7ec00aecc36488740436ca3266cd5cb36de490af8fb64038e6e154b65",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-039",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\4.jpg",
+        "fingerprint": "sha256:3b79bbf7ec00aecc36488740436ca3266cd5cb36de490af8fb64038e6e154b65",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-040",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\5.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:310fc41d37155f81281e679427f57a20595921e9f1f0c52b5ad9e7cc0af6f61b",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-040",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\5.jpg",
+        "fingerprint": "sha256:310fc41d37155f81281e679427f57a20595921e9f1f0c52b5ad9e7cc0af6f61b",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-041",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\6.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:50c92c62fc0b779483def118a6cb38f623880b2c0041773fc2ff47100f997fc3",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-041",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\6.jpg",
+        "fingerprint": "sha256:50c92c62fc0b779483def118a6cb38f623880b2c0041773fc2ff47100f997fc3",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-042",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\7.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:850362e583b0ad809dbd79c32003b1b7f972f5107c1580ca8af9f762009e87d8",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-042",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\7.jpg",
+        "fingerprint": "sha256:850362e583b0ad809dbd79c32003b1b7f972f5107c1580ca8af9f762009e87d8",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-043",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\8.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:cd312eb9204fe58e5115bcab40ae8756f5892661772c30ce2036ac2f43f36314",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-043",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\8.jpg",
+        "fingerprint": "sha256:cd312eb9204fe58e5115bcab40ae8756f5892661772c30ce2036ac2f43f36314",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-044",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\9.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:2fbbf2d9211a1f4fefc9be07ef989f3cd28cc6d8facf7dc3906a9dfe4831271d",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-044",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\9.jpg",
+        "fingerprint": "sha256:2fbbf2d9211a1f4fefc9be07ef989f3cd28cc6d8facf7dc3906a9dfe4831271d",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-045",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\1.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:28547ebd5fb5ad0ab8983ec46d35386aa64aa8dee7b83481912a95af5d4853d2",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-045",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\1.jpg",
+        "fingerprint": "sha256:28547ebd5fb5ad0ab8983ec46d35386aa64aa8dee7b83481912a95af5d4853d2",
+        "decision": "duplicate",
+        "reason_code": "exact_duplicate",
+        "reason": "Exact-byte duplicate of a retained source image in the same customer package.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+        "duplicate_of": "source-image-028:media-028"
+      }
+    },
+    {
+      "source_id": "source-image-046",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\11.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:bc1c2a099a23a2439c56c6962b14bc6b76e3aad659bf6254f3dc9cba3b864d60",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-046",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\11.jpg",
+        "fingerprint": "sha256:bc1c2a099a23a2439c56c6962b14bc6b76e3aad659bf6254f3dc9cba3b864d60",
+        "decision": "duplicate",
+        "reason_code": "exact_duplicate",
+        "reason": "Exact-byte duplicate of a retained source image in the same customer package.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+        "duplicate_of": "source-image-030:media-030"
+      }
+    },
+    {
+      "source_id": "source-image-047",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\12.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:a0f35eca379bacda75c7ff060a4768af2bea88bada97d592f3f336bae500dc7a",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-047",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\12.jpg",
+        "fingerprint": "sha256:a0f35eca379bacda75c7ff060a4768af2bea88bada97d592f3f336bae500dc7a",
+        "decision": "duplicate",
+        "reason_code": "exact_duplicate",
+        "reason": "Exact-byte duplicate of a retained source image in the same customer package.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+        "duplicate_of": "source-image-031:media-031"
+      }
+    },
+    {
+      "source_id": "source-image-048",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\14.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:ffb6ede36e67dd84de5e037e44d6585bc93541cbe1616b2b83a9ec319f54efa6",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-048",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\14.jpg",
+        "fingerprint": "sha256:ffb6ede36e67dd84de5e037e44d6585bc93541cbe1616b2b83a9ec319f54efa6",
+        "decision": "duplicate",
+        "reason_code": "exact_duplicate",
+        "reason": "Exact-byte duplicate of a retained source image in the same customer package.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+        "duplicate_of": "source-image-033:media-033"
+      }
+    },
+    {
+      "source_id": "source-image-049",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\15.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:4c5f3b571892c6cb96eb24585e4d86caebb230d4c53650329ddb6b2c8363b9f0",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-049",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\15.jpg",
+        "fingerprint": "sha256:4c5f3b571892c6cb96eb24585e4d86caebb230d4c53650329ddb6b2c8363b9f0",
+        "decision": "duplicate",
+        "reason_code": "exact_duplicate",
+        "reason": "Exact-byte duplicate of a retained source image in the same customer package.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+        "duplicate_of": "source-image-034:media-034"
+      }
+    },
+    {
+      "source_id": "source-image-050",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\16.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:4c546c65e7e0d93c297f3c23aa630a94b16c4808624389a1d4c5f89e11087468",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-050",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\16.jpg",
+        "fingerprint": "sha256:4c546c65e7e0d93c297f3c23aa630a94b16c4808624389a1d4c5f89e11087468",
+        "decision": "duplicate",
+        "reason_code": "exact_duplicate",
+        "reason": "Exact-byte duplicate of a retained source image in the same customer package.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+        "duplicate_of": "source-image-035:media-035"
+      }
+    },
+    {
+      "source_id": "source-image-051",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\17.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:3a1cef72db75839c25d931b13500068fed2208833bf9d31ca6e5678ff54ec36c",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-051",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\17.jpg",
+        "fingerprint": "sha256:3a1cef72db75839c25d931b13500068fed2208833bf9d31ca6e5678ff54ec36c",
+        "decision": "duplicate",
+        "reason_code": "exact_duplicate",
+        "reason": "Exact-byte duplicate of a retained source image in the same customer package.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+        "duplicate_of": "source-image-036:media-036"
+      }
+    },
+    {
+      "source_id": "source-image-052",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\6.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:50c92c62fc0b779483def118a6cb38f623880b2c0041773fc2ff47100f997fc3",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-052",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\6.jpg",
+        "fingerprint": "sha256:50c92c62fc0b779483def118a6cb38f623880b2c0041773fc2ff47100f997fc3",
+        "decision": "duplicate",
+        "reason_code": "exact_duplicate",
+        "reason": "Exact-byte duplicate of a retained source image in the same customer package.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+        "duplicate_of": "source-image-041:media-041"
+      }
+    },
+    {
+      "source_id": "source-image-053",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\1.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:4d676e65fd1d240bfe9e7f50126fd4c83e2183a527f6d108d86c4168a4a5d228",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-053",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\1.jpg",
+        "fingerprint": "sha256:4d676e65fd1d240bfe9e7f50126fd4c83e2183a527f6d108d86c4168a4a5d228",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-054",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\10.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:b19ad2fb41edc227dfab3700041cc32bf0faca511763d79d784bce2603830542",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-054",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\10.jpg",
+        "fingerprint": "sha256:b19ad2fb41edc227dfab3700041cc32bf0faca511763d79d784bce2603830542",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-055",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\12.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:a843d82cebb2c5085be1d0092ed3db50c31b678c798965217a7b1abb37c1e7a7",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-055",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\12.jpg",
+        "fingerprint": "sha256:a843d82cebb2c5085be1d0092ed3db50c31b678c798965217a7b1abb37c1e7a7",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-056",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\13.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:796355e294b6c1bd878d7f7cad92702f38d95031544264cc390af568d74124f3",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-056",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\13.jpg",
+        "fingerprint": "sha256:796355e294b6c1bd878d7f7cad92702f38d95031544264cc390af568d74124f3",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-057",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\14.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:fbe5147ce3782a6edf52eda196fccceb858b7c591acfc59f9a1f9003fe9dae8e",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-057",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\14.jpg",
+        "fingerprint": "sha256:fbe5147ce3782a6edf52eda196fccceb858b7c591acfc59f9a1f9003fe9dae8e",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-058",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\15.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:e91c7f3a918fde20cc9dc8f1d90cd6c27050b146013ab625968f70d298da27db",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-058",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\15.jpg",
+        "fingerprint": "sha256:e91c7f3a918fde20cc9dc8f1d90cd6c27050b146013ab625968f70d298da27db",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-059",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\2.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:823cbc3e7c99a57d371ae3e619999545fd804f9c85b3e4743a0ec17f6936fcf9",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-059",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\2.jpg",
+        "fingerprint": "sha256:823cbc3e7c99a57d371ae3e619999545fd804f9c85b3e4743a0ec17f6936fcf9",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-060",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\3.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:4cc8b03aadf09fcaa0c81bc84da44e3c2f7bf97a98ee35fb769d9decdfc21480",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-060",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\3.jpg",
+        "fingerprint": "sha256:4cc8b03aadf09fcaa0c81bc84da44e3c2f7bf97a98ee35fb769d9decdfc21480",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-061",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\4.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:daccffbaa030c60002be4cbcb8a074104fa091dde82159b572b2dda2f2581767",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-061",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\4.jpg",
+        "fingerprint": "sha256:daccffbaa030c60002be4cbcb8a074104fa091dde82159b572b2dda2f2581767",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-062",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\47.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:5124ad6e9e9b5d7d511ae141da1876e06760fe6260fefb2a63ca6155c81cd8ca",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-062",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\47.jpg",
+        "fingerprint": "sha256:5124ad6e9e9b5d7d511ae141da1876e06760fe6260fefb2a63ca6155c81cd8ca",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-063",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\48.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:da19ee64fe1981ae820b6de30c8fa4947fb191eaa6fcbb9c11038319999f3c1b",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-063",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\48.jpg",
+        "fingerprint": "sha256:da19ee64fe1981ae820b6de30c8fa4947fb191eaa6fcbb9c11038319999f3c1b",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-064",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\49.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:000837afb75643180722871eded0dd8bf0dcaf372e1b86738484cce9c2296279",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-064",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\49.jpg",
+        "fingerprint": "sha256:000837afb75643180722871eded0dd8bf0dcaf372e1b86738484cce9c2296279",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-065",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\5.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:17531781e6d7dd506249c1a1b2ceba389b916cc7b7d2adbb47ac3d346769c8d3",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-065",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\5.jpg",
+        "fingerprint": "sha256:17531781e6d7dd506249c1a1b2ceba389b916cc7b7d2adbb47ac3d346769c8d3",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-066",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\50.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:b5cee0c99957dd3d5f0f052dee90808a65032cafb5b82a476c2227dcc9d3ade0",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-066",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\50.jpg",
+        "fingerprint": "sha256:b5cee0c99957dd3d5f0f052dee90808a65032cafb5b82a476c2227dcc9d3ade0",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-067",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\51.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:a90c239af78e2457cbf3f024e4d4ec71a3cd4def1ac0a17310541ff41579f8ea",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-067",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\51.jpg",
+        "fingerprint": "sha256:a90c239af78e2457cbf3f024e4d4ec71a3cd4def1ac0a17310541ff41579f8ea",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-068",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\52.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:5e69c254bbf394b985abbecd6c74af8cf0191f1ceca4dfb3bbcad7a90c014eb5",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-068",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\52.jpg",
+        "fingerprint": "sha256:5e69c254bbf394b985abbecd6c74af8cf0191f1ceca4dfb3bbcad7a90c014eb5",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-069",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\6.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:eb51af5f77cb2a753eb6b2731863ea915d28a7ec79294528e90b348d38d2a2cb",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-069",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\6.jpg",
+        "fingerprint": "sha256:eb51af5f77cb2a753eb6b2731863ea915d28a7ec79294528e90b348d38d2a2cb",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-070",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\7.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:8d08529afd64fde378de7e6af455c5935dc95143e736f29b3a2462986cdd4713",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-070",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\7.jpg",
+        "fingerprint": "sha256:8d08529afd64fde378de7e6af455c5935dc95143e736f29b3a2462986cdd4713",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-071",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\8.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:7f7782986aef6704667c533b1afbac372ca032afcc60f86e44a9e2f2db7c0fa7",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-071",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\8.jpg",
+        "fingerprint": "sha256:7f7782986aef6704667c533b1afbac372ca032afcc60f86e44a9e2f2db7c0fa7",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-072",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\9.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:6a4e00684fd5f612ec9b7fa9e7d92f550daeef727c9dbb38b57ca4d778eab9df",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-072",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\9.jpg",
+        "fingerprint": "sha256:6a4e00684fd5f612ec9b7fa9e7d92f550daeef727c9dbb38b57ca4d778eab9df",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-073",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\DSC_9315 拷贝.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:84e19dbd31549e5b8498d9155f5c9a7be013dd85313590aaab9aeb8c4dfe0d68",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-073",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\DSC_9315 拷贝.jpg",
+        "fingerprint": "sha256:84e19dbd31549e5b8498d9155f5c9a7be013dd85313590aaab9aeb8c4dfe0d68",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-074",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\sku\\1 (1).jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:5b024edd17d0517c377fb104d17ab2825b3e3a78068e3fbcdbda640aa4663248",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-074",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\sku\\1 (1).jpg",
+        "fingerprint": "sha256:5b024edd17d0517c377fb104d17ab2825b3e3a78068e3fbcdbda640aa4663248",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-075",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\sku\\1 (2).jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:20302a977795b02bb209278a0ce391dbeb9d26bec24277cd6a24579252101461",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-075",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\sku\\1 (2).jpg",
+        "fingerprint": "sha256:20302a977795b02bb209278a0ce391dbeb9d26bec24277cd6a24579252101461",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-076",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\sku\\1 (3).jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:d942b00f31c59dc3b40464353f814ea82f7b858d692f068f5c8dea6878884baa",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-076",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\sku\\1 (3).jpg",
+        "fingerprint": "sha256:d942b00f31c59dc3b40464353f814ea82f7b858d692f068f5c8dea6878884baa",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-077",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\sku\\1 (4).jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:824e4d7fed3cb1a0d5de4c60395ef9307fd346ec4c67b690734d36c92110b5fc",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-077",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\sku\\1 (4).jpg",
+        "fingerprint": "sha256:824e4d7fed3cb1a0d5de4c60395ef9307fd346ec4c67b690734d36c92110b5fc",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-078",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\sku\\1 (5).jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:bba3965996b16cc5c9e6f9bb29d5efa211343a8fe8a20355a2059c4f1888889a",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-078",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\sku\\1 (5).jpg",
+        "fingerprint": "sha256:bba3965996b16cc5c9e6f9bb29d5efa211343a8fe8a20355a2059c4f1888889a",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-079",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\sku\\1 (6).jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:a1bd950e438e96a228c411d8c46d9b2ab3fd0c58fc747156ae7727b2dfb07514",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-079",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\sku\\1 (6).jpg",
+        "fingerprint": "sha256:a1bd950e438e96a228c411d8c46d9b2ab3fd0c58fc747156ae7727b2dfb07514",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-080",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\1.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:7a91c350bb34f47a92b16b5a23cf239d46c4d16fd4f8356d74a984216cc3c1fd",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-080",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\1.jpg",
+        "fingerprint": "sha256:7a91c350bb34f47a92b16b5a23cf239d46c4d16fd4f8356d74a984216cc3c1fd",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-081",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\10.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:f2a9335291fdf5a445dd9bcd51ded1cd5bcf1c5b6bbea92dfd238887bb5a669e",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-081",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\10.jpg",
+        "fingerprint": "sha256:f2a9335291fdf5a445dd9bcd51ded1cd5bcf1c5b6bbea92dfd238887bb5a669e",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-082",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\11.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:ca204672522651bd74ee2b97b5a41c3febcb6f81f9b972ac27ab43f744fb69f0",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-082",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\11.jpg",
+        "fingerprint": "sha256:ca204672522651bd74ee2b97b5a41c3febcb6f81f9b972ac27ab43f744fb69f0",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-083",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\1735.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:6fe4f7d351ece99ca30b73e37fdcf3c0220f228079aa24d8b861bd3509cb4862",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-083",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\1735.jpg",
+        "fingerprint": "sha256:6fe4f7d351ece99ca30b73e37fdcf3c0220f228079aa24d8b861bd3509cb4862",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-084",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\2.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:a46c220ec5b1ecc46e259a7a3063747127b91dd7e08a94cf0cd2718d31971da2",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-084",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\2.jpg",
+        "fingerprint": "sha256:a46c220ec5b1ecc46e259a7a3063747127b91dd7e08a94cf0cd2718d31971da2",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-085",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\3.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:6950d5a5793bb23164a779f8b419666ff0c096d96b13a85ded664fc2b9a6c8cd",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-085",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\3.jpg",
+        "fingerprint": "sha256:6950d5a5793bb23164a779f8b419666ff0c096d96b13a85ded664fc2b9a6c8cd",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-086",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\4.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:e2b5e1a4c56446e4127cf180b492c3d1d133cb7865e7ec9b072379b361987859",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-086",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\4.jpg",
+        "fingerprint": "sha256:e2b5e1a4c56446e4127cf180b492c3d1d133cb7865e7ec9b072379b361987859",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-087",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\5.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:7d6ada38830355718479ebc2badc2ea5d9d7c343a54f22414ae3fa1c498acbbd",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-087",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\5.jpg",
+        "fingerprint": "sha256:7d6ada38830355718479ebc2badc2ea5d9d7c343a54f22414ae3fa1c498acbbd",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-088",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\6.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:7a3d2da0c148b289c69cc96ca404ffe590d7715dd7649ec377018efc6a075e82",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-088",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\6.jpg",
+        "fingerprint": "sha256:7a3d2da0c148b289c69cc96ca404ffe590d7715dd7649ec377018efc6a075e82",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-089",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\7.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:c382efc20bdfa213900d5f9f759439285f03693bee72815e30fc5482dee12ded",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-089",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\7.jpg",
+        "fingerprint": "sha256:c382efc20bdfa213900d5f9f759439285f03693bee72815e30fc5482dee12ded",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-090",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\8.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:8514e53e7c09b62fc34103a5ce9af2bb340787519fb2c378fd95f713ab045484",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-090",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\8.jpg",
+        "fingerprint": "sha256:8514e53e7c09b62fc34103a5ce9af2bb340787519fb2c378fd95f713ab045484",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-091",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\9.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:691f43fbab5550577c58d9b0f1483fa9302e88d1b6f69ec6f4a4deb13e256037",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-091",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\9.jpg",
+        "fingerprint": "sha256:691f43fbab5550577c58d9b0f1483fa9302e88d1b6f69ec6f4a4deb13e256037",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-092",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-401.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:a49fe12d64c38cd295e15e44acdd79af3253f60fc3cc115f403396a6cb90aa71",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-092",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-401.jpg",
+        "fingerprint": "sha256:a49fe12d64c38cd295e15e44acdd79af3253f60fc3cc115f403396a6cb90aa71",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-093",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-403.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:8cfbedf0825d3c3fdd76f95d2fe052427aded0478c83a5ffbe4144f1584a95c9",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-093",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-403.jpg",
+        "fingerprint": "sha256:8cfbedf0825d3c3fdd76f95d2fe052427aded0478c83a5ffbe4144f1584a95c9",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-094",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-405.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:a5753ce3a00b0e99bdc6ea6191409f0f30846e1c92549d313df4a554653354cf",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-094",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-405.jpg",
+        "fingerprint": "sha256:a5753ce3a00b0e99bdc6ea6191409f0f30846e1c92549d313df4a554653354cf",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-095",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-407.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:a0442f6c889cbd2b09fa0eafd2fb5011fd28c079aed8f35afbcc5a36a8270c03",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-095",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-407.jpg",
+        "fingerprint": "sha256:a0442f6c889cbd2b09fa0eafd2fb5011fd28c079aed8f35afbcc5a36a8270c03",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-096",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-409.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:31cf97d803d2c16fe2ebeaaef103fd7578eaa8f2ea26116df08854870c58a437",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-096",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-409.jpg",
+        "fingerprint": "sha256:31cf97d803d2c16fe2ebeaaef103fd7578eaa8f2ea26116df08854870c58a437",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-097",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-411.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:3f7c07b4976dd867764ba20677d280f99d778c9bb633fa31557c6d23c00f755d",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-097",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-411.jpg",
+        "fingerprint": "sha256:3f7c07b4976dd867764ba20677d280f99d778c9bb633fa31557c6d23c00f755d",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-098",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-415.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:2622b3c2155eb2a9dabdc91afb85c829e809b3b4c412ce8646949f0edaf56c2c",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-098",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-415.jpg",
+        "fingerprint": "sha256:2622b3c2155eb2a9dabdc91afb85c829e809b3b4c412ce8646949f0edaf56c2c",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-099",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-416.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:ce2b5b1ac5e05b5a47da0da0ea5928e227a75f678047f73ace3859818f4085a9",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-099",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-416.jpg",
+        "fingerprint": "sha256:ce2b5b1ac5e05b5a47da0da0ea5928e227a75f678047f73ace3859818f4085a9",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-100",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-418.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:e66b33b766022016d39b4bfc1b951f02cee4ee1ae6a46e1501d8271b08e2c7e0",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-100",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-418.jpg",
+        "fingerprint": "sha256:e66b33b766022016d39b4bfc1b951f02cee4ee1ae6a46e1501d8271b08e2c7e0",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-101",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-419.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:e1240159e92e996bb2a3f8713a43a689bac289f6a81150bd8d879436036c863a",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-101",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-419.jpg",
+        "fingerprint": "sha256:e1240159e92e996bb2a3f8713a43a689bac289f6a81150bd8d879436036c863a",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-102",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-420.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:618f3237f6096ba33fa383b068a0d2cc4a7a412febf2a81af1081eb9cb65a2f8",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-102",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-420.jpg",
+        "fingerprint": "sha256:618f3237f6096ba33fa383b068a0d2cc4a7a412febf2a81af1081eb9cb65a2f8",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-103",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-421.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:d5d1fc18ed791b34f2cee73afefea9d85989f0a17d17f53bcdd62dcb87ee21fd",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-103",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-421.jpg",
+        "fingerprint": "sha256:d5d1fc18ed791b34f2cee73afefea9d85989f0a17d17f53bcdd62dcb87ee21fd",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-104",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-422.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:92ebe03892f015b9493bd01904b35cee1acc2678abb4aa7dadfc3f65413dfcb3",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-104",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-422.jpg",
+        "fingerprint": "sha256:92ebe03892f015b9493bd01904b35cee1acc2678abb4aa7dadfc3f65413dfcb3",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-105",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-423.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:9e532ed20f6e2092caaedaf4449922f5a45ed48d0e2ef918108a2a83c27f61fd",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-105",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-423.jpg",
+        "fingerprint": "sha256:9e532ed20f6e2092caaedaf4449922f5a45ed48d0e2ef918108a2a83c27f61fd",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-106",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-424.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:2959e7ee6a9d43b0ce7660bb8ccea56077cda5724132de2cdb84bef8ca0276c7",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-106",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-424.jpg",
+        "fingerprint": "sha256:2959e7ee6a9d43b0ce7660bb8ccea56077cda5724132de2cdb84bef8ca0276c7",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-107",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\IMG_1727.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:2115b3f0db714b94c5bd8dbdc40cb70f073653a9ecb90bccc0d73feb0474b47f",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-107",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\IMG_1727.jpg",
+        "fingerprint": "sha256:2115b3f0db714b94c5bd8dbdc40cb70f073653a9ecb90bccc0d73feb0474b47f",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-108",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\IMG_1729.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:843f0167154104aac80b4bdf46885a8f65edfd1dd7e8267980495863714eb9cd",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-108",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\IMG_1729.jpg",
+        "fingerprint": "sha256:843f0167154104aac80b4bdf46885a8f65edfd1dd7e8267980495863714eb9cd",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-109",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\IMG_1734.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:a8e8f017f10b971a1e00a159d1797487f32fb44c660f246d2dd9a342b3ec58fe",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-109",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\IMG_1734.jpg",
+        "fingerprint": "sha256:a8e8f017f10b971a1e00a159d1797487f32fb44c660f246d2dd9a342b3ec58fe",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-110",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (1).jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:2115b3f0db714b94c5bd8dbdc40cb70f073653a9ecb90bccc0d73feb0474b47f",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-110",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (1).jpg",
+        "fingerprint": "sha256:2115b3f0db714b94c5bd8dbdc40cb70f073653a9ecb90bccc0d73feb0474b47f",
+        "decision": "duplicate",
+        "reason_code": "exact_duplicate",
+        "reason": "Exact-byte duplicate of a retained source image in the same customer package.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+        "duplicate_of": "source-image-107:media-107"
+      }
+    },
+    {
+      "source_id": "source-image-111",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (2).jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:843f0167154104aac80b4bdf46885a8f65edfd1dd7e8267980495863714eb9cd",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-111",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (2).jpg",
+        "fingerprint": "sha256:843f0167154104aac80b4bdf46885a8f65edfd1dd7e8267980495863714eb9cd",
+        "decision": "duplicate",
+        "reason_code": "exact_duplicate",
+        "reason": "Exact-byte duplicate of a retained source image in the same customer package.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+        "duplicate_of": "source-image-108:media-108"
+      }
+    },
+    {
+      "source_id": "source-image-112",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (3).jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:a49fe12d64c38cd295e15e44acdd79af3253f60fc3cc115f403396a6cb90aa71",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-112",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (3).jpg",
+        "fingerprint": "sha256:a49fe12d64c38cd295e15e44acdd79af3253f60fc3cc115f403396a6cb90aa71",
+        "decision": "duplicate",
+        "reason_code": "exact_duplicate",
+        "reason": "Exact-byte duplicate of a retained source image in the same customer package.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+        "duplicate_of": "source-image-092:media-092"
+      }
+    },
+    {
+      "source_id": "source-image-113",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (4).jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:8cfbedf0825d3c3fdd76f95d2fe052427aded0478c83a5ffbe4144f1584a95c9",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-113",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (4).jpg",
+        "fingerprint": "sha256:8cfbedf0825d3c3fdd76f95d2fe052427aded0478c83a5ffbe4144f1584a95c9",
+        "decision": "duplicate",
+        "reason_code": "exact_duplicate",
+        "reason": "Exact-byte duplicate of a retained source image in the same customer package.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+        "duplicate_of": "source-image-093:media-093"
+      }
+    },
+    {
+      "source_id": "source-image-114",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (5).jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:fe198188011a32ca0a9abeea51056ddfdb79ad5934d15c146099458d08c50312",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-114",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (5).jpg",
+        "fingerprint": "sha256:fe198188011a32ca0a9abeea51056ddfdb79ad5934d15c146099458d08c50312",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-115",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (6).jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:a0442f6c889cbd2b09fa0eafd2fb5011fd28c079aed8f35afbcc5a36a8270c03",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-115",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (6).jpg",
+        "fingerprint": "sha256:a0442f6c889cbd2b09fa0eafd2fb5011fd28c079aed8f35afbcc5a36a8270c03",
+        "decision": "duplicate",
+        "reason_code": "exact_duplicate",
+        "reason": "Exact-byte duplicate of a retained source image in the same customer package.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+        "duplicate_of": "source-image-095:media-095"
+      }
+    },
+    {
+      "source_id": "source-image-116",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (7).jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:31cf97d803d2c16fe2ebeaaef103fd7578eaa8f2ea26116df08854870c58a437",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-116",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (7).jpg",
+        "fingerprint": "sha256:31cf97d803d2c16fe2ebeaaef103fd7578eaa8f2ea26116df08854870c58a437",
+        "decision": "duplicate",
+        "reason_code": "exact_duplicate",
+        "reason": "Exact-byte duplicate of a retained source image in the same customer package.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+        "duplicate_of": "source-image-096:media-096"
+      }
+    },
+    {
+      "source_id": "source-image-117",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (8).jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:91fd84094ef9a9a58ad5c482ea7b61dcbb5718c769a426795460c0e91699f934",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-117",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (8).jpg",
+        "fingerprint": "sha256:91fd84094ef9a9a58ad5c482ea7b61dcbb5718c769a426795460c0e91699f934",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-118",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\公司\\1.jpeg",
+      "type": "jpeg",
+      "fingerprint": "sha256:0e39192dacaaed226b3997706bc13cdc3aa0a99cded972bd76210db99524b38b",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-118",
+        "locator": "公司\\1.jpeg",
+        "fingerprint": "sha256:0e39192dacaaed226b3997706bc13cdc3aa0a99cded972bd76210db99524b38b",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/about#manufacturing",
+        "business_entity": "factory",
+        "placement_reason": "Factory and company environment evidence"
+      }
+    },
+    {
+      "source_id": "source-image-119",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\公司\\2.jpeg",
+      "type": "jpeg",
+      "fingerprint": "sha256:73423ab30b48c90d23cc338e951d542213a4f366aff5be34fa25542e21de140b",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-119",
+        "locator": "公司\\2.jpeg",
+        "fingerprint": "sha256:73423ab30b48c90d23cc338e951d542213a4f366aff5be34fa25542e21de140b",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/about#manufacturing",
+        "business_entity": "factory",
+        "placement_reason": "Factory and company environment evidence"
+      }
+    },
+    {
+      "source_id": "source-image-120",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\公司\\3.jpeg",
+      "type": "jpeg",
+      "fingerprint": "sha256:d403761d909c3de1710b0a632efb24f904fd0cfc1343afc7706cb85189d3850b",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-120",
+        "locator": "公司\\3.jpeg",
+        "fingerprint": "sha256:d403761d909c3de1710b0a632efb24f904fd0cfc1343afc7706cb85189d3850b",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/about#manufacturing",
+        "business_entity": "factory",
+        "placement_reason": "Factory and company environment evidence"
+      }
+    },
+    {
+      "source_id": "source-image-121",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\公司\\4.jpeg",
+      "type": "jpeg",
+      "fingerprint": "sha256:529e3cf4d8d5ef012feeb54c437abbacdf90dc8c9e0d6a559f0543048415d72c",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-121",
+        "locator": "公司\\4.jpeg",
+        "fingerprint": "sha256:529e3cf4d8d5ef012feeb54c437abbacdf90dc8c9e0d6a559f0543048415d72c",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/about#manufacturing",
+        "business_entity": "factory",
+        "placement_reason": "Factory and company environment evidence"
+      }
+    },
+    {
+      "source_id": "source-image-122",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\公司\\5.jpeg",
+      "type": "jpeg",
+      "fingerprint": "sha256:0dd56789ae0fc7a3ed9290fae5f5c13b28303288f74a9aa4e9391090407c8fe2",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-122",
+        "locator": "公司\\5.jpeg",
+        "fingerprint": "sha256:0dd56789ae0fc7a3ed9290fae5f5c13b28303288f74a9aa4e9391090407c8fe2",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/about#manufacturing",
+        "business_entity": "factory",
+        "placement_reason": "Factory and company environment evidence"
+      }
+    },
+    {
+      "source_id": "source-image-123",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\公司\\6.jpeg",
+      "type": "jpeg",
+      "fingerprint": "sha256:ec05f31d696035421ee817c4fddadbb7dbba6349d2f5a3c5cbf04728bbc59d60",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-123",
+        "locator": "公司\\6.jpeg",
+        "fingerprint": "sha256:ec05f31d696035421ee817c4fddadbb7dbba6349d2f5a3c5cbf04728bbc59d60",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/about#manufacturing",
+        "business_entity": "factory",
+        "placement_reason": "Factory and company environment evidence"
+      }
+    },
+    {
+      "source_id": "source-image-124",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\公司\\7.jpeg",
+      "type": "jpeg",
+      "fingerprint": "sha256:34968083d55ea9fd3b7a853f10cec07b9800cdb247cb99a5f9bfb715d8404d58",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-124",
+        "locator": "公司\\7.jpeg",
+        "fingerprint": "sha256:34968083d55ea9fd3b7a853f10cec07b9800cdb247cb99a5f9bfb715d8404d58",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/about#manufacturing",
+        "business_entity": "factory",
+        "placement_reason": "Factory and company environment evidence"
+      }
+    },
+    {
+      "source_id": "source-image-125",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\公司\\8.jpeg",
+      "type": "jpeg",
+      "fingerprint": "sha256:1f78f1638ab2294a9b6518a921015a4aad1b746be5e9b4b90c5a9ffce66e9da4",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-125",
+        "locator": "公司\\8.jpeg",
+        "fingerprint": "sha256:1f78f1638ab2294a9b6518a921015a4aad1b746be5e9b4b90c5a9ffce66e9da4",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/about#manufacturing",
+        "business_entity": "factory",
+        "placement_reason": "Factory and company environment evidence"
+      }
+    },
+    {
+      "source_id": "source-image-126",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\公司\\9.jpeg",
+      "type": "jpeg",
+      "fingerprint": "sha256:11c411880a7f12300f2cf0cd9d917b62be7fd971be17418f2998496889034384",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-126",
+        "locator": "公司\\9.jpeg",
+        "fingerprint": "sha256:11c411880a7f12300f2cf0cd9d917b62be7fd971be17418f2998496889034384",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/about#manufacturing",
+        "business_entity": "factory",
+        "placement_reason": "Factory and company environment evidence"
+      }
+    },
+    {
+      "source_id": "source-image-127",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\身份证+营业执照\\身份证反面.jpeg",
+      "type": "jpeg",
+      "fingerprint": "sha256:d397340bccfac4b61e22a9e179cccfa3f308750e398e8dfaa963bd0f3b6abdc2",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-127",
+        "locator": "身份证+营业执照\\身份证反面.jpeg",
+        "fingerprint": "sha256:d397340bccfac4b61e22a9e179cccfa3f308750e398e8dfaa963bd0f3b6abdc2",
+        "decision": "excluded_by_rule",
+        "reason_code": "privacy_sensitive",
+        "reason": "Identity card or business-licence image contains personal/legal registration data and is retained only for verification.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md"
+      }
+    },
+    {
+      "source_id": "source-image-128",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\身份证+营业执照\\身份证正面.jpeg",
+      "type": "jpeg",
+      "fingerprint": "sha256:94aca28cab5395ad010fbb85f64d60dbef0f4d346dec67528b45572089059115",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-128",
+        "locator": "身份证+营业执照\\身份证正面.jpeg",
+        "fingerprint": "sha256:94aca28cab5395ad010fbb85f64d60dbef0f4d346dec67528b45572089059115",
+        "decision": "excluded_by_rule",
+        "reason_code": "privacy_sensitive",
+        "reason": "Identity card or business-licence image contains personal/legal registration data and is retained only for verification.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md"
+      }
+    },
+    {
+      "source_id": "source-image-129",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\身份证+营业执照\\营业执照 (1).jpeg",
+      "type": "jpeg",
+      "fingerprint": "sha256:bedefd0f001d76d35b86b57a390450d112d360ceb29c6b957096bc2235e86d45",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-129",
+        "locator": "身份证+营业执照\\营业执照 (1).jpeg",
+        "fingerprint": "sha256:bedefd0f001d76d35b86b57a390450d112d360ceb29c6b957096bc2235e86d45",
+        "decision": "excluded_by_rule",
+        "reason_code": "privacy_sensitive",
+        "reason": "Identity card or business-licence image contains personal/legal registration data and is retained only for verification.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md"
+      }
+    },
+    {
+      "source_id": "source-image-130",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\banner背景图\\1.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:f17d14f13ed476fb22727f57b322144b40ab6a027bc970b0661c55afc7637b1c",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-130",
+        "locator": "banner背景图\\1.jpg",
+        "fingerprint": "sha256:f17d14f13ed476fb22727f57b322144b40ab6a027bc970b0661c55afc7637b1c",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/#hero",
+        "business_entity": "homepage-banner",
+        "placement_reason": "Customer-designated homepage banner"
+      }
+    },
+    {
+      "source_id": "source-image-131",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\banner背景图\\2.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:4d28a75879e316922dc01ea298956d481207f11c6acb7ea56e52e0c8ca089a9f",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-131",
+        "locator": "banner背景图\\2.jpg",
+        "fingerprint": "sha256:4d28a75879e316922dc01ea298956d481207f11c6acb7ea56e52e0c8ca089a9f",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/#hero",
+        "business_entity": "homepage-banner",
+        "placement_reason": "Customer-designated homepage banner"
+      }
+    },
+    {
+      "source_id": "source-image-132",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\banner背景图\\3.jpg",
+      "type": "jpg",
+      "fingerprint": "sha256:4bd8169e47184bcbeb6db04f764f5d3feae2c467d8354e0a657354ea012a3447",
+      "decision": "reference_only",
+      "reason": "Image content is governed by media_asset.",
+      "media_asset": {
+        "media_id": "media-132",
+        "locator": "banner背景图\\3.jpg",
+        "fingerprint": "sha256:4bd8169e47184bcbeb6db04f764f5d3feae2c467d8354e0a657354ea012a3447",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/#hero",
+        "business_entity": "homepage-banner",
+        "placement_reason": "Customer-designated homepage banner"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "company-name-zh",
+      "entity_type": "company",
+      "entity_key": "xiongba",
+      "field": "display_name",
+      "source_value_hash": "sha256:136e3a30ebad82a6ee4f8057e190e4a1af260569459647db5e9ac5699b67857e",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-company-name-zh"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "company-name-en",
+      "entity_type": "company",
+      "entity_key": "xiongba",
+      "field": "legal_name_en",
+      "source_value_hash": "sha256:f37ab2592e6820af11c122b25ea001854b7d6b3b0a3ac561e8de80b66b4adff3",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-company-name-en"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "company-address",
+      "entity_type": "contact",
+      "entity_key": "xiongba",
+      "field": "address",
+      "source_value_hash": "sha256:6eaad7b7564b99bfc7dad172896636ae2184e039cf461cd5fa09ce0173b205d0",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-company-address"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend_contact",
+        "frontend_footer"
+      ]
+    },
+    {
+      "fact_id": "company-phone",
+      "entity_type": "contact",
+      "entity_key": "xiongba",
+      "field": "phone",
+      "source_value_hash": "sha256:6b48a2db3803869072d7f1acdeae12b7c391d45c0f72b1a4fdc93398bd64f58e",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-company-phone"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend_contact",
+        "frontend_footer"
+      ]
+    },
+    {
+      "fact_id": "company-profile",
+      "entity_type": "company",
+      "entity_key": "xiongba",
+      "field": "company_profile",
+      "source_value_hash": "sha256:04142b6eeda77431f191e7d1aa690dc2f275e5e555012cadf55838c5e5c5b718",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-company-profile"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "equipment",
+      "entity_type": "capability",
+      "entity_key": "sewing",
+      "field": "equipment",
+      "source_value_hash": "sha256:38aaa2b3e9541c9f36103dcea804d41e5ca0a583f15e1d2bac24077172bc19bc",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-equipment"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "product-xb-sr-001",
+      "entity_type": "product",
+      "entity_key": "xb-sr-001",
+      "field": "complete_product_record",
+      "source_value_hash": "sha256:a754a97cc0fcf8f0c3bea98c4886c679a351a46e2773e3e7286f4937d6c43d0f",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-product-xb-sr-001"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "product-xb-ct-002",
+      "entity_type": "product",
+      "entity_key": "xb-ct-002",
+      "field": "complete_product_record",
+      "source_value_hash": "sha256:3d68586bebef840d54288acb43fdcad6a1b4c968064cc091189c5c3d75c1bc29",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-product-xb-ct-002"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "product-xb-pt-003",
+      "entity_type": "product",
+      "entity_key": "xb-pt-003",
+      "field": "complete_product_record",
+      "source_value_hash": "sha256:acf0b81758d511bbb1399131cda3fec4057027e3494958e2009fc6b6de49b583",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-product-xb-pt-003"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "product-xb-ly-004",
+      "entity_type": "product",
+      "entity_key": "xb-ly-004",
+      "field": "complete_product_record",
+      "source_value_hash": "sha256:601cc828829862f03a05a9fe9cafa124227cd79cafce38bb10f8f986e768bcab",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-product-xb-ly-004"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "faq-row-4",
+      "entity_type": "faq",
+      "entity_key": "faq-4",
+      "field": "question_answer",
+      "source_value_hash": "sha256:66fb10ac4910505d2e6cd641c799c4bff7209e046fe0afd658c74cd03b184d9d",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-faq-row-4"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "faq-row-5",
+      "entity_type": "faq",
+      "entity_key": "faq-5",
+      "field": "question_answer",
+      "source_value_hash": "sha256:c9ac40944322656cc81fa9f6322728943d700fb97d09bc548e7ef3fd39fd5227",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-faq-row-5"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "faq-row-6",
+      "entity_type": "faq",
+      "entity_key": "faq-6",
+      "field": "question_answer",
+      "source_value_hash": "sha256:58386cb548e3455ba9834c353961258dc198288d2598d84234fb4920982b427c",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-faq-row-6"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "faq-row-7",
+      "entity_type": "faq",
+      "entity_key": "faq-7",
+      "field": "question_answer",
+      "source_value_hash": "sha256:4cf5d89c4741d95d17b7982bfdb34565cb27a34e4b7b4731783b96735dacabf2",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-faq-row-7"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "faq-row-8",
+      "entity_type": "faq",
+      "entity_key": "faq-8",
+      "field": "question_answer",
+      "source_value_hash": "sha256:252b2ccb0ab068ccc484052aaf29aac43ecc0098084ec1457c71e565e3ab7dd5",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-faq-row-8"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "faq-row-9",
+      "entity_type": "faq",
+      "entity_key": "faq-9",
+      "field": "question_answer",
+      "source_value_hash": "sha256:f0683084459348f8d7de5f39b185236643dc24bf83a60208980eaea6752a4eed",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-faq-row-9"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "faq-row-10",
+      "entity_type": "faq",
+      "entity_key": "faq-10",
+      "field": "question_answer",
+      "source_value_hash": "sha256:bd4a4460562f75af5432d9596125baf965ce700a5e4947151ed8f8267a28aa71",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-faq-row-10"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "faq-row-11",
+      "entity_type": "faq",
+      "entity_key": "faq-11",
+      "field": "question_answer",
+      "source_value_hash": "sha256:cdfb3d43fb16d2e5ea4c668c0fb86adcacd31af0e1bd484bc1f7e89b77711f1b",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-faq-row-11"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "faq-row-12",
+      "entity_type": "faq",
+      "entity_key": "faq-12",
+      "field": "question_answer",
+      "source_value_hash": "sha256:f730d5737d75e48a4696751dd5b7ac327363dd1cc6820aed3c84b7e0bcaaebec",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-faq-row-12"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "faq-row-13",
+      "entity_type": "faq",
+      "entity_key": "faq-13",
+      "field": "question_answer",
+      "source_value_hash": "sha256:7ed345eca47bf7cfb26699e6d04358394ba9c789d66cca231cb642482c746f5b",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-faq-row-13"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "faq-row-14",
+      "entity_type": "faq",
+      "entity_key": "faq-14",
+      "field": "question_answer",
+      "source_value_hash": "sha256:444523e500d4098c8754bb73ac4312aa0f5522f5be0f5b0c038b4d67c44dedfe",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-faq-row-14"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "faq-row-15",
+      "entity_type": "faq",
+      "entity_key": "faq-15",
+      "field": "question_answer",
+      "source_value_hash": "sha256:56a8b4470c022bd94349bb6d1089aaa0d001ce1188a9370667b38fc0b8e984ba",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-faq-row-15"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "faq-row-16",
+      "entity_type": "faq",
+      "entity_key": "faq-16",
+      "field": "question_answer",
+      "source_value_hash": "sha256:844b1735c86bde0e18b53e46dbf71c115b5836ddfbd57525ee010a403734f98f",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-faq-row-16"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "faq-row-17",
+      "entity_type": "faq",
+      "entity_key": "faq-17",
+      "field": "question_answer",
+      "source_value_hash": "sha256:507df4b1a4826e1920fcb46c491a65032e8a2e521290e06d9242b92c836ae839",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-faq-row-17"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "faq-row-18",
+      "entity_type": "faq",
+      "entity_key": "faq-18",
+      "field": "question_answer",
+      "source_value_hash": "sha256:c0b9614a92e2a2f57a16414e43d99d42d24292f84e75f505663763183a9555c8",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-faq-row-18"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "faq-row-19",
+      "entity_type": "faq",
+      "entity_key": "faq-19",
+      "field": "question_answer",
+      "source_value_hash": "sha256:92edb26e3bd5b1dd0c5fc89f9cfb74d66c85106d5175e428ef4fd9522d387d82",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-faq-row-19"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "faq-row-20",
+      "entity_type": "faq",
+      "entity_key": "faq-20",
+      "field": "question_answer",
+      "source_value_hash": "sha256:d509f50ac9043367dea38a8cfe962a3a7bc1bd1dc12df4637baa1e01f94c78b8",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-faq-row-20"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "faq-row-21",
+      "entity_type": "faq",
+      "entity_key": "faq-21",
+      "field": "question_answer",
+      "source_value_hash": "sha256:17c4d38bb71c306f565c890938205f176678b9a4391c6301d7ce7a2752a062c7",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-faq-row-21"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "faq-row-22",
+      "entity_type": "faq",
+      "entity_key": "faq-22",
+      "field": "question_answer",
+      "source_value_hash": "sha256:be2b947353ed5d3cc69f516770ca0568152596121036345d797609ecad7194fc",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-faq-row-22"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "faq-row-23",
+      "entity_type": "faq",
+      "entity_key": "faq-23",
+      "field": "question_answer",
+      "source_value_hash": "sha256:1cf4a1a96d3420d62e3ab3e5a356c18f05bc02f4325108e36ce34b2f934bcc3f",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-faq-row-23"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "faq-row-24",
+      "entity_type": "faq",
+      "entity_key": "faq-24",
+      "field": "question_answer",
+      "source_value_hash": "sha256:e8b307c1c943671485ce46ac72ae1e51aa65d4779b0eebcc2c423cfccdeb3a97",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-faq-row-24"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "faq-row-25",
+      "entity_type": "faq",
+      "entity_key": "faq-25",
+      "field": "question_answer",
+      "source_value_hash": "sha256:735def0ef426a44ed11ef775a754c532750a48d302d0f315566cb69af3eca67a",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-faq-row-25"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "faq-row-26",
+      "entity_type": "faq",
+      "entity_key": "faq-26",
+      "field": "question_answer",
+      "source_value_hash": "sha256:db5a47546e7632647576485ac8cc2d8999265017446f2f1858e933af938bad53",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-faq-row-26"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "faq-row-27",
+      "entity_type": "faq",
+      "entity_key": "faq-27",
+      "field": "question_answer",
+      "source_value_hash": "sha256:0c7474d1c6e113cf1aacd3d71d0305e9209888c39235eaded16bf2c7f55f99a2",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-faq-row-27"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "faq-row-28",
+      "entity_type": "faq",
+      "entity_key": "faq-28",
+      "field": "question_answer",
+      "source_value_hash": "sha256:ab6b3b054e2f50df1984e2edcba0d85dc319d9b237de459c70f4460198698941",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-faq-row-28"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "faq-row-29",
+      "entity_type": "faq",
+      "entity_key": "faq-29",
+      "field": "question_answer",
+      "source_value_hash": "sha256:cb14a7425227461dc219c189609f4f12375958487099739570a7231c4c38a9da",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-faq-row-29"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "faq-row-30",
+      "entity_type": "faq",
+      "entity_key": "faq-30",
+      "field": "question_answer",
+      "source_value_hash": "sha256:a2ebae10ffc04f44ff5ad1bdc6bc9e2d989b43bf56989b5b2aa4be2763c59656",
+      "source_refs": [
+        {
+          "source_id": "source-workbook",
+          "unit_id": "unit-faq-row-30"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    },
+    {
+      "fact_id": "formal-domain-email",
+      "entity_type": "site",
+      "entity_key": "xiongba",
+      "field": "formal_domain_email",
+      "source_value_hash": "sha256:f3cc768c218f1cbc0b1c51a9005209f14b6d08b103f7302aa15624fa9fb53cdb",
+      "source_refs": [
+        {
+          "source_id": "source-domain-email",
+          "unit_id": "domain-email"
+        }
+      ],
+      "decision": "use",
+      "expected_destinations": [
+        "backend",
+        "frontend"
+      ]
+    }
+  ]
+}

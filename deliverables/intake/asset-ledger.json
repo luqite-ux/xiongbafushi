@@ -1,0 +1,2229 @@
+{
+  "customer": "温州雄霸服饰有限公司",
+  "sourceRoot": "E:\\E暂存\\温州雄霸服饰有限公司",
+  "generatedAt": "2026-11-13T03:56:40.955Z",
+  "counts": {
+    "files": 134,
+    "standaloneImages": 132,
+    "embeddedImages": 20
+  },
+  "sources": [
+    {
+      "source_id": "source-workbook",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\官网资料&产品&FQA收集表.xlsx",
+      "fingerprint": "sha256:9b3f32dc6ed268efea0eb2ef03baa35bb48343fcb7e42ea829b0442c81c5d47a"
+    },
+    {
+      "source_id": "source-domain-email",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\域名+邮箱.txt",
+      "fingerprint": "sha256:2869e407d5d26a3d293480544aad5a785daa8ca4af190dbf55bdee9d551e9e5f"
+    },
+    {
+      "source_id": "source-image-001",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\白底.jpg",
+      "fingerprint": "sha256:df20ddad513f145fcf44c704ae8e1df6709fa1af72d9ed36ec9b0218fb91481a",
+      "media_asset": {
+        "media_id": "media-001",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\白底.jpg",
+        "fingerprint": "sha256:df20ddad513f145fcf44c704ae8e1df6709fa1af72d9ed36ec9b0218fb91481a",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-002",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9239.jpg",
+      "fingerprint": "sha256:434773f4f210b3dd1d6b1b6d8c5b6f5ee4ba4b3bb3d7c49446207b786730e23e",
+      "media_asset": {
+        "media_id": "media-002",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9239.jpg",
+        "fingerprint": "sha256:434773f4f210b3dd1d6b1b6d8c5b6f5ee4ba4b3bb3d7c49446207b786730e23e",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-003",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9240.jpg",
+      "fingerprint": "sha256:5e230cc51718d557c4e5f2de3e81a4dbab6a429e8eb72768d46138e6ca53cde5",
+      "media_asset": {
+        "media_id": "media-003",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9240.jpg",
+        "fingerprint": "sha256:5e230cc51718d557c4e5f2de3e81a4dbab6a429e8eb72768d46138e6ca53cde5",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-004",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9241.jpg",
+      "fingerprint": "sha256:d0d5be1e2109855dafba11a66eb45adebe410cf20495e711adffa9ec76217ce6",
+      "media_asset": {
+        "media_id": "media-004",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9241.jpg",
+        "fingerprint": "sha256:d0d5be1e2109855dafba11a66eb45adebe410cf20495e711adffa9ec76217ce6",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-005",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9242.jpg",
+      "fingerprint": "sha256:386b4ed870ff92c0cbf8deba64466c7039efe5f8b23ab6f24ace5ff7014e0f90",
+      "media_asset": {
+        "media_id": "media-005",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9242.jpg",
+        "fingerprint": "sha256:386b4ed870ff92c0cbf8deba64466c7039efe5f8b23ab6f24ace5ff7014e0f90",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-006",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9243.jpg",
+      "fingerprint": "sha256:2d332d4d2a79b4c18ea444717a0c794b2338f1b5a3223893aaba930da1cb8c1a",
+      "media_asset": {
+        "media_id": "media-006",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9243.jpg",
+        "fingerprint": "sha256:2d332d4d2a79b4c18ea444717a0c794b2338f1b5a3223893aaba930da1cb8c1a",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-007",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9244.jpg",
+      "fingerprint": "sha256:130779032e7b086581f0a2cd25739573089faaae0a3aba3460bf68e8afa06509",
+      "media_asset": {
+        "media_id": "media-007",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9244.jpg",
+        "fingerprint": "sha256:130779032e7b086581f0a2cd25739573089faaae0a3aba3460bf68e8afa06509",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-008",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9245.jpg",
+      "fingerprint": "sha256:0a225bf87e51eaf68610e008a3b7583a1b7ad8b997deea6b2ee63331055e7f76",
+      "media_asset": {
+        "media_id": "media-008",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9245.jpg",
+        "fingerprint": "sha256:0a225bf87e51eaf68610e008a3b7583a1b7ad8b997deea6b2ee63331055e7f76",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-009",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9246.jpg",
+      "fingerprint": "sha256:e039c8aad8b956e8ae5371b388b3d71aa3495e7106a6f018196247830cbf743e",
+      "media_asset": {
+        "media_id": "media-009",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9246.jpg",
+        "fingerprint": "sha256:e039c8aad8b956e8ae5371b388b3d71aa3495e7106a6f018196247830cbf743e",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-010",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9247.jpg",
+      "fingerprint": "sha256:d0ef6b6c96010f5fd36078459babb2293cf838678ecbdb6e35386377849b7eba",
+      "media_asset": {
+        "media_id": "media-010",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9247.jpg",
+        "fingerprint": "sha256:d0ef6b6c96010f5fd36078459babb2293cf838678ecbdb6e35386377849b7eba",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-011",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9248.jpg",
+      "fingerprint": "sha256:e27fcafcc4a6a49db3fda06206e30f391cfdc2536899056747c401e17623d9ec",
+      "media_asset": {
+        "media_id": "media-011",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9248.jpg",
+        "fingerprint": "sha256:e27fcafcc4a6a49db3fda06206e30f391cfdc2536899056747c401e17623d9ec",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-012",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9249.jpg",
+      "fingerprint": "sha256:8c47d8e5a469e49c56d01fa963eca81771d4390e122f8f8c5f31e2e9bbc4f681",
+      "media_asset": {
+        "media_id": "media-012",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9249.jpg",
+        "fingerprint": "sha256:8c47d8e5a469e49c56d01fa963eca81771d4390e122f8f8c5f31e2e9bbc4f681",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-013",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9250.jpg",
+      "fingerprint": "sha256:a2cec3ea64002e3c7c9f73078930353ff17ea9fbc6d71dbefa973a4b5ccbef51",
+      "media_asset": {
+        "media_id": "media-013",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9250.jpg",
+        "fingerprint": "sha256:a2cec3ea64002e3c7c9f73078930353ff17ea9fbc6d71dbefa973a4b5ccbef51",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-014",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9266.jpg",
+      "fingerprint": "sha256:9727996dd1a131cb9cfb1593035ea43f2da7621e64e07a35a1e8ef4742e0129a",
+      "media_asset": {
+        "media_id": "media-014",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9266.jpg",
+        "fingerprint": "sha256:9727996dd1a131cb9cfb1593035ea43f2da7621e64e07a35a1e8ef4742e0129a",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-015",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9267.jpg",
+      "fingerprint": "sha256:e6ff599a3e2ffdbc33d13b6bddc9997e1da691857b38127266c14d5889f61d7d",
+      "media_asset": {
+        "media_id": "media-015",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9267.jpg",
+        "fingerprint": "sha256:e6ff599a3e2ffdbc33d13b6bddc9997e1da691857b38127266c14d5889f61d7d",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-016",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9268.jpg",
+      "fingerprint": "sha256:f4c1c8c5aac19d146e49deb2c413297fb171b2e37900f174531f133728297406",
+      "media_asset": {
+        "media_id": "media-016",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9268.jpg",
+        "fingerprint": "sha256:f4c1c8c5aac19d146e49deb2c413297fb171b2e37900f174531f133728297406",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-017",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9269.jpg",
+      "fingerprint": "sha256:5baefcaef9d5432dfaf95c00da1477e76fc4dae4f7d0de7d1e73ae8bda46dd8d",
+      "media_asset": {
+        "media_id": "media-017",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9269.jpg",
+        "fingerprint": "sha256:5baefcaef9d5432dfaf95c00da1477e76fc4dae4f7d0de7d1e73ae8bda46dd8d",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-018",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9287.jpg",
+      "fingerprint": "sha256:06e5967bf51225c73cb41a94bfc236128b48c17120cc455fb5cfec7d671f9afa",
+      "media_asset": {
+        "media_id": "media-018",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9287.jpg",
+        "fingerprint": "sha256:06e5967bf51225c73cb41a94bfc236128b48c17120cc455fb5cfec7d671f9afa",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-019",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9310拷贝.jpg",
+      "fingerprint": "sha256:11202095ca82d864ae0ef75a6b45f4b8f8ca3fc9aecb829c4b3ac17a9303368a",
+      "media_asset": {
+        "media_id": "media-019",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9310拷贝.jpg",
+        "fingerprint": "sha256:11202095ca82d864ae0ef75a6b45f4b8f8ca3fc9aecb829c4b3ac17a9303368a",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-020",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9325.jpg",
+      "fingerprint": "sha256:b72c9c982fc37ad44492fd0f1acc602a89c005f825458bb58d695e98db46a1e9",
+      "media_asset": {
+        "media_id": "media-020",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9325.jpg",
+        "fingerprint": "sha256:b72c9c982fc37ad44492fd0f1acc602a89c005f825458bb58d695e98db46a1e9",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-021",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9477.jpg",
+      "fingerprint": "sha256:e02a778ab2558a94f6ae481a7f0992c07c7141f61327b7bb97f4f03aaf6f2778",
+      "media_asset": {
+        "media_id": "media-021",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9477.jpg",
+        "fingerprint": "sha256:e02a778ab2558a94f6ae481a7f0992c07c7141f61327b7bb97f4f03aaf6f2778",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-022",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9481.jpg",
+      "fingerprint": "sha256:e7325ff0050061106ddab5bcc8abbcb9371f949bc7cd4c1a665a74cc4f98d5a8",
+      "media_asset": {
+        "media_id": "media-022",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\主图\\DSC_9481.jpg",
+        "fingerprint": "sha256:e7325ff0050061106ddab5bcc8abbcb9371f949bc7cd4c1a665a74cc4f98d5a8",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-023",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\SKU\\茶芽绿.jpg",
+      "fingerprint": "sha256:ed197cb383a9936621b6ac686c44b9a07b7ca43831acc94b01fe7559855d275d",
+      "media_asset": {
+        "media_id": "media-023",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\SKU\\茶芽绿.jpg",
+        "fingerprint": "sha256:ed197cb383a9936621b6ac686c44b9a07b7ca43831acc94b01fe7559855d275d",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-024",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\SKU\\高级灰.jpg",
+      "fingerprint": "sha256:9b96dbb231824e7829f3b1245886883b629b28990957b9e6fafac3e2fffb97cc",
+      "media_asset": {
+        "media_id": "media-024",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\SKU\\高级灰.jpg",
+        "fingerprint": "sha256:9b96dbb231824e7829f3b1245886883b629b28990957b9e6fafac3e2fffb97cc",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-025",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\SKU\\奶油肤.jpg",
+      "fingerprint": "sha256:9d3a16bfd2272a53d5f59ee54a15b218a81a36c0e26b1f1667886d4ec944b49b",
+      "media_asset": {
+        "media_id": "media-025",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\SKU\\奶油肤.jpg",
+        "fingerprint": "sha256:9d3a16bfd2272a53d5f59ee54a15b218a81a36c0e26b1f1667886d4ec944b49b",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-026",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\SKU\\肉桂粉.jpg",
+      "fingerprint": "sha256:09c698ee560c2b64ee557d40651e7e22b33c393c2944dd77f33c155ee41a8060",
+      "media_asset": {
+        "media_id": "media-026",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\SKU\\肉桂粉.jpg",
+        "fingerprint": "sha256:09c698ee560c2b64ee557d40651e7e22b33c393c2944dd77f33c155ee41a8060",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-027",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\棉花糖XB-CT-002\\SKU\\四色.jpg",
+      "fingerprint": "sha256:bb48f7b7ff88995efb22ed5ae42130608e68997a230f0a70f240b4bf2d6cd593",
+      "media_asset": {
+        "media_id": "media-027",
+        "locator": "产品图片（修改）\\棉花糖XB-CT-002\\SKU\\四色.jpg",
+        "fingerprint": "sha256:bb48f7b7ff88995efb22ed5ae42130608e68997a230f0a70f240b4bf2d6cd593",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ct-002",
+        "business_entity": "xb-ct-002",
+        "placement_reason": "Exact product gallery for XB-CT-002"
+      }
+    },
+    {
+      "source_id": "source-image-028",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\1.jpg",
+      "fingerprint": "sha256:28547ebd5fb5ad0ab8983ec46d35386aa64aa8dee7b83481912a95af5d4853d2",
+      "media_asset": {
+        "media_id": "media-028",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\1.jpg",
+        "fingerprint": "sha256:28547ebd5fb5ad0ab8983ec46d35386aa64aa8dee7b83481912a95af5d4853d2",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-029",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\10.jpg",
+      "fingerprint": "sha256:1c5cefc06a5ac2a72de440588bdabeff5e6c0b996ac4609623f309a7513f7827",
+      "media_asset": {
+        "media_id": "media-029",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\10.jpg",
+        "fingerprint": "sha256:1c5cefc06a5ac2a72de440588bdabeff5e6c0b996ac4609623f309a7513f7827",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-030",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\11.jpg",
+      "fingerprint": "sha256:bc1c2a099a23a2439c56c6962b14bc6b76e3aad659bf6254f3dc9cba3b864d60",
+      "media_asset": {
+        "media_id": "media-030",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\11.jpg",
+        "fingerprint": "sha256:bc1c2a099a23a2439c56c6962b14bc6b76e3aad659bf6254f3dc9cba3b864d60",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-031",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\12.jpg",
+      "fingerprint": "sha256:a0f35eca379bacda75c7ff060a4768af2bea88bada97d592f3f336bae500dc7a",
+      "media_asset": {
+        "media_id": "media-031",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\12.jpg",
+        "fingerprint": "sha256:a0f35eca379bacda75c7ff060a4768af2bea88bada97d592f3f336bae500dc7a",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-032",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\13.jpg",
+      "fingerprint": "sha256:0e558b94fc835f42004135f4bd48d3c5f5251f30adf998faff2c07d68fb9d56e",
+      "media_asset": {
+        "media_id": "media-032",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\13.jpg",
+        "fingerprint": "sha256:0e558b94fc835f42004135f4bd48d3c5f5251f30adf998faff2c07d68fb9d56e",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-033",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\14.jpg",
+      "fingerprint": "sha256:ffb6ede36e67dd84de5e037e44d6585bc93541cbe1616b2b83a9ec319f54efa6",
+      "media_asset": {
+        "media_id": "media-033",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\14.jpg",
+        "fingerprint": "sha256:ffb6ede36e67dd84de5e037e44d6585bc93541cbe1616b2b83a9ec319f54efa6",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-034",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\15.jpg",
+      "fingerprint": "sha256:4c5f3b571892c6cb96eb24585e4d86caebb230d4c53650329ddb6b2c8363b9f0",
+      "media_asset": {
+        "media_id": "media-034",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\15.jpg",
+        "fingerprint": "sha256:4c5f3b571892c6cb96eb24585e4d86caebb230d4c53650329ddb6b2c8363b9f0",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-035",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\16.jpg",
+      "fingerprint": "sha256:4c546c65e7e0d93c297f3c23aa630a94b16c4808624389a1d4c5f89e11087468",
+      "media_asset": {
+        "media_id": "media-035",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\16.jpg",
+        "fingerprint": "sha256:4c546c65e7e0d93c297f3c23aa630a94b16c4808624389a1d4c5f89e11087468",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-036",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\17.jpg",
+      "fingerprint": "sha256:3a1cef72db75839c25d931b13500068fed2208833bf9d31ca6e5678ff54ec36c",
+      "media_asset": {
+        "media_id": "media-036",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\17.jpg",
+        "fingerprint": "sha256:3a1cef72db75839c25d931b13500068fed2208833bf9d31ca6e5678ff54ec36c",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-037",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\2.jpg",
+      "fingerprint": "sha256:f597c75f95509e3489c56378bd41ecdb59017c8c7214e54e21be800a3fbb1e9d",
+      "media_asset": {
+        "media_id": "media-037",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\2.jpg",
+        "fingerprint": "sha256:f597c75f95509e3489c56378bd41ecdb59017c8c7214e54e21be800a3fbb1e9d",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-038",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\3.jpg",
+      "fingerprint": "sha256:f3ac96cd300abcf232d244464c6759654df14eeab684656e4c96e27c45c3bc2a",
+      "media_asset": {
+        "media_id": "media-038",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\3.jpg",
+        "fingerprint": "sha256:f3ac96cd300abcf232d244464c6759654df14eeab684656e4c96e27c45c3bc2a",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-039",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\4.jpg",
+      "fingerprint": "sha256:3b79bbf7ec00aecc36488740436ca3266cd5cb36de490af8fb64038e6e154b65",
+      "media_asset": {
+        "media_id": "media-039",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\4.jpg",
+        "fingerprint": "sha256:3b79bbf7ec00aecc36488740436ca3266cd5cb36de490af8fb64038e6e154b65",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-040",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\5.jpg",
+      "fingerprint": "sha256:310fc41d37155f81281e679427f57a20595921e9f1f0c52b5ad9e7cc0af6f61b",
+      "media_asset": {
+        "media_id": "media-040",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\5.jpg",
+        "fingerprint": "sha256:310fc41d37155f81281e679427f57a20595921e9f1f0c52b5ad9e7cc0af6f61b",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-041",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\6.jpg",
+      "fingerprint": "sha256:50c92c62fc0b779483def118a6cb38f623880b2c0041773fc2ff47100f997fc3",
+      "media_asset": {
+        "media_id": "media-041",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\6.jpg",
+        "fingerprint": "sha256:50c92c62fc0b779483def118a6cb38f623880b2c0041773fc2ff47100f997fc3",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-042",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\7.jpg",
+      "fingerprint": "sha256:850362e583b0ad809dbd79c32003b1b7f972f5107c1580ca8af9f762009e87d8",
+      "media_asset": {
+        "media_id": "media-042",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\7.jpg",
+        "fingerprint": "sha256:850362e583b0ad809dbd79c32003b1b7f972f5107c1580ca8af9f762009e87d8",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-043",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\8.jpg",
+      "fingerprint": "sha256:cd312eb9204fe58e5115bcab40ae8756f5892661772c30ce2036ac2f43f36314",
+      "media_asset": {
+        "media_id": "media-043",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\8.jpg",
+        "fingerprint": "sha256:cd312eb9204fe58e5115bcab40ae8756f5892661772c30ce2036ac2f43f36314",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-044",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\9.jpg",
+      "fingerprint": "sha256:2fbbf2d9211a1f4fefc9be07ef989f3cd28cc6d8facf7dc3906a9dfe4831271d",
+      "media_asset": {
+        "media_id": "media-044",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\主图\\9.jpg",
+        "fingerprint": "sha256:2fbbf2d9211a1f4fefc9be07ef989f3cd28cc6d8facf7dc3906a9dfe4831271d",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-ly-004",
+        "business_entity": "xb-ly-004",
+        "placement_reason": "Exact product gallery for XB-LY-004"
+      }
+    },
+    {
+      "source_id": "source-image-045",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\1.jpg",
+      "fingerprint": "sha256:28547ebd5fb5ad0ab8983ec46d35386aa64aa8dee7b83481912a95af5d4853d2",
+      "media_asset": {
+        "media_id": "media-045",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\1.jpg",
+        "fingerprint": "sha256:28547ebd5fb5ad0ab8983ec46d35386aa64aa8dee7b83481912a95af5d4853d2",
+        "decision": "duplicate",
+        "reason_code": "exact_duplicate",
+        "reason": "Exact-byte duplicate of a retained source image in the same customer package.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+        "duplicate_of": "source-image-028:media-028"
+      }
+    },
+    {
+      "source_id": "source-image-046",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\11.jpg",
+      "fingerprint": "sha256:bc1c2a099a23a2439c56c6962b14bc6b76e3aad659bf6254f3dc9cba3b864d60",
+      "media_asset": {
+        "media_id": "media-046",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\11.jpg",
+        "fingerprint": "sha256:bc1c2a099a23a2439c56c6962b14bc6b76e3aad659bf6254f3dc9cba3b864d60",
+        "decision": "duplicate",
+        "reason_code": "exact_duplicate",
+        "reason": "Exact-byte duplicate of a retained source image in the same customer package.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+        "duplicate_of": "source-image-030:media-030"
+      }
+    },
+    {
+      "source_id": "source-image-047",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\12.jpg",
+      "fingerprint": "sha256:a0f35eca379bacda75c7ff060a4768af2bea88bada97d592f3f336bae500dc7a",
+      "media_asset": {
+        "media_id": "media-047",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\12.jpg",
+        "fingerprint": "sha256:a0f35eca379bacda75c7ff060a4768af2bea88bada97d592f3f336bae500dc7a",
+        "decision": "duplicate",
+        "reason_code": "exact_duplicate",
+        "reason": "Exact-byte duplicate of a retained source image in the same customer package.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+        "duplicate_of": "source-image-031:media-031"
+      }
+    },
+    {
+      "source_id": "source-image-048",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\14.jpg",
+      "fingerprint": "sha256:ffb6ede36e67dd84de5e037e44d6585bc93541cbe1616b2b83a9ec319f54efa6",
+      "media_asset": {
+        "media_id": "media-048",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\14.jpg",
+        "fingerprint": "sha256:ffb6ede36e67dd84de5e037e44d6585bc93541cbe1616b2b83a9ec319f54efa6",
+        "decision": "duplicate",
+        "reason_code": "exact_duplicate",
+        "reason": "Exact-byte duplicate of a retained source image in the same customer package.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+        "duplicate_of": "source-image-033:media-033"
+      }
+    },
+    {
+      "source_id": "source-image-049",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\15.jpg",
+      "fingerprint": "sha256:4c5f3b571892c6cb96eb24585e4d86caebb230d4c53650329ddb6b2c8363b9f0",
+      "media_asset": {
+        "media_id": "media-049",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\15.jpg",
+        "fingerprint": "sha256:4c5f3b571892c6cb96eb24585e4d86caebb230d4c53650329ddb6b2c8363b9f0",
+        "decision": "duplicate",
+        "reason_code": "exact_duplicate",
+        "reason": "Exact-byte duplicate of a retained source image in the same customer package.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+        "duplicate_of": "source-image-034:media-034"
+      }
+    },
+    {
+      "source_id": "source-image-050",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\16.jpg",
+      "fingerprint": "sha256:4c546c65e7e0d93c297f3c23aa630a94b16c4808624389a1d4c5f89e11087468",
+      "media_asset": {
+        "media_id": "media-050",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\16.jpg",
+        "fingerprint": "sha256:4c546c65e7e0d93c297f3c23aa630a94b16c4808624389a1d4c5f89e11087468",
+        "decision": "duplicate",
+        "reason_code": "exact_duplicate",
+        "reason": "Exact-byte duplicate of a retained source image in the same customer package.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+        "duplicate_of": "source-image-035:media-035"
+      }
+    },
+    {
+      "source_id": "source-image-051",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\17.jpg",
+      "fingerprint": "sha256:3a1cef72db75839c25d931b13500068fed2208833bf9d31ca6e5678ff54ec36c",
+      "media_asset": {
+        "media_id": "media-051",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\17.jpg",
+        "fingerprint": "sha256:3a1cef72db75839c25d931b13500068fed2208833bf9d31ca6e5678ff54ec36c",
+        "decision": "duplicate",
+        "reason_code": "exact_duplicate",
+        "reason": "Exact-byte duplicate of a retained source image in the same customer package.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+        "duplicate_of": "source-image-036:media-036"
+      }
+    },
+    {
+      "source_id": "source-image-052",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\6.jpg",
+      "fingerprint": "sha256:50c92c62fc0b779483def118a6cb38f623880b2c0041773fc2ff47100f997fc3",
+      "media_asset": {
+        "media_id": "media-052",
+        "locator": "产品图片（修改）\\青少年女莱卡XB-LY-004\\sku\\6.jpg",
+        "fingerprint": "sha256:50c92c62fc0b779483def118a6cb38f623880b2c0041773fc2ff47100f997fc3",
+        "decision": "duplicate",
+        "reason_code": "exact_duplicate",
+        "reason": "Exact-byte duplicate of a retained source image in the same customer package.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+        "duplicate_of": "source-image-041:media-041"
+      }
+    },
+    {
+      "source_id": "source-image-053",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\1.jpg",
+      "fingerprint": "sha256:4d676e65fd1d240bfe9e7f50126fd4c83e2183a527f6d108d86c4168a4a5d228",
+      "media_asset": {
+        "media_id": "media-053",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\1.jpg",
+        "fingerprint": "sha256:4d676e65fd1d240bfe9e7f50126fd4c83e2183a527f6d108d86c4168a4a5d228",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-054",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\10.jpg",
+      "fingerprint": "sha256:b19ad2fb41edc227dfab3700041cc32bf0faca511763d79d784bce2603830542",
+      "media_asset": {
+        "media_id": "media-054",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\10.jpg",
+        "fingerprint": "sha256:b19ad2fb41edc227dfab3700041cc32bf0faca511763d79d784bce2603830542",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-055",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\12.jpg",
+      "fingerprint": "sha256:a843d82cebb2c5085be1d0092ed3db50c31b678c798965217a7b1abb37c1e7a7",
+      "media_asset": {
+        "media_id": "media-055",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\12.jpg",
+        "fingerprint": "sha256:a843d82cebb2c5085be1d0092ed3db50c31b678c798965217a7b1abb37c1e7a7",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-056",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\13.jpg",
+      "fingerprint": "sha256:796355e294b6c1bd878d7f7cad92702f38d95031544264cc390af568d74124f3",
+      "media_asset": {
+        "media_id": "media-056",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\13.jpg",
+        "fingerprint": "sha256:796355e294b6c1bd878d7f7cad92702f38d95031544264cc390af568d74124f3",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-057",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\14.jpg",
+      "fingerprint": "sha256:fbe5147ce3782a6edf52eda196fccceb858b7c591acfc59f9a1f9003fe9dae8e",
+      "media_asset": {
+        "media_id": "media-057",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\14.jpg",
+        "fingerprint": "sha256:fbe5147ce3782a6edf52eda196fccceb858b7c591acfc59f9a1f9003fe9dae8e",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-058",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\15.jpg",
+      "fingerprint": "sha256:e91c7f3a918fde20cc9dc8f1d90cd6c27050b146013ab625968f70d298da27db",
+      "media_asset": {
+        "media_id": "media-058",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\15.jpg",
+        "fingerprint": "sha256:e91c7f3a918fde20cc9dc8f1d90cd6c27050b146013ab625968f70d298da27db",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-059",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\2.jpg",
+      "fingerprint": "sha256:823cbc3e7c99a57d371ae3e619999545fd804f9c85b3e4743a0ec17f6936fcf9",
+      "media_asset": {
+        "media_id": "media-059",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\2.jpg",
+        "fingerprint": "sha256:823cbc3e7c99a57d371ae3e619999545fd804f9c85b3e4743a0ec17f6936fcf9",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-060",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\3.jpg",
+      "fingerprint": "sha256:4cc8b03aadf09fcaa0c81bc84da44e3c2f7bf97a98ee35fb769d9decdfc21480",
+      "media_asset": {
+        "media_id": "media-060",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\3.jpg",
+        "fingerprint": "sha256:4cc8b03aadf09fcaa0c81bc84da44e3c2f7bf97a98ee35fb769d9decdfc21480",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-061",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\4.jpg",
+      "fingerprint": "sha256:daccffbaa030c60002be4cbcb8a074104fa091dde82159b572b2dda2f2581767",
+      "media_asset": {
+        "media_id": "media-061",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\4.jpg",
+        "fingerprint": "sha256:daccffbaa030c60002be4cbcb8a074104fa091dde82159b572b2dda2f2581767",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-062",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\47.jpg",
+      "fingerprint": "sha256:5124ad6e9e9b5d7d511ae141da1876e06760fe6260fefb2a63ca6155c81cd8ca",
+      "media_asset": {
+        "media_id": "media-062",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\47.jpg",
+        "fingerprint": "sha256:5124ad6e9e9b5d7d511ae141da1876e06760fe6260fefb2a63ca6155c81cd8ca",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-063",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\48.jpg",
+      "fingerprint": "sha256:da19ee64fe1981ae820b6de30c8fa4947fb191eaa6fcbb9c11038319999f3c1b",
+      "media_asset": {
+        "media_id": "media-063",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\48.jpg",
+        "fingerprint": "sha256:da19ee64fe1981ae820b6de30c8fa4947fb191eaa6fcbb9c11038319999f3c1b",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-064",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\49.jpg",
+      "fingerprint": "sha256:000837afb75643180722871eded0dd8bf0dcaf372e1b86738484cce9c2296279",
+      "media_asset": {
+        "media_id": "media-064",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\49.jpg",
+        "fingerprint": "sha256:000837afb75643180722871eded0dd8bf0dcaf372e1b86738484cce9c2296279",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-065",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\5.jpg",
+      "fingerprint": "sha256:17531781e6d7dd506249c1a1b2ceba389b916cc7b7d2adbb47ac3d346769c8d3",
+      "media_asset": {
+        "media_id": "media-065",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\5.jpg",
+        "fingerprint": "sha256:17531781e6d7dd506249c1a1b2ceba389b916cc7b7d2adbb47ac3d346769c8d3",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-066",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\50.jpg",
+      "fingerprint": "sha256:b5cee0c99957dd3d5f0f052dee90808a65032cafb5b82a476c2227dcc9d3ade0",
+      "media_asset": {
+        "media_id": "media-066",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\50.jpg",
+        "fingerprint": "sha256:b5cee0c99957dd3d5f0f052dee90808a65032cafb5b82a476c2227dcc9d3ade0",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-067",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\51.jpg",
+      "fingerprint": "sha256:a90c239af78e2457cbf3f024e4d4ec71a3cd4def1ac0a17310541ff41579f8ea",
+      "media_asset": {
+        "media_id": "media-067",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\51.jpg",
+        "fingerprint": "sha256:a90c239af78e2457cbf3f024e4d4ec71a3cd4def1ac0a17310541ff41579f8ea",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-068",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\52.jpg",
+      "fingerprint": "sha256:5e69c254bbf394b985abbecd6c74af8cf0191f1ceca4dfb3bbcad7a90c014eb5",
+      "media_asset": {
+        "media_id": "media-068",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\52.jpg",
+        "fingerprint": "sha256:5e69c254bbf394b985abbecd6c74af8cf0191f1ceca4dfb3bbcad7a90c014eb5",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-069",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\6.jpg",
+      "fingerprint": "sha256:eb51af5f77cb2a753eb6b2731863ea915d28a7ec79294528e90b348d38d2a2cb",
+      "media_asset": {
+        "media_id": "media-069",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\6.jpg",
+        "fingerprint": "sha256:eb51af5f77cb2a753eb6b2731863ea915d28a7ec79294528e90b348d38d2a2cb",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-070",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\7.jpg",
+      "fingerprint": "sha256:8d08529afd64fde378de7e6af455c5935dc95143e736f29b3a2462986cdd4713",
+      "media_asset": {
+        "media_id": "media-070",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\7.jpg",
+        "fingerprint": "sha256:8d08529afd64fde378de7e6af455c5935dc95143e736f29b3a2462986cdd4713",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-071",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\8.jpg",
+      "fingerprint": "sha256:7f7782986aef6704667c533b1afbac372ca032afcc60f86e44a9e2f2db7c0fa7",
+      "media_asset": {
+        "media_id": "media-071",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\8.jpg",
+        "fingerprint": "sha256:7f7782986aef6704667c533b1afbac372ca032afcc60f86e44a9e2f2db7c0fa7",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-072",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\9.jpg",
+      "fingerprint": "sha256:6a4e00684fd5f612ec9b7fa9e7d92f550daeef727c9dbb38b57ca4d778eab9df",
+      "media_asset": {
+        "media_id": "media-072",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\9.jpg",
+        "fingerprint": "sha256:6a4e00684fd5f612ec9b7fa9e7d92f550daeef727c9dbb38b57ca4d778eab9df",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-073",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\DSC_9315 拷贝.jpg",
+      "fingerprint": "sha256:84e19dbd31549e5b8498d9155f5c9a7be013dd85313590aaab9aeb8c4dfe0d68",
+      "media_asset": {
+        "media_id": "media-073",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\平铺\\变清晰_美图设计室_2026_11_06\\DSC_9315 拷贝.jpg",
+        "fingerprint": "sha256:84e19dbd31549e5b8498d9155f5c9a7be013dd85313590aaab9aeb8c4dfe0d68",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-074",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\sku\\1 (1).jpg",
+      "fingerprint": "sha256:5b024edd17d0517c377fb104d17ab2825b3e3a78068e3fbcdbda640aa4663248",
+      "media_asset": {
+        "media_id": "media-074",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\sku\\1 (1).jpg",
+        "fingerprint": "sha256:5b024edd17d0517c377fb104d17ab2825b3e3a78068e3fbcdbda640aa4663248",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-075",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\sku\\1 (2).jpg",
+      "fingerprint": "sha256:20302a977795b02bb209278a0ce391dbeb9d26bec24277cd6a24579252101461",
+      "media_asset": {
+        "media_id": "media-075",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\sku\\1 (2).jpg",
+        "fingerprint": "sha256:20302a977795b02bb209278a0ce391dbeb9d26bec24277cd6a24579252101461",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-076",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\sku\\1 (3).jpg",
+      "fingerprint": "sha256:d942b00f31c59dc3b40464353f814ea82f7b858d692f068f5c8dea6878884baa",
+      "media_asset": {
+        "media_id": "media-076",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\sku\\1 (3).jpg",
+        "fingerprint": "sha256:d942b00f31c59dc3b40464353f814ea82f7b858d692f068f5c8dea6878884baa",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-077",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\sku\\1 (4).jpg",
+      "fingerprint": "sha256:824e4d7fed3cb1a0d5de4c60395ef9307fd346ec4c67b690734d36c92110b5fc",
+      "media_asset": {
+        "media_id": "media-077",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\sku\\1 (4).jpg",
+        "fingerprint": "sha256:824e4d7fed3cb1a0d5de4c60395ef9307fd346ec4c67b690734d36c92110b5fc",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-078",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\sku\\1 (5).jpg",
+      "fingerprint": "sha256:bba3965996b16cc5c9e6f9bb29d5efa211343a8fe8a20355a2059c4f1888889a",
+      "media_asset": {
+        "media_id": "media-078",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\sku\\1 (5).jpg",
+        "fingerprint": "sha256:bba3965996b16cc5c9e6f9bb29d5efa211343a8fe8a20355a2059c4f1888889a",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-079",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒胖童XB-PT-003\\sku\\1 (6).jpg",
+      "fingerprint": "sha256:a1bd950e438e96a228c411d8c46d9b2ab3fd0c58fc747156ae7727b2dfb07514",
+      "media_asset": {
+        "media_id": "media-079",
+        "locator": "产品图片（修改）\\舒绒胖童XB-PT-003\\sku\\1 (6).jpg",
+        "fingerprint": "sha256:a1bd950e438e96a228c411d8c46d9b2ab3fd0c58fc747156ae7727b2dfb07514",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-pt-003",
+        "business_entity": "xb-pt-003",
+        "placement_reason": "Exact product gallery for XB-PT-003"
+      }
+    },
+    {
+      "source_id": "source-image-080",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\1.jpg",
+      "fingerprint": "sha256:7a91c350bb34f47a92b16b5a23cf239d46c4d16fd4f8356d74a984216cc3c1fd",
+      "media_asset": {
+        "media_id": "media-080",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\1.jpg",
+        "fingerprint": "sha256:7a91c350bb34f47a92b16b5a23cf239d46c4d16fd4f8356d74a984216cc3c1fd",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-081",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\10.jpg",
+      "fingerprint": "sha256:f2a9335291fdf5a445dd9bcd51ded1cd5bcf1c5b6bbea92dfd238887bb5a669e",
+      "media_asset": {
+        "media_id": "media-081",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\10.jpg",
+        "fingerprint": "sha256:f2a9335291fdf5a445dd9bcd51ded1cd5bcf1c5b6bbea92dfd238887bb5a669e",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-082",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\11.jpg",
+      "fingerprint": "sha256:ca204672522651bd74ee2b97b5a41c3febcb6f81f9b972ac27ab43f744fb69f0",
+      "media_asset": {
+        "media_id": "media-082",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\11.jpg",
+        "fingerprint": "sha256:ca204672522651bd74ee2b97b5a41c3febcb6f81f9b972ac27ab43f744fb69f0",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-083",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\1735.jpg",
+      "fingerprint": "sha256:6fe4f7d351ece99ca30b73e37fdcf3c0220f228079aa24d8b861bd3509cb4862",
+      "media_asset": {
+        "media_id": "media-083",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\1735.jpg",
+        "fingerprint": "sha256:6fe4f7d351ece99ca30b73e37fdcf3c0220f228079aa24d8b861bd3509cb4862",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-084",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\2.jpg",
+      "fingerprint": "sha256:a46c220ec5b1ecc46e259a7a3063747127b91dd7e08a94cf0cd2718d31971da2",
+      "media_asset": {
+        "media_id": "media-084",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\2.jpg",
+        "fingerprint": "sha256:a46c220ec5b1ecc46e259a7a3063747127b91dd7e08a94cf0cd2718d31971da2",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-085",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\3.jpg",
+      "fingerprint": "sha256:6950d5a5793bb23164a779f8b419666ff0c096d96b13a85ded664fc2b9a6c8cd",
+      "media_asset": {
+        "media_id": "media-085",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\3.jpg",
+        "fingerprint": "sha256:6950d5a5793bb23164a779f8b419666ff0c096d96b13a85ded664fc2b9a6c8cd",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-086",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\4.jpg",
+      "fingerprint": "sha256:e2b5e1a4c56446e4127cf180b492c3d1d133cb7865e7ec9b072379b361987859",
+      "media_asset": {
+        "media_id": "media-086",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\4.jpg",
+        "fingerprint": "sha256:e2b5e1a4c56446e4127cf180b492c3d1d133cb7865e7ec9b072379b361987859",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-087",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\5.jpg",
+      "fingerprint": "sha256:7d6ada38830355718479ebc2badc2ea5d9d7c343a54f22414ae3fa1c498acbbd",
+      "media_asset": {
+        "media_id": "media-087",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\5.jpg",
+        "fingerprint": "sha256:7d6ada38830355718479ebc2badc2ea5d9d7c343a54f22414ae3fa1c498acbbd",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-088",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\6.jpg",
+      "fingerprint": "sha256:7a3d2da0c148b289c69cc96ca404ffe590d7715dd7649ec377018efc6a075e82",
+      "media_asset": {
+        "media_id": "media-088",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\6.jpg",
+        "fingerprint": "sha256:7a3d2da0c148b289c69cc96ca404ffe590d7715dd7649ec377018efc6a075e82",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-089",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\7.jpg",
+      "fingerprint": "sha256:c382efc20bdfa213900d5f9f759439285f03693bee72815e30fc5482dee12ded",
+      "media_asset": {
+        "media_id": "media-089",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\7.jpg",
+        "fingerprint": "sha256:c382efc20bdfa213900d5f9f759439285f03693bee72815e30fc5482dee12ded",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-090",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\8.jpg",
+      "fingerprint": "sha256:8514e53e7c09b62fc34103a5ce9af2bb340787519fb2c378fd95f713ab045484",
+      "media_asset": {
+        "media_id": "media-090",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\8.jpg",
+        "fingerprint": "sha256:8514e53e7c09b62fc34103a5ce9af2bb340787519fb2c378fd95f713ab045484",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-091",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\9.jpg",
+      "fingerprint": "sha256:691f43fbab5550577c58d9b0f1483fa9302e88d1b6f69ec6f4a4deb13e256037",
+      "media_asset": {
+        "media_id": "media-091",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\9.jpg",
+        "fingerprint": "sha256:691f43fbab5550577c58d9b0f1483fa9302e88d1b6f69ec6f4a4deb13e256037",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-092",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-401.jpg",
+      "fingerprint": "sha256:a49fe12d64c38cd295e15e44acdd79af3253f60fc3cc115f403396a6cb90aa71",
+      "media_asset": {
+        "media_id": "media-092",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-401.jpg",
+        "fingerprint": "sha256:a49fe12d64c38cd295e15e44acdd79af3253f60fc3cc115f403396a6cb90aa71",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-093",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-403.jpg",
+      "fingerprint": "sha256:8cfbedf0825d3c3fdd76f95d2fe052427aded0478c83a5ffbe4144f1584a95c9",
+      "media_asset": {
+        "media_id": "media-093",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-403.jpg",
+        "fingerprint": "sha256:8cfbedf0825d3c3fdd76f95d2fe052427aded0478c83a5ffbe4144f1584a95c9",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-094",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-405.jpg",
+      "fingerprint": "sha256:a5753ce3a00b0e99bdc6ea6191409f0f30846e1c92549d313df4a554653354cf",
+      "media_asset": {
+        "media_id": "media-094",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-405.jpg",
+        "fingerprint": "sha256:a5753ce3a00b0e99bdc6ea6191409f0f30846e1c92549d313df4a554653354cf",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-095",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-407.jpg",
+      "fingerprint": "sha256:a0442f6c889cbd2b09fa0eafd2fb5011fd28c079aed8f35afbcc5a36a8270c03",
+      "media_asset": {
+        "media_id": "media-095",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-407.jpg",
+        "fingerprint": "sha256:a0442f6c889cbd2b09fa0eafd2fb5011fd28c079aed8f35afbcc5a36a8270c03",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-096",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-409.jpg",
+      "fingerprint": "sha256:31cf97d803d2c16fe2ebeaaef103fd7578eaa8f2ea26116df08854870c58a437",
+      "media_asset": {
+        "media_id": "media-096",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-409.jpg",
+        "fingerprint": "sha256:31cf97d803d2c16fe2ebeaaef103fd7578eaa8f2ea26116df08854870c58a437",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-097",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-411.jpg",
+      "fingerprint": "sha256:3f7c07b4976dd867764ba20677d280f99d778c9bb633fa31557c6d23c00f755d",
+      "media_asset": {
+        "media_id": "media-097",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-411.jpg",
+        "fingerprint": "sha256:3f7c07b4976dd867764ba20677d280f99d778c9bb633fa31557c6d23c00f755d",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-098",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-415.jpg",
+      "fingerprint": "sha256:2622b3c2155eb2a9dabdc91afb85c829e809b3b4c412ce8646949f0edaf56c2c",
+      "media_asset": {
+        "media_id": "media-098",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-415.jpg",
+        "fingerprint": "sha256:2622b3c2155eb2a9dabdc91afb85c829e809b3b4c412ce8646949f0edaf56c2c",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-099",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-416.jpg",
+      "fingerprint": "sha256:ce2b5b1ac5e05b5a47da0da0ea5928e227a75f678047f73ace3859818f4085a9",
+      "media_asset": {
+        "media_id": "media-099",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-416.jpg",
+        "fingerprint": "sha256:ce2b5b1ac5e05b5a47da0da0ea5928e227a75f678047f73ace3859818f4085a9",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-100",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-418.jpg",
+      "fingerprint": "sha256:e66b33b766022016d39b4bfc1b951f02cee4ee1ae6a46e1501d8271b08e2c7e0",
+      "media_asset": {
+        "media_id": "media-100",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-418.jpg",
+        "fingerprint": "sha256:e66b33b766022016d39b4bfc1b951f02cee4ee1ae6a46e1501d8271b08e2c7e0",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-101",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-419.jpg",
+      "fingerprint": "sha256:e1240159e92e996bb2a3f8713a43a689bac289f6a81150bd8d879436036c863a",
+      "media_asset": {
+        "media_id": "media-101",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-419.jpg",
+        "fingerprint": "sha256:e1240159e92e996bb2a3f8713a43a689bac289f6a81150bd8d879436036c863a",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-102",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-420.jpg",
+      "fingerprint": "sha256:618f3237f6096ba33fa383b068a0d2cc4a7a412febf2a81af1081eb9cb65a2f8",
+      "media_asset": {
+        "media_id": "media-102",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-420.jpg",
+        "fingerprint": "sha256:618f3237f6096ba33fa383b068a0d2cc4a7a412febf2a81af1081eb9cb65a2f8",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-103",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-421.jpg",
+      "fingerprint": "sha256:d5d1fc18ed791b34f2cee73afefea9d85989f0a17d17f53bcdd62dcb87ee21fd",
+      "media_asset": {
+        "media_id": "media-103",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-421.jpg",
+        "fingerprint": "sha256:d5d1fc18ed791b34f2cee73afefea9d85989f0a17d17f53bcdd62dcb87ee21fd",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-104",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-422.jpg",
+      "fingerprint": "sha256:92ebe03892f015b9493bd01904b35cee1acc2678abb4aa7dadfc3f65413dfcb3",
+      "media_asset": {
+        "media_id": "media-104",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-422.jpg",
+        "fingerprint": "sha256:92ebe03892f015b9493bd01904b35cee1acc2678abb4aa7dadfc3f65413dfcb3",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-105",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-423.jpg",
+      "fingerprint": "sha256:9e532ed20f6e2092caaedaf4449922f5a45ed48d0e2ef918108a2a83c27f61fd",
+      "media_asset": {
+        "media_id": "media-105",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-423.jpg",
+        "fingerprint": "sha256:9e532ed20f6e2092caaedaf4449922f5a45ed48d0e2ef918108a2a83c27f61fd",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-106",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-424.jpg",
+      "fingerprint": "sha256:2959e7ee6a9d43b0ce7660bb8ccea56077cda5724132de2cdb84bef8ca0276c7",
+      "media_asset": {
+        "media_id": "media-106",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\影棚拍摄-424.jpg",
+        "fingerprint": "sha256:2959e7ee6a9d43b0ce7660bb8ccea56077cda5724132de2cdb84bef8ca0276c7",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-107",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\IMG_1727.jpg",
+      "fingerprint": "sha256:2115b3f0db714b94c5bd8dbdc40cb70f073653a9ecb90bccc0d73feb0474b47f",
+      "media_asset": {
+        "media_id": "media-107",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\IMG_1727.jpg",
+        "fingerprint": "sha256:2115b3f0db714b94c5bd8dbdc40cb70f073653a9ecb90bccc0d73feb0474b47f",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-108",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\IMG_1729.jpg",
+      "fingerprint": "sha256:843f0167154104aac80b4bdf46885a8f65edfd1dd7e8267980495863714eb9cd",
+      "media_asset": {
+        "media_id": "media-108",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\IMG_1729.jpg",
+        "fingerprint": "sha256:843f0167154104aac80b4bdf46885a8f65edfd1dd7e8267980495863714eb9cd",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-109",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\IMG_1734.jpg",
+      "fingerprint": "sha256:a8e8f017f10b971a1e00a159d1797487f32fb44c660f246d2dd9a342b3ec58fe",
+      "media_asset": {
+        "media_id": "media-109",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\主图\\IMG_1734.jpg",
+        "fingerprint": "sha256:a8e8f017f10b971a1e00a159d1797487f32fb44c660f246d2dd9a342b3ec58fe",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-110",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (1).jpg",
+      "fingerprint": "sha256:2115b3f0db714b94c5bd8dbdc40cb70f073653a9ecb90bccc0d73feb0474b47f",
+      "media_asset": {
+        "media_id": "media-110",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (1).jpg",
+        "fingerprint": "sha256:2115b3f0db714b94c5bd8dbdc40cb70f073653a9ecb90bccc0d73feb0474b47f",
+        "decision": "duplicate",
+        "reason_code": "exact_duplicate",
+        "reason": "Exact-byte duplicate of a retained source image in the same customer package.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+        "duplicate_of": "source-image-107:media-107"
+      }
+    },
+    {
+      "source_id": "source-image-111",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (2).jpg",
+      "fingerprint": "sha256:843f0167154104aac80b4bdf46885a8f65edfd1dd7e8267980495863714eb9cd",
+      "media_asset": {
+        "media_id": "media-111",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (2).jpg",
+        "fingerprint": "sha256:843f0167154104aac80b4bdf46885a8f65edfd1dd7e8267980495863714eb9cd",
+        "decision": "duplicate",
+        "reason_code": "exact_duplicate",
+        "reason": "Exact-byte duplicate of a retained source image in the same customer package.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+        "duplicate_of": "source-image-108:media-108"
+      }
+    },
+    {
+      "source_id": "source-image-112",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (3).jpg",
+      "fingerprint": "sha256:a49fe12d64c38cd295e15e44acdd79af3253f60fc3cc115f403396a6cb90aa71",
+      "media_asset": {
+        "media_id": "media-112",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (3).jpg",
+        "fingerprint": "sha256:a49fe12d64c38cd295e15e44acdd79af3253f60fc3cc115f403396a6cb90aa71",
+        "decision": "duplicate",
+        "reason_code": "exact_duplicate",
+        "reason": "Exact-byte duplicate of a retained source image in the same customer package.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+        "duplicate_of": "source-image-092:media-092"
+      }
+    },
+    {
+      "source_id": "source-image-113",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (4).jpg",
+      "fingerprint": "sha256:8cfbedf0825d3c3fdd76f95d2fe052427aded0478c83a5ffbe4144f1584a95c9",
+      "media_asset": {
+        "media_id": "media-113",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (4).jpg",
+        "fingerprint": "sha256:8cfbedf0825d3c3fdd76f95d2fe052427aded0478c83a5ffbe4144f1584a95c9",
+        "decision": "duplicate",
+        "reason_code": "exact_duplicate",
+        "reason": "Exact-byte duplicate of a retained source image in the same customer package.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+        "duplicate_of": "source-image-093:media-093"
+      }
+    },
+    {
+      "source_id": "source-image-114",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (5).jpg",
+      "fingerprint": "sha256:fe198188011a32ca0a9abeea51056ddfdb79ad5934d15c146099458d08c50312",
+      "media_asset": {
+        "media_id": "media-114",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (5).jpg",
+        "fingerprint": "sha256:fe198188011a32ca0a9abeea51056ddfdb79ad5934d15c146099458d08c50312",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-115",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (6).jpg",
+      "fingerprint": "sha256:a0442f6c889cbd2b09fa0eafd2fb5011fd28c079aed8f35afbcc5a36a8270c03",
+      "media_asset": {
+        "media_id": "media-115",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (6).jpg",
+        "fingerprint": "sha256:a0442f6c889cbd2b09fa0eafd2fb5011fd28c079aed8f35afbcc5a36a8270c03",
+        "decision": "duplicate",
+        "reason_code": "exact_duplicate",
+        "reason": "Exact-byte duplicate of a retained source image in the same customer package.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+        "duplicate_of": "source-image-095:media-095"
+      }
+    },
+    {
+      "source_id": "source-image-116",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (7).jpg",
+      "fingerprint": "sha256:31cf97d803d2c16fe2ebeaaef103fd7578eaa8f2ea26116df08854870c58a437",
+      "media_asset": {
+        "media_id": "media-116",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (7).jpg",
+        "fingerprint": "sha256:31cf97d803d2c16fe2ebeaaef103fd7578eaa8f2ea26116df08854870c58a437",
+        "decision": "duplicate",
+        "reason_code": "exact_duplicate",
+        "reason": "Exact-byte duplicate of a retained source image in the same customer package.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md",
+        "duplicate_of": "source-image-096:media-096"
+      }
+    },
+    {
+      "source_id": "source-image-117",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (8).jpg",
+      "fingerprint": "sha256:91fd84094ef9a9a58ad5c482ea7b61dcbb5718c769a426795460c0e91699f934",
+      "media_asset": {
+        "media_id": "media-117",
+        "locator": "产品图片（修改）\\舒绒圆领XB-SR-001\\sku\\1 (8).jpg",
+        "fingerprint": "sha256:91fd84094ef9a9a58ad5c482ea7b61dcbb5718c769a426795460c0e91699f934",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/products/xb-sr-001",
+        "business_entity": "xb-sr-001",
+        "placement_reason": "Exact product gallery for XB-SR-001"
+      }
+    },
+    {
+      "source_id": "source-image-118",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\公司\\1.jpeg",
+      "fingerprint": "sha256:0e39192dacaaed226b3997706bc13cdc3aa0a99cded972bd76210db99524b38b",
+      "media_asset": {
+        "media_id": "media-118",
+        "locator": "公司\\1.jpeg",
+        "fingerprint": "sha256:0e39192dacaaed226b3997706bc13cdc3aa0a99cded972bd76210db99524b38b",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/about#manufacturing",
+        "business_entity": "factory",
+        "placement_reason": "Factory and company environment evidence"
+      }
+    },
+    {
+      "source_id": "source-image-119",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\公司\\2.jpeg",
+      "fingerprint": "sha256:73423ab30b48c90d23cc338e951d542213a4f366aff5be34fa25542e21de140b",
+      "media_asset": {
+        "media_id": "media-119",
+        "locator": "公司\\2.jpeg",
+        "fingerprint": "sha256:73423ab30b48c90d23cc338e951d542213a4f366aff5be34fa25542e21de140b",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/about#manufacturing",
+        "business_entity": "factory",
+        "placement_reason": "Factory and company environment evidence"
+      }
+    },
+    {
+      "source_id": "source-image-120",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\公司\\3.jpeg",
+      "fingerprint": "sha256:d403761d909c3de1710b0a632efb24f904fd0cfc1343afc7706cb85189d3850b",
+      "media_asset": {
+        "media_id": "media-120",
+        "locator": "公司\\3.jpeg",
+        "fingerprint": "sha256:d403761d909c3de1710b0a632efb24f904fd0cfc1343afc7706cb85189d3850b",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/about#manufacturing",
+        "business_entity": "factory",
+        "placement_reason": "Factory and company environment evidence"
+      }
+    },
+    {
+      "source_id": "source-image-121",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\公司\\4.jpeg",
+      "fingerprint": "sha256:529e3cf4d8d5ef012feeb54c437abbacdf90dc8c9e0d6a559f0543048415d72c",
+      "media_asset": {
+        "media_id": "media-121",
+        "locator": "公司\\4.jpeg",
+        "fingerprint": "sha256:529e3cf4d8d5ef012feeb54c437abbacdf90dc8c9e0d6a559f0543048415d72c",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/about#manufacturing",
+        "business_entity": "factory",
+        "placement_reason": "Factory and company environment evidence"
+      }
+    },
+    {
+      "source_id": "source-image-122",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\公司\\5.jpeg",
+      "fingerprint": "sha256:0dd56789ae0fc7a3ed9290fae5f5c13b28303288f74a9aa4e9391090407c8fe2",
+      "media_asset": {
+        "media_id": "media-122",
+        "locator": "公司\\5.jpeg",
+        "fingerprint": "sha256:0dd56789ae0fc7a3ed9290fae5f5c13b28303288f74a9aa4e9391090407c8fe2",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/about#manufacturing",
+        "business_entity": "factory",
+        "placement_reason": "Factory and company environment evidence"
+      }
+    },
+    {
+      "source_id": "source-image-123",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\公司\\6.jpeg",
+      "fingerprint": "sha256:ec05f31d696035421ee817c4fddadbb7dbba6349d2f5a3c5cbf04728bbc59d60",
+      "media_asset": {
+        "media_id": "media-123",
+        "locator": "公司\\6.jpeg",
+        "fingerprint": "sha256:ec05f31d696035421ee817c4fddadbb7dbba6349d2f5a3c5cbf04728bbc59d60",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/about#manufacturing",
+        "business_entity": "factory",
+        "placement_reason": "Factory and company environment evidence"
+      }
+    },
+    {
+      "source_id": "source-image-124",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\公司\\7.jpeg",
+      "fingerprint": "sha256:34968083d55ea9fd3b7a853f10cec07b9800cdb247cb99a5f9bfb715d8404d58",
+      "media_asset": {
+        "media_id": "media-124",
+        "locator": "公司\\7.jpeg",
+        "fingerprint": "sha256:34968083d55ea9fd3b7a853f10cec07b9800cdb247cb99a5f9bfb715d8404d58",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/about#manufacturing",
+        "business_entity": "factory",
+        "placement_reason": "Factory and company environment evidence"
+      }
+    },
+    {
+      "source_id": "source-image-125",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\公司\\8.jpeg",
+      "fingerprint": "sha256:1f78f1638ab2294a9b6518a921015a4aad1b746be5e9b4b90c5a9ffce66e9da4",
+      "media_asset": {
+        "media_id": "media-125",
+        "locator": "公司\\8.jpeg",
+        "fingerprint": "sha256:1f78f1638ab2294a9b6518a921015a4aad1b746be5e9b4b90c5a9ffce66e9da4",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/about#manufacturing",
+        "business_entity": "factory",
+        "placement_reason": "Factory and company environment evidence"
+      }
+    },
+    {
+      "source_id": "source-image-126",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\公司\\9.jpeg",
+      "fingerprint": "sha256:11c411880a7f12300f2cf0cd9d917b62be7fd971be17418f2998496889034384",
+      "media_asset": {
+        "media_id": "media-126",
+        "locator": "公司\\9.jpeg",
+        "fingerprint": "sha256:11c411880a7f12300f2cf0cd9d917b62be7fd971be17418f2998496889034384",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/about#manufacturing",
+        "business_entity": "factory",
+        "placement_reason": "Factory and company environment evidence"
+      }
+    },
+    {
+      "source_id": "source-image-127",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\身份证+营业执照\\身份证反面.jpeg",
+      "fingerprint": "sha256:d397340bccfac4b61e22a9e179cccfa3f308750e398e8dfaa963bd0f3b6abdc2",
+      "media_asset": {
+        "media_id": "media-127",
+        "locator": "身份证+营业执照\\身份证反面.jpeg",
+        "fingerprint": "sha256:d397340bccfac4b61e22a9e179cccfa3f308750e398e8dfaa963bd0f3b6abdc2",
+        "decision": "excluded_by_rule",
+        "reason_code": "privacy_sensitive",
+        "reason": "Identity card or business-licence image contains personal/legal registration data and is retained only for verification.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md"
+      }
+    },
+    {
+      "source_id": "source-image-128",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\身份证+营业执照\\身份证正面.jpeg",
+      "fingerprint": "sha256:94aca28cab5395ad010fbb85f64d60dbef0f4d346dec67528b45572089059115",
+      "media_asset": {
+        "media_id": "media-128",
+        "locator": "身份证+营业执照\\身份证正面.jpeg",
+        "fingerprint": "sha256:94aca28cab5395ad010fbb85f64d60dbef0f4d346dec67528b45572089059115",
+        "decision": "excluded_by_rule",
+        "reason_code": "privacy_sensitive",
+        "reason": "Identity card or business-licence image contains personal/legal registration data and is retained only for verification.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md"
+      }
+    },
+    {
+      "source_id": "source-image-129",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\身份证+营业执照\\营业执照 (1).jpeg",
+      "fingerprint": "sha256:bedefd0f001d76d35b86b57a390450d112d360ceb29c6b957096bc2235e86d45",
+      "media_asset": {
+        "media_id": "media-129",
+        "locator": "身份证+营业执照\\营业执照 (1).jpeg",
+        "fingerprint": "sha256:bedefd0f001d76d35b86b57a390450d112d360ceb29c6b957096bc2235e86d45",
+        "decision": "excluded_by_rule",
+        "reason_code": "privacy_sensitive",
+        "reason": "Identity card or business-licence image contains personal/legal registration data and is retained only for verification.",
+        "evidence": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\intake-findings.md"
+      }
+    },
+    {
+      "source_id": "source-image-130",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\banner背景图\\1.jpg",
+      "fingerprint": "sha256:f17d14f13ed476fb22727f57b322144b40ab6a027bc970b0661c55afc7637b1c",
+      "media_asset": {
+        "media_id": "media-130",
+        "locator": "banner背景图\\1.jpg",
+        "fingerprint": "sha256:f17d14f13ed476fb22727f57b322144b40ab6a027bc970b0661c55afc7637b1c",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/#hero",
+        "business_entity": "homepage-banner",
+        "placement_reason": "Customer-designated homepage banner"
+      }
+    },
+    {
+      "source_id": "source-image-131",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\banner背景图\\2.jpg",
+      "fingerprint": "sha256:4d28a75879e316922dc01ea298956d481207f11c6acb7ea56e52e0c8ca089a9f",
+      "media_asset": {
+        "media_id": "media-131",
+        "locator": "banner背景图\\2.jpg",
+        "fingerprint": "sha256:4d28a75879e316922dc01ea298956d481207f11c6acb7ea56e52e0c8ca089a9f",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/#hero",
+        "business_entity": "homepage-banner",
+        "placement_reason": "Customer-designated homepage banner"
+      }
+    },
+    {
+      "source_id": "source-image-132",
+      "path": "E:\\E暂存\\温州雄霸服饰有限公司\\banner背景图\\3.jpg",
+      "fingerprint": "sha256:4bd8169e47184bcbeb6db04f764f5d3feae2c467d8354e0a657354ea012a3447",
+      "media_asset": {
+        "media_id": "media-132",
+        "locator": "banner背景图\\3.jpg",
+        "fingerprint": "sha256:4bd8169e47184bcbeb6db04f764f5d3feae2c467d8354e0a657354ea012a3447",
+        "decision": "use",
+        "expected_destinations": [
+          "frontend"
+        ],
+        "semantic_destination": "/#hero",
+        "business_entity": "homepage-banner",
+        "placement_reason": "Customer-designated homepage banner"
+      }
+    }
+  ]
+}
