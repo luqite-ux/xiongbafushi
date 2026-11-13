@@ -1,7 +1,7 @@
 import { ProductCard } from '@/components/products/product-card'
 import { CtaLink } from '@/components/site/cta-link'
 import { Section, SectionHeader } from '@/components/site/section'
-import { listProducts } from '@/data/products'
+import { listProducts } from '@/lib/products-db'
 
 export async function ProductCollections() {
   const products = await listProducts()
