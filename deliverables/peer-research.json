@@ -1,42 +1,54 @@
 {
   "schemaVersion": 1,
-  "customer": "温州雄霸服饰有限公司",
-  "reviewedAt": "2026-11-13T11:42:00+08:00",
+  "customerIndustry": "Children's and teen thermal underwear manufacturing and OEM/ODM",
+  "products": ["XB-SR-001 brushed fleece set", "XB-CT-002 soft knit set", "XB-PT-003 plus-fit brushed fleece set", "XB-LY-004 teen girls Lycra cotton set"],
+  "targetBuyers": ["apparel brands", "retailers and boutiques", "wholesalers", "sourcing teams developing children's thermal ranges"],
   "peers": [
     {
-      "url": "https://nuohuagarment.com/",
-      "pagesReviewed": ["home", "navigation", "products/solutions structure"],
-      "use": ["buyer-type-led hero", "product-programme navigation", "OEM/ODM customization choices", "manufacturing workflow", "factory evidence with stable quote CTA"],
-      "doNotCopy": ["unverified capacity", "unverified factory size", "unverified certifications", "visual identity and copy"]
+      "url": "https://nuohuagarment.com/", "source": "web", "normalizedDomain": "nuohuagarment.com",
+      "pagesReviewed": [
+        {"kind": "home", "url": "https://nuohuagarment.com/", "observation": "Product-first homepage connects kidswear range, OEM/ODM, workflow, factory evidence, buyer types and RFQ.", "checkedAt": "2026-11-13T04:25:00.000Z", "evidence": {"path": "deliverables/blueprint-evidence/nuohua.txt", "sha256": "39ef7839f1b3f6f40ae3ee8ff9491e2775303c7035ea05d85fe0164ca7e19385"}},
+        {"kind": "navigation", "url": "https://nuohuagarment.com/", "observation": "Navigation separates Solutions, Products, Services, About, Manufacturing and Contact.", "checkedAt": "2026-11-13T04:25:00.000Z", "evidence": {"path": "deliverables/blueprint-evidence/nuohua.txt", "sha256": "39ef7839f1b3f6f40ae3ee8ff9491e2775303c7035ea05d85fe0164ca7e19385"}},
+        {"kind": "products", "url": "https://nuohuagarment.com/", "observation": "Product discovery is grouped by garment programme and links to detail-oriented sourcing paths.", "checkedAt": "2026-11-13T04:25:00.000Z", "evidence": {"path": "deliverables/blueprint-evidence/nuohua.txt", "sha256": "39ef7839f1b3f6f40ae3ee8ff9491e2775303c7035ea05d85fe0164ca7e19385"}}
+      ],
+      "overseasEvidence": {"country": "China", "whyCompetitor": "English-language kidswear OEM/ODM manufacturer serving brand, retail and wholesale sourcing roles.", "sourceUrl": "https://nuohuagarment.com/"},
+      "homeSections": ["hero", "manufacturing strength", "product range", "customization", "workflow", "facility", "buyer types", "FAQ/RFQ"],
+      "navigation": ["Home", "Solutions", "Products", "Services", "About Us", "Manufacturing Facility", "Contact Us"],
+      "productTaxonomy": ["kids underwear", "girls underwear", "boys underwear", "baby clothing", "sleepwear"],
+      "adopt": ["product-first browsing", "OEM/ODM option grouping", "workflow tied to RFQ", "real factory evidence"],
+      "reject": ["all company quantities", "certifications", "MOQ claims", "products", "images", "wording"],
+      "evidence": [{"url": "https://nuohuagarment.com/", "observation": "Live page exposes the navigation, product range, customization, workflow, factory and RFQ sequence."}]
     },
     {
-      "url": "https://thermalproducer.com/?lang=en",
-      "pagesReviewed": ["home", "product families", "OEM process", "FAQ and quote form"],
-      "use": ["clear product-family comparison", "fabric/fit attributes beside each product", "stepwise sampling-to-bulk narrative", "quantity and market fields in RFQ"],
-      "doNotCopy": ["temperature ratings", "MOQ/capacity numbers", "export terms", "mountain-themed visual language"]
+      "url": "https://thermalproducer.com/?lang=en", "source": "web", "normalizedDomain": "thermalproducer.com",
+      "pagesReviewed": [
+        {"kind": "home", "url": "https://thermalproducer.com/?lang=en", "observation": "Thermal product positioning leads into families, fabrics, process, terms, FAQ and RFQ.", "checkedAt": "2026-11-13T04:26:00.000Z", "evidence": {"path": "deliverables/blueprint-evidence/thermalproducer.txt", "sha256": "fec2d53e0c959f4677e2b38870bdee1418dc63f48146084f3571b5c5ec5dc836"}},
+        {"kind": "navigation", "url": "https://thermalproducer.com/?lang=en", "observation": "Navigation is compact and task-oriented: Products, Fabrics, OEM Process, MOQ & Terms, FAQ, Quote.", "checkedAt": "2026-11-13T04:26:00.000Z", "evidence": {"path": "deliverables/blueprint-evidence/thermalproducer.txt", "sha256": "fec2d53e0c959f4677e2b38870bdee1418dc63f48146084f3571b5c5ec5dc836"}},
+        {"kind": "products", "url": "https://thermalproducer.com/?lang=en", "observation": "Thermal families and fabric programmes support a comparison-led catalogue.", "checkedAt": "2026-11-13T04:26:00.000Z", "evidence": {"path": "deliverables/blueprint-evidence/thermalproducer.txt", "sha256": "fec2d53e0c959f4677e2b38870bdee1418dc63f48146084f3571b5c5ec5dc836"}}
+      ],
+      "overseasEvidence": {"country": "Türkiye", "whyCompetitor": "English-language thermal underwear OEM/private-label manufacturer in Istanbul.", "sourceUrl": "https://thermalproducer.com/?lang=en"},
+      "homeSections": ["hero", "product families", "fabric programme", "temperature map", "OEM process", "terms", "FAQ", "RFQ"],
+      "navigation": ["Products", "Fabrics", "OEM Process", "MOQ & Terms", "FAQ", "Get a quote"],
+      "productTaxonomy": ["crew-neck tops", "bottoms and leggings", "top and bottom sets", "zip-neck tops"],
+      "adopt": ["clear thermal vocabulary", "product-to-process narrative", "RFQ fields aligned to sourcing"],
+      "reject": ["temperature ratings", "GSM values", "MOQ", "lead times", "capacity", "markets", "images"],
+      "evidence": [{"url": "https://thermalproducer.com/?lang=en", "observation": "Live page exposes thermal categories, fabric programme, OEM steps, FAQ and quote fields."}]
     },
     {
-      "url": "https://www.etxjust.com/about-us",
-      "pagesReviewed": ["about", "navigation", "product/factory galleries"],
-      "use": ["company story followed by capability evidence", "separate product and factory galleries", "compact manufacturing trust section"],
-      "doNotCopy": ["unverified statistics", "exhibition/client claims", "generic global-trust wording"]
-    },
-    {
-      "url": "https://radhecreationclothing.com/products/kids-wear-collection/",
-      "pagesReviewed": ["kids-wear collection", "navigation", "quote form"],
-      "use": ["collection-led category explanation", "school/everyday/comfort use framing", "RFQ file-upload and quantity inputs"],
-      "doNotCopy": ["unverified gauge/yarn/MOQ values", "their market/project claims"]
+      "url": "https://www.etxjust.com/about-us", "source": "web", "normalizedDomain": "etxjust.com",
+      "pagesReviewed": [
+        {"kind": "home", "url": "https://www.etxjust.com/about-us", "observation": "About narrative combines identity, products, OEM/ODM, factory environment and contact.", "checkedAt": "2026-11-13T04:27:00.000Z", "evidence": {"path": "deliverables/blueprint-evidence/etxjust.txt", "sha256": "fce29a6e9f7edc74a40c7c95e04cf97c955cc309c3be64d786c22aa6b513e060"}},
+        {"kind": "navigation", "url": "https://www.etxjust.com/about-us", "observation": "Navigation separates Home, About, Products, Custom Service, Blog and Contact.", "checkedAt": "2026-11-13T04:27:00.000Z", "evidence": {"path": "deliverables/blueprint-evidence/etxjust.txt", "sha256": "fce29a6e9f7edc74a40c7c95e04cf97c955cc309c3be64d786c22aa6b513e060"}},
+        {"kind": "products", "url": "https://www.etxjust.com/about-us", "observation": "Product and factory galleries are separated from company story and contact.", "checkedAt": "2026-11-13T04:27:00.000Z", "evidence": {"path": "deliverables/blueprint-evidence/etxjust.txt", "sha256": "fce29a6e9f7edc74a40c7c95e04cf97c955cc309c3be64d786c22aa6b513e060"}}
+      ],
+      "overseasEvidence": {"country": "China", "whyCompetitor": "English-language baby and children's apparel manufacturer offering OEM/ODM services.", "sourceUrl": "https://www.etxjust.com/about-us"},
+      "homeSections": ["story", "products", "OEM/ODM", "factory environment", "contact"],
+      "navigation": ["Home", "About Us", "Products", "Custom Service", "Blog", "Contact Us"],
+      "productTaxonomy": ["boys", "girls", "baby", "children's apparel"],
+      "adopt": ["separate company identity", "factory environment evidence", "product discovery and contact"],
+      "reject": ["dates", "employee and facility figures", "exhibitions", "products", "images", "claims"],
+      "evidence": [{"url": "https://www.etxjust.com/about-us", "observation": "Live About page exposes story, product, OEM/ODM, factory and contact sections."}]
     }
   ],
-  "internalLibrary": {
-    "projectId": "8bd70fa4-0bbb-4f59-8bf7-f52b86df1b88",
-    "caseSearchResult": "NO_MATCHES",
-    "componentCandidates": [
-      "original-product-motion",
-      "original-cards-motion",
-      "icon:lucide:factory",
-      "icon:lucide:gear"
-    ],
-    "decision": "Use component mechanisms only after package review and implementation validation; do not claim an internal case selection when the case search returned no matches."
-  }
+  "caseIntake": []
 }

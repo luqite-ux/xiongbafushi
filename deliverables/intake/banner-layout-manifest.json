@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "result": "PASS",
+  "items": [
+    {
+      "sourceId": "source-image-130",
+      "source": "E:\\E暂存\\温州雄霸服饰有限公司\\banner背景图\\1.jpg",
+      "fingerprint": "sha256:f17d14f13ed476fb22727f57b322144b40ab6a027bc970b0661c55afc7637b1c",
+      "subject": "factory and sewing scene on the left",
+      "safeArea": "right-side white negative space",
+      "desktopTextSide": "right",
+      "objectPosition": "left center",
+      "mobileFocus": "left-center factory activity",
+      "mobileLayout": "separate text block above image; preserve the workers and sewing line without overlaying copy on faces",
+      "desktopOverlayRule": "No full-frame dark overlay; use only local contrast treatment inside the verified safe area.",
+      "mobileObjectPosition": "left center",
+      "publishDecision": "use"
+    },
+    {
+      "sourceId": "source-image-131",
+      "source": "E:\\E暂存\\温州雄霸服饰有限公司\\banner背景图\\2.jpg",
+      "fingerprint": "sha256:4d28a75879e316922dc01ea298956d481207f11c6acb7ea56e52e0c8ca089a9f",
+      "subject": "folded children apparel group across the left and centre",
+      "safeArea": "right-side beige negative space",
+      "desktopTextSide": "right",
+      "objectPosition": "left center",
+      "mobileFocus": "centre product group",
+      "mobileLayout": "separate compact text band above the image; use contain-like crop so the full garment group remains visible",
+      "desktopOverlayRule": "No full-frame dark overlay; use only local contrast treatment inside the verified safe area.",
+      "mobileObjectPosition": "left center",
+      "publishDecision": "use"
+    },
+    {
+      "sourceId": "source-image-132",
+      "source": "E:\\E暂存\\温州雄霸服饰有限公司\\banner背景图\\3.jpg",
+      "fingerprint": "sha256:4bd8169e47184bcbeb6db04f764f5d3feae2c467d8354e0a657354ea012a3447",
+      "subject": "teen models on the right",
+      "safeArea": "left-side cream negative space",
+      "desktopTextSide": "left",
+      "objectPosition": "right center",
+      "mobileFocus": "right-centre models",
+      "mobileLayout": "text block above image; crop from the left while retaining all model faces and garments",
+      "desktopOverlayRule": "No full-frame dark overlay; use only local contrast treatment inside the verified safe area.",
+      "mobileObjectPosition": "right center",
+      "publishDecision": "use"
+    }
+  ]
+}

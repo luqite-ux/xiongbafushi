@@ -1,0 +1,20 @@
+{
+  "context": {
+    "projectId": "project-8d6d849b-28c4-4cdc-ad21-42da5cf3f141",
+    "runId": "run-0a09f3ae-3cfd-451f-a9df-28c05bc347bc",
+    "purpose": "build"
+  },
+  "localRequestId": "failed-38f4274a-f71a-407f-9863-824f24697d57",
+  "request": {
+    "match": "fuzzy",
+    "sort": "relevance",
+    "limit": "5",
+    "query": "kids thermal underwear OEM ODM garment factory",
+    "industry": "textile apparel"
+  },
+  "at": "2026-11-13T04:23:58.716Z",
+  "status": 0,
+  "response": {
+    "error": "NETWORK_UNAVAILABLE"
+  }
+}

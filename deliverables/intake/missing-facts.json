@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "blocking": [],
+  "nonBlocking": [
+    {
+      "fact": "graphical logo",
+      "status": "not_provided",
+      "treatment": "Use a text brand and create a matching temporary XB favicon; keep backend replacement fields."
+    },
+    {
+      "fact": "product or management certificates",
+      "status": "not_provided",
+      "treatment": "Do not publish a certificate section."
+    },
+    {
+      "fact": "named customer logos and case studies",
+      "status": "not_provided",
+      "treatment": "Present verified buyer types and use scenarios without endorsements."
+    },
+    {
+      "fact": "target countries and sales markets",
+      "status": "not_provided",
+      "treatment": "Use neutral global B2B language without claiming markets."
+    },
+    {
+      "fact": "MOQ, payment terms, sample charge, and exact lead time numbers",
+      "status": "not_safely_confirmed",
+      "treatment": "Use inquiry-based language and the supplied process facts; do not invent numbers."
+    }
+  ]
+}

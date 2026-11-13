@@ -1,0 +1,29 @@
+[
+    {
+      "banner_id": "factory-making",
+      "message_role": "manufacturing_evidence",
+      "headline": "From Sample Room to Bulk Production",
+      "supporting_copy": "Develop children’s thermal underwear with real workshop support, sample approval and production checkpoints.",
+      "evidence_refs": ["source-image-130", "fact-equipment-001", "fact-faq-process"],
+      "primary_cta_label": "View Manufacturing",
+      "primary_cta_target": "/manufacturing"
+    },
+    {
+      "banner_id": "product-range",
+      "message_role": "product_selection",
+      "headline": "Thermal Sets Designed Around Fit and Fabric",
+      "supporting_copy": "Compare four source-supported children’s and teen base-layer sets, then prepare the specifications for your range.",
+      "evidence_refs": ["source-image-131", "product-xb-sr-001", "product-xb-ct-002", "product-xb-pt-003", "product-xb-ly-004"],
+      "primary_cta_label": "Explore Products",
+      "primary_cta_target": "/products"
+    },
+    {
+      "banner_id": "teen-fit",
+      "message_role": "customization_and_buyer_fit",
+      "headline": "Build the Right Base Layer for Your Market",
+      "supporting_copy": "Discuss size, fabric, colour, print, binding and construction options for children’s and teen thermal underwear.",
+      "evidence_refs": ["source-image-132", "fact-customization-options", "product-xb-ly-004"],
+      "primary_cta_label": "Start Your RFQ",
+      "primary_cta_target": "/contact"
+    }
+]

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "sections": [
+    {"sectionId": "hero", "query": "apparel full-bleed accessible hero carousel", "candidates": [], "decision": "no-match", "receipt": "deliverables/case-query-failed-38f4274a-f71a-407f-9863-824f24697d57.json"},
+    {"sectionId": "product-collections", "query": "product cards full garment contain motion", "candidates": [{"id": "original-product-motion", "productionReady": false, "confidence": 0.65}], "decision": "rejected", "reason": "The candidate is only a behavior reference and is not verified against the complete-garment image-stage and backend data requirements.", "receipt": "native search and local failure receipt"},
+    {"sectionId": "buyer-fit", "query": "buyer type icon cards apparel", "candidates": [], "decision": "no-match", "receipt": "deliverables/case-query-failed-38f4274a-f71a-407f-9863-824f24697d57.json"},
+    {"sectionId": "oem-odm", "query": "customization option matrix garment", "candidates": [], "decision": "no-match", "receipt": "deliverables/case-query-failed-38f4274a-f71a-407f-9863-824f24697d57.json"},
+    {"sectionId": "sample-to-bulk", "query": "sample to bulk process timeline", "candidates": [], "decision": "no-match", "receipt": "deliverables/case-query-failed-38f4274a-f71a-407f-9863-824f24697d57.json"},
+    {"sectionId": "manufacturing", "query": "factory editorial image mosaic", "candidates": [{"id": "original-cards-motion", "productionReady": false, "confidence": 0.55}], "decision": "rejected", "reason": "A generic card motion package would weaken the editorial evidence hierarchy and has not been verified with the supplied factory image ratios.", "receipt": "native search and local failure receipt"},
+    {"sectionId": "quality", "query": "quality checkpoint icon process cards", "candidates": [], "decision": "no-match", "receipt": "deliverables/case-query-failed-38f4274a-f71a-407f-9863-824f24697d57.json"},
+    {"sectionId": "faq", "query": "balanced grouped FAQ accordion", "candidates": [], "decision": "no-match", "receipt": "deliverables/case-query-failed-38f4274a-f71a-407f-9863-824f24697d57.json"},
+    {"sectionId": "contact-rfq", "query": "balanced company summary RFQ form", "candidates": [], "decision": "no-match", "receipt": "deliverables/case-query-failed-38f4274a-f71a-407f-9863-824f24697d57.json"}
+  ]
+}

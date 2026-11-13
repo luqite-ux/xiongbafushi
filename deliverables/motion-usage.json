@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "queries": [
+    {
+      "query": "product cards editorial reveal hover",
+      "at": "2026-11-13T04:27:44.380Z",
+      "catalogHash": "2d190f64d6275820fc8fb818f19c0f360155d8f4545790b900628e67c200afdd",
+      "ids": []
+    }
+  ],
+  "decision": "none",
+  "items": [],
+  "reason": "No matching original motion component was returned for the apparel product-card and editorial-reveal query; use scoped Motion for React primitives after v0 handoff and verify them in the real site."
+}

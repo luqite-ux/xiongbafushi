@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "result": "PASS",
+  "groups": [
+    {
+      "id": "hero",
+      "sourceIds": [
+        "source-image-130",
+        "source-image-131",
+        "source-image-132"
+      ],
+      "routes": [
+        "/#hero"
+      ],
+      "role": "brand_story",
+      "optimization": "Crop only for composition while preserving factual subject; normalize exposure and avoid invented machinery or people.",
+      "publicCopyDraft": "Children’s thermal underwear development and manufacturing, supported by real factory and product imagery."
+    },
+    {
+      "id": "xb-sr-001",
+      "sourceIds": [
+        "source-image-080",
+        "source-image-081",
+        "source-image-082",
+        "source-image-083",
+        "source-image-084",
+        "source-image-085",
+        "source-image-086",
+        "source-image-087",
+        "source-image-088",
+        "source-image-089",
+        "source-image-090",
+        "source-image-091",
+        "source-image-092",
+        "source-image-093",
+        "source-image-094",
+        "source-image-095",
+        "source-image-096",
+        "source-image-097",
+        "source-image-098",
+        "source-image-099",
+        "source-image-100",
+        "source-image-101",
+        "source-image-102",
+        "source-image-103",
+        "source-image-104",
+        "source-image-105",
+        "source-image-106",
+        "source-image-107",
+        "source-image-108",
+        "source-image-109",
+        "source-image-114",
+        "source-image-117"
+      ],
+      "routes": [
+        "/products/xb-sr-001"
+      ],
+      "role": "product_gallery",
+      "optimization": "Deduplicate exact repeats; preserve true colour and proportions; clean light stage; contain for full product visibility.",
+      "publicCopyDraft": "Show the complete garment, construction details, colour/fabric views and real wearing context without cropping key structure."
+    },
+    {
+      "id": "xb-ct-002",
+      "sourceIds": [
+        "source-image-001",
+        "source-image-002",
+        "source-image-003",
+        "source-image-004",
+        "source-image-005",
+        "source-image-006",
+        "source-image-007",
+        "source-image-008",
+        "source-image-009",
+        "source-image-010",
+        "source-image-011",
+        "source-image-012",
+        "source-image-013",
+        "source-image-014",
+        "source-image-015",
+        "source-image-016",
+        "source-image-017",
+        "source-image-018",
+        "source-image-019",
+        "source-image-020",
+        "source-image-021",
+        "source-image-022",
+        "source-image-023",
+        "source-image-024",
+        "source-image-025",
+        "source-image-026",
+        "source-image-027"
+      ],
+      "routes": [
+        "/products/xb-ct-002"
+      ],
+      "role": "product_gallery",
+      "optimization": "Deduplicate exact repeats; preserve true colour and proportions; clean light stage; contain for full product visibility.",
+      "publicCopyDraft": "Show the complete garment, construction details, colour/fabric views and real wearing context without cropping key structure."
+    },
+    {
+      "id": "xb-pt-003",
+      "sourceIds": [
+        "source-image-053",
+        "source-image-054",
+        "source-image-055",
+        "source-image-056",
+        "source-image-057",
+        "source-image-058",
+        "source-image-059",
+        "source-image-060",
+        "source-image-061",
+        "source-image-062",
+        "source-image-063",
+        "source-image-064",
+        "source-image-065",
+        "source-image-066",
+        "source-image-067",
+        "source-image-068",
+        "source-image-069",
+        "source-image-070",
+        "source-image-071",
+        "source-image-072",
+        "source-image-073",
+        "source-image-074",
+        "source-image-075",
+        "source-image-076",
+        "source-image-077",
+        "source-image-078",
+        "source-image-079"
+      ],
+      "routes": [
+        "/products/xb-pt-003"
+      ],
+      "role": "product_gallery",
+      "optimization": "Deduplicate exact repeats; preserve true colour and proportions; clean light stage; contain for full product visibility.",
+      "publicCopyDraft": "Show the complete garment, construction details, colour/fabric views and real wearing context without cropping key structure."
+    },
+    {
+      "id": "xb-ly-004",
+      "sourceIds": [
+        "source-image-028",
+        "source-image-029",
+        "source-image-030",
+        "source-image-031",
+        "source-image-032",
+        "source-image-033",
+        "source-image-034",
+        "source-image-035",
+        "source-image-036",
+        "source-image-037",
+        "source-image-038",
+        "source-image-039",
+        "source-image-040",
+        "source-image-041",
+        "source-image-042",
+        "source-image-043",
+        "source-image-044"
+      ],
+      "routes": [
+        "/products/xb-ly-004"
+      ],
+      "role": "product_gallery",
+      "optimization": "Deduplicate exact repeats; preserve true colour and proportions; clean light stage; contain for full product visibility.",
+      "publicCopyDraft": "Show the complete garment, construction details, colour/fabric views and real wearing context without cropping key structure."
+    },
+    {
+      "id": "manufacturing",
+      "sourceIds": [
+        "source-image-118",
+        "source-image-119",
+        "source-image-120",
+        "source-image-121",
+        "source-image-122",
+        "source-image-123",
+        "source-image-124",
+        "source-image-125",
+        "source-image-126"
+      ],
+      "routes": [
+        "/#manufacturing",
+        "/manufacturing",
+        "/about"
+      ],
+      "role": "process_evidence",
+      "optimization": "Crop only for composition while preserving factual subject; normalize exposure and avoid invented machinery or people.",
+      "publicCopyDraft": "Real workshop, office, warehouse, sample room and equipment evidence with factual captions only."
+    }
+  ],
+  "sensitiveGroup": {
+    "sourceIds": [
+      "source-image-045",
+      "source-image-046",
+      "source-image-047",
+      "source-image-048",
+      "source-image-049",
+      "source-image-050",
+      "source-image-051",
+      "source-image-052",
+      "source-image-110",
+      "source-image-111",
+      "source-image-112",
+      "source-image-113",
+      "source-image-115",
+      "source-image-116",
+      "source-image-127",
+      "source-image-128",
+      "source-image-129"
+    ],
+    "publicUse": false
+  }
+}

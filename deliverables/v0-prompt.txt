@@ -1,0 +1,61 @@
+# XIONGBA children’s thermal underwear B2B website
+
+Create a complete, editable, runnable Next.js 16 App Router frontend for Wenzhou Xiongba Apparel Co., Ltd. The launch site is English-first and must keep locale-ready data interfaces. It is an RFQ/catalogue website, not ecommerce.
+
+## Business and buyer objective
+
+XIONGBA develops and manufactures children’s and teen thermal underwear/base-layer sets. Buyers need to compare garment fit, fabric and intended wearer; understand supported OEM/ODM dimensions; verify real manufacturing context; understand the sample-to-bulk process; and send a useful RFQ. Do not claim unsupported export markets, capacity, history, certifications, client names or production numbers.
+
+The four source-supported launch products are:
+
+- XB-SR-001 — Kids’ Brushed Fleece Round-Neck Thermal Underwear Set.
+- XB-CT-002 — Cotton Candy Kids’ Soft Knit Thermal Set.
+- XB-PT-003 — Kids’ Plus-Fit Brushed Fleece Thermal Set.
+- XB-LY-004 — Teen Girls’ Lycra Cotton Thermal Underwear Set.
+
+Product attachments are representative design inputs only. Build extensible listing, filtering and detail templates; Codex will connect the complete galleries and backend after handoff. Supported customization dimensions are size, fabric, colour, print, binding and construction. Show buyer types/use scenarios as sourcing-fit categories, never as named client endorsements.
+
+## Visual direction
+
+Use a warm, clean apparel/editorial system that feels credible to overseas garment buyers: warm ivory and light fabric neutrals, deep charcoal typography, and one restrained warm coral/rust accent sampled conceptually from the garments. Avoid generic blue technology styling, neon glow, dark industrial templates, excessive rounded cards, cheap gradients, floating orbs and repetitive card grids. Use generous but purposeful spacing, strong editorial typography, subtle textile-inspired line or weave details, and real customer photography as the dominant evidence.
+
+No graphical logo was supplied. Use a clear XIONGBA text wordmark in header and footer without pretending it is an official registered graphic. Prepare a simple square `XB` favicon visually consistent with that visible wordmark; remove all v0/Next.js/template icon sources.
+
+## Required pages and navigation
+
+Header must explicitly include Home, Products, OEM / ODM, Manufacturing, About, News and Contact. The logo links Home. Create independent routes for `/`, `/products`, `/products/[slug]`, `/oem-odm`, `/manufacturing`, `/about`, `/news`, `/news/[slug]`, `/contact`, plus an accessible not-found page. Use “News” exactly for every public link to `/news`. News must show an honest empty state until real articles exist; never fabricate posts.
+
+Home must implement these stable sections in this order, each adding different buyer information: `hero`, `product-collections`, `buyer-fit`, `oem-odm`, `sample-to-bulk`, `manufacturing`, `quality`, `faq`, `contact-rfq`. Header, footer and repeated CTA do not count as sections.
+
+## Hero: use all supplied banner files
+
+Use the three attached images from `banner背景图` as three full-width/full-bleed carousel slides. Do not omit, replace, white-frame or turn them into split cards. Keep headings and buttons as real DOM text. Provide arrows, pagination, keyboard controls, touch gestures, pause, and a reduced-motion static state.
+
+1. Factory/sewing image: real subject is on the left and white negative space is on the right. Desktop copy belongs on the right; preserve the factory activity. On 390px put copy in a separate block above the image if necessary rather than covering workers. Headline: “From Sample Room to Bulk Production”. CTA: “View Manufacturing” → `/manufacturing`.
+2. Folded children’s apparel image: product group is left/centre and beige negative space is on the right. Desktop copy belongs on the right. On 390px keep the complete garment group visible and place copy outside the image if needed. Headline: “Thermal Sets Designed Around Fit and Fabric”. CTA: “Explore Products” → `/products`.
+3. Teen-model image: subjects are on the right and cream negative space is on the left. Desktop copy belongs on the left. On 390px preserve faces and garments, with copy in a separate block if overlay safety is insufficient. Headline: “Build the Right Base Layer for Your Market”. CTA: “Start Your RFQ” → `/contact`.
+
+Do not apply a full-frame grey/black overlay, double gradients, or filters that muddy products. Only use minimum local contrast treatment inside the verified copy area.
+
+## Page and module behavior
+
+- Product collection cards must make the garment the visual subject, use a clean continuous light image stage, preserve the entire garment with contain-like behavior, and link by real product slug. No prices, stock, cart, checkout or fake ratings.
+- Product detail needs a complete image gallery, thumbnails, full-product main image, model name, fabric/fit/use information, supported specifications, customization summary and product-specific inquiry action. Provide a natural-ratio gallery/lightbox structure without cropping key garment details.
+- OEM / ODM explains only the supported customization dimensions and an evidence-based sample-to-bulk workflow. No invented MOQ, sample fee, payment terms or exact lead-time numbers.
+- Manufacturing uses the supplied real workshop, office, warehouse, sample-room and equipment images as evidence. Build an editorial image composition, factual captions and process links; do not invent machines, capacity or certifications.
+- Quality describes material intake, cutting/sewing, garment inspection and packing checkpoints neutrally. Do not use warranty/guarantee language.
+- FAQ uses all supplied questions and complete supported answers in a balanced grouped accordion. Avoid a short empty sidebar beside a very long column. Mobile must keep every answer discoverable.
+- Contact/RFQ uses a balanced company-summary plus form layout on desktop and summary-above-form on mobile. Fields: name, business email, company, phone/WhatsApp optional, product interest, estimated quantity optional, target market optional, and message. Include clear loading/success/error UI and a labelled place for a 4-character image CAPTCHA, but do not fake submission, use `alert`, `console.log`, timers, Supabase, admin/auth or secrets.
+- Footer legal owner: “Wenzhou Xiongba Apparel Co., Ltd.” with runtime current year and one final period only. Contact email: info@xiongbafushi.com.
+
+## Motion direction
+
+Use four restrained scenes: layered hero text entrance; per-section and per-card viewport reveal; product/media hover/focus/press feedback; FAQ/RFQ state transitions. Every main section on every public page and every repeated card must have perceptible entry motion in normal mode. A section/card can be marked animated only after its own real viewport intersection—never use a global/fixed timeout to consume off-screen motion. Content is visible by default; only hide after a synchronous motion-ready enhancement marker, and restore visibility on failure. Reduced motion and JavaScript failure show all content immediately. Mobile uses smaller movement and no hover dependency.
+
+## Hard truth and accessibility rules
+
+Do not fabricate or infer products, materials, parameters, equipment, capacity, factory facts, certifications, customers, countries, awards, reviews, prices, inventory, delivery promises or commercial commitments. Do not use “warranty”, “guarantee”, “质保”, “保修” or synonyms anywhere, including metadata and fallback content. Do not publish identity-card or business-licence images. Do not create a certificate gallery or named-customer logo wall.
+
+Every image needs factual alt text; every page has one main h1; all interactive controls have visible focus; text and controls meet WCAG AA; mobile touch targets are usable; no horizontal overflow. Dark/light sections explicitly reset foreground colours. All page text must be buyer-facing and must not expose internal phrases such as “customer supplied”, “verified from materials”, “source-supported”, “audit”, “missing fact” or production notes.
+
+Return complete source, not a mockup or explanation. Include maintainable shared components, local sample data isolated from page layout, Server/Client boundaries appropriate for later backend integration, responsive desktop and 390px behavior, and all requested routes. Do not deploy or connect external services.
