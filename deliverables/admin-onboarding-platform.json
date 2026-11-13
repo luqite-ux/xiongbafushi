@@ -1,0 +1,79 @@
+{
+  "schema_version": 2,
+  "issue_id": "BACKEND-PROXY-ORIGIN-ROUNDTRIP",
+  "pass": true,
+  "phase": "platform",
+  "tenant_id": "102601ac-906a-4fc3-9050-0005d104d38c",
+  "base_url": "https://xiongbafushi-rohkkinh3-huanqiu.vercel.app",
+  "project_id": "prj_m28rd90qvsknAsdYPjw968X4hcuY",
+  "origin_hosts": [
+    "xiongbafushi-rohkkinh3-huanqiu.vercel.app"
+  ],
+  "site_deployment_id": "dpl_J3qf7phpfQCaiQbT6k4ULJFRjYUu",
+  "site_sha": "d132b024bfae4fef9fc78ca6367bf40542d7ff16",
+  "environment_verification": [
+    {
+      "key": "NEXT_PUBLIC_TENANT_ID",
+      "environment_id": "iRD7cMMIgVK7XHsj",
+      "target": "production",
+      "result": "VALUE_MATCH"
+    },
+    {
+      "key": "NEXT_PUBLIC_ADMIN_URL",
+      "environment_id": "heY10jdzGUsj7OhW",
+      "target": "production",
+      "result": "VALUE_MATCH"
+    },
+    {
+      "key": "NEXT_PUBLIC_SUPABASE_URL",
+      "environment_id": "ytYExt5IsuEpeqXJ",
+      "target": "production",
+      "result": "VALUE_MATCH"
+    },
+    {
+      "key": "NEXT_PUBLIC_SUPABASE_ANON_KEY",
+      "environment_id": "REHQnr19Q8ABS1Ff",
+      "target": "production",
+      "result": "VALUE_MATCH"
+    },
+    {
+      "key": "SUPABASE_SERVICE_ROLE_KEY",
+      "environment_id": "c38AKntcT98OJ8QD",
+      "target": "production",
+      "result": "VALUE_MATCH"
+    }
+  ],
+  "checks": {
+    "tenant_account": true,
+    "project_ownership": true,
+    "site_environment": true,
+    "origins_registered": true,
+    "shared_production_ready": true
+  },
+  "shared_deployment_id": "dpl_7zSKmVyK727Rz4sdhEXpFv4rmFJP",
+  "shared_sha": "4838389c1e7432824a6496fa179d42fa402ba469",
+  "roundtrip": {
+    "via": "customer_admin_proxy",
+    "content_protocol": "site-content-v3",
+    "origin": "https://xiongbafushi-rohkkinh3-huanqiu.vercel.app",
+    "tenant_id": "102601ac-906a-4fc3-9050-0005d104d38c",
+    "save_http": 200,
+    "reopen_http": 200,
+    "database_readback": true,
+    "reopened_marker": true,
+    "cas": true,
+    "published_version_unchanged": true
+  },
+  "cleanup": {
+    "drafts_remaining": 0,
+    "versions_remaining": 0,
+    "media_references_remaining": 0,
+    "sessions_remaining": 0,
+    "immutable_audit_rows_added": 2
+  },
+  "verified_at": "2026-11-13T06:33:43.303Z",
+  "test_resource_cleanup_path": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\deliverables\\test-resource-cleanup.json",
+  "test_resource_ledger_root": "D:\\Cursor\\Grand\\huanqiu-admin\\deliverables\\test-resource-runs",
+  "test_resource_environment_id": "kznqbvcyehtjcsgkurso.supabase.co",
+  "task_id": "9998fa6d-7370-4925-9253-301865608a91"
+}

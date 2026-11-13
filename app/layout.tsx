@@ -1,8 +1,10 @@
 import type { Metadata, Viewport } from 'next'
+import { cookies } from 'next/headers'
 import { Hanken_Grotesk, Newsreader } from 'next/font/google'
 import { SiteFooter } from '@/components/site/site-footer'
 import { SiteHeader } from '@/components/site/site-header'
 import { siteConfig } from '@/lib/site'
+import { PREVIEW_COOKIE, siteContentMetadata } from '@/lib/site-content/site-content'
 import './globals.css'
 
 const display = Newsreader({
@@ -17,7 +19,7 @@ const body = Hanken_Grotesk({
   display: 'swap',
 })
 
-export const metadata: Metadata = {
+const baseMetadata: Metadata = {
   metadataBase: new URL('https://www.xiongbafushi.com'),
   title: {
     default: `${siteConfig.name} | Children's and Teen Thermal Underwear Manufacturer`,
@@ -35,7 +37,10 @@ export const metadata: Metadata = {
     description: siteConfig.description,
     images: [{ url: '/images/hero/hero-teens.jpg', alt: 'Two teenagers in cream thermal sets' }],
   },
-    generator: 'v0.app'
+}
+
+export async function generateMetadata(): Promise<Metadata> {
+  try { return { ...baseMetadata, ...(await siteContentMetadata('/', 'en')) } } catch { return baseMetadata }
 }
 
 export const viewport: Viewport = {
@@ -46,11 +51,12 @@ export const viewport: Viewport = {
 
 const motionReadyScript = `(function(){try{var d=document.documentElement;if(window.matchMedia('(prefers-reduced-motion: reduce)').matches||!('IntersectionObserver' in window))return;d.setAttribute('data-motion','ready');window.addEventListener('error',function(){d.removeAttribute('data-motion')})}catch(e){}})();`
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  const preview = (await cookies()).has(PREVIEW_COOKIE)
   return (
     <html lang="en" className={`${display.variable} ${body.variable}`} suppressHydrationWarning>
       <head>
@@ -60,6 +66,7 @@ export default function RootLayout({
         </noscript>
       </head>
       <body className="font-sans antialiased">
+        {preview ? <div className="bg-ink text-ink-foreground sticky top-0 z-[100] flex items-center justify-between gap-4 px-4 py-2 text-sm"><span>Preview mode — unpublished content is visible.</span><form action="/api/site-content/exit-preview" method="post"><button type="submit" className="underline underline-offset-4">Exit preview</button></form></div> : null}
         <a
           href="#main"
           className="bg-ink text-ink-foreground sr-only z-50 px-4 py-3 text-sm font-semibold focus:not-sr-only focus:fixed focus:top-3 focus:left-3"

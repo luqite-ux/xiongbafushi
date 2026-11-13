@@ -1,0 +1,129 @@
+{
+  "pages": {
+    "home": {
+      "order": [
+        "hero",
+        "faq",
+        "seo"
+      ],
+      "modules": {
+        "hero": {
+          "hidden": false,
+          "values": {
+            "eyebrow": {
+              "en": "Wenzhou garment manufacturer"
+            },
+            "title": {
+              "en": "From Sample Room to Bulk Production"
+            },
+            "body": {
+              "en": "Children’s and teen thermal sets developed from sample to bulk, with real products and manufacturing spaces shown throughout the site."
+            },
+            "primary_label": {
+              "en": "View Manufacturing"
+            }
+          }
+        },
+        "faq": {
+          "hidden": false,
+          "values": {
+            "items": [
+              {
+                "id": "products",
+                "question": {
+                  "en": "Which products does XIONGBA currently offer?"
+                },
+                "answer": {
+                  "en": "The launch catalogue has four thermal underwear sets for children and teens. Each product page shows the intended wearer, fabric, fit and supplied imagery."
+                }
+              },
+              {
+                "id": "details",
+                "question": {
+                  "en": "Can I see garment details before I send an inquiry?"
+                },
+                "answer": {
+                  "en": "Yes. Product pages show full-garment, model and construction-detail images where supplied."
+                }
+              },
+              {
+                "id": "custom",
+                "question": {
+                  "en": "Which parts of a garment can be customised?"
+                },
+                "answer": {
+                  "en": "Size, fabric, colour, print, binding and construction can be reviewed against your brief."
+                }
+              },
+              {
+                "id": "reference",
+                "question": {
+                  "en": "Can I work from my own design or reference garment?"
+                },
+                "answer": {
+                  "en": "Yes. Send design materials or a reference garment, or start from a listed model and discuss changes."
+                }
+              },
+              {
+                "id": "commercial",
+                "question": {
+                  "en": "What are the MOQ, sample fee and lead time?"
+                },
+                "answer": {
+                  "en": "These depend on the selected style, fabric, colour and print, so they are confirmed after the RFQ is reviewed."
+                }
+              },
+              {
+                "id": "process",
+                "question": {
+                  "en": "How does the sample-to-bulk process work?"
+                },
+                "answer": {
+                  "en": "Share a brief, review fit and fabric, develop and approve a sample, then prepare bulk production, inspection and packing."
+                }
+              },
+              {
+                "id": "checks",
+                "question": {
+                  "en": "What checks are made during production?"
+                },
+                "answer": {
+                  "en": "Checkpoints cover material intake, cutting and sewing, garment inspection and packing."
+                }
+              },
+              {
+                "id": "rfq",
+                "question": {
+                  "en": "What should I include in an RFQ?"
+                },
+                "answer": {
+                  "en": "Include your company, business email, product interest and requirements. Quantity, target market and contact number help us respond more precisely."
+                }
+              },
+              {
+                "id": "contact",
+                "question": {
+                  "en": "How can I reach the team?"
+                },
+                "answer": {
+                  "en": "Use the RFQ form or email info@xiongbafushi.com with your requirements and reference images."
+                }
+              }
+            ]
+          }
+        },
+        "seo": {
+          "hidden": false,
+          "values": {
+            "title": {
+              "en": "Children’s Thermal Underwear Manufacturer | XIONGBA"
+            },
+            "description": {
+              "en": "Explore children’s and teen thermal sets, OEM/ODM options, real product imagery and the sample-to-bulk process from XIONGBA."
+            }
+          }
+        }
+      }
+    }
+  }
+}

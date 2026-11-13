@@ -1,0 +1,138 @@
+{
+  "version": 1,
+  "fontFamilies": [
+    {
+      "key": "site-serif",
+      "label": "Newsreader"
+    }
+  ],
+  "pages": [
+    {
+      "key": "home",
+      "path": "/",
+      "label": "Homepage",
+      "modules": [
+        {
+          "key": "hero",
+          "type": "hero",
+          "label": "Primary homepage banner",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "eyebrow",
+              "type": "text",
+              "label": "Eyebrow",
+              "localized": true,
+              "required": true,
+              "maxLength": 90
+            },
+            {
+              "key": "title",
+              "type": "text",
+              "label": "Primary heading",
+              "localized": true,
+              "required": true,
+              "maxLength": 120,
+              "typography": {
+                "fontFamilies": [
+                  "site-serif"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600
+                ],
+                "fontSize": {
+                  "min": 28,
+                  "max": 72
+                },
+                "defaults": {
+                  "fontFamily": "site-serif",
+                  "fontWeight": 500,
+                  "fontSizeDesktop": 51,
+                  "fontSizeMobile": 34
+                }
+              }
+            },
+            {
+              "key": "body",
+              "type": "textarea",
+              "label": "Banner description",
+              "localized": true,
+              "required": true,
+              "maxLength": 360
+            },
+            {
+              "key": "primary_label",
+              "type": "text",
+              "label": "Primary button",
+              "localized": true,
+              "required": true,
+              "maxLength": 50
+            }
+          ]
+        },
+        {
+          "key": "faq",
+          "type": "faq",
+          "label": "Buyer questions",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "items",
+              "type": "repeat",
+              "label": "Questions",
+              "required": true,
+              "maxItems": 20,
+              "fields": [
+                {
+                  "key": "question",
+                  "type": "text",
+                  "label": "Question",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 180
+                },
+                {
+                  "key": "answer",
+                  "type": "textarea",
+                  "label": "Answer",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "seo",
+          "type": "seo",
+          "label": "Homepage SEO",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "title",
+              "type": "text",
+              "label": "SEO title",
+              "localized": true,
+              "required": true,
+              "maxLength": 70
+            },
+            {
+              "key": "description",
+              "type": "textarea",
+              "label": "SEO description",
+              "localized": true,
+              "required": true,
+              "maxLength": 170
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

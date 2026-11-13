@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import { useCallback, useEffect, useRef, useState, type KeyboardEvent, type TouchEvent } from 'react'
+import { useCallback, useEffect, useRef, useState, type CSSProperties, type KeyboardEvent, type TouchEvent } from 'react'
 import { ChevronLeft, ChevronRight, Pause, Play } from 'lucide-react'
 import { CtaLink } from '@/components/site/cta-link'
 import type { HeroSlide } from '@/data/content'
@@ -10,7 +10,7 @@ import { cn } from '@/lib/utils'
 const AUTOPLAY_MS = 7500
 const SWIPE_THRESHOLD = 48
 
-export function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
+export function HeroCarousel({ slides, titleStyle }: { slides: HeroSlide[]; titleStyle?: CSSProperties }) {
   const [index, setIndex] = useState(0)
   const [userPaused, setUserPaused] = useState(false)
   const [interacting, setInteracting] = useState(false)
@@ -149,7 +149,7 @@ export function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
                     </p>
                     <Heading
                       className="hero-layer font-serif mt-4 text-[2.15rem] leading-[1.05] font-medium tracking-tight sm:text-5xl xl:text-[3.2rem]"
-                      style={{ ['--layer' as string]: 1 }}
+                      style={{ ['--layer' as string]: 1, ...titleStyle }}
                     >
                       {slide.headline}
                     </Heading>
