@@ -20,7 +20,7 @@ const body = Hanken_Grotesk({
 })
 
 const baseMetadata: Metadata = {
-  metadataBase: new URL('https://www.xiongbafushi.com'),
+  metadataBase: new URL('https://xiongbafushi.com'),
   title: {
     default: `${siteConfig.name} | Children's and Teen Thermal Underwear Manufacturer`,
     template: `%s | ${siteConfig.name}`,
