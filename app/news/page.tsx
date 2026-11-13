@@ -6,7 +6,9 @@ import { PageHero } from '@/components/site/page-hero'
 import { CtaLink } from '@/components/site/cta-link'
 import { Section } from '@/components/site/section'
 import { Empty, EmptyContent, EmptyDescription, EmptyHeader, EmptyMedia, EmptyTitle } from '@/components/ui/empty'
-import { getNewsPosts } from '@/data/content'
+import { getNewsPosts } from '@/lib/articles-db'
+
+export const revalidate = 60
 
 export const metadata: Metadata = {
   title: 'News',

@@ -4,6 +4,7 @@ const securityHeaders = [
   { key: 'Strict-Transport-Security', value: 'max-age=63072000' },
   { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' },
 ]
+const adminUrl = process.env.NEXT_PUBLIC_ADMIN_URL?.trim().replace(/[\r\n]/g, '').replace(/\/$/, '')
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -12,6 +13,14 @@ const nextConfig = {
   },
   async headers() {
     return [{ source: '/:path*', headers: securityHeaders }]
+  },
+  async rewrites() {
+    if (!adminUrl) return []
+    return { afterFiles: [
+      { source: '/admin', destination: `${adminUrl}/admin` },
+      { source: '/admin/:path*', destination: `${adminUrl}/admin/:path*` },
+      { source: '/api/admin/:path*', destination: `${adminUrl}/api/admin/:path*` },
+    ] }
   },
 }
 

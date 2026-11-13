@@ -5,14 +5,12 @@ import { ProductDetail } from '@/components/products/product-detail'
 import { Reveal } from '@/components/motion/reveal'
 import { CtaBand } from '@/components/site/cta-band'
 import { Section } from '@/components/site/section'
-import { getProductBySlug, listProducts } from '@/data/products'
+import { getProductBySlug, listProducts } from '@/lib/products-db'
+
+export const revalidate = 60
+export const dynamicParams = true
 
 type ProductPageProps = { params: Promise<{ slug: string }> }
-
-export async function generateStaticParams() {
-  const products = await listProducts()
-  return products.map((product) => ({ slug: product.slug }))
-}
 
 export async function generateMetadata({ params }: ProductPageProps): Promise<Metadata> {
   const { slug } = await params

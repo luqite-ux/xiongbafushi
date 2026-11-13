@@ -7,7 +7,9 @@ export type RfqPayload = {
   quantity?: string
   targetMarket?: string
   message: string
-  captcha?: string
+  captchaScope: string
+  captchaToken: string
+  captchaAnswer: string
 }
 
 export type RfqResult = { ok: true } | { ok: false; message: string }

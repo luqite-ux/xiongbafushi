@@ -4,15 +4,13 @@ import { Reveal } from '@/components/motion/reveal'
 import { CtaLink } from '@/components/site/cta-link'
 import { PageHero } from '@/components/site/page-hero'
 import { Section } from '@/components/site/section'
-import { getNewsPostBySlug, getNewsPosts } from '@/data/content'
+import { getNewsPostBySlug } from '@/lib/articles-db'
+
+export const revalidate = 60
+export const dynamicParams = true
 
 type NewsPostPageProps = {
   params: Promise<{ slug: string }>
-}
-
-export async function generateStaticParams() {
-  const posts = await getNewsPosts()
-  return posts.map((post) => ({ slug: post.slug }))
 }
 
 export async function generateMetadata({ params }: NewsPostPageProps): Promise<Metadata> {

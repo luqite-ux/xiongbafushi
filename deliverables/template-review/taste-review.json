@@ -1,0 +1,19 @@
+{
+  "verdict": "PASS",
+  "score": 22,
+  "dimensions": {
+    "banner": 4,
+    "brand_specificity": 4,
+    "typography": 3,
+    "image_quality": 4,
+    "narrative": 4,
+    "mobile": 3
+  },
+  "blockers": [],
+  "notes": [
+    "All three customer banners are configured and legible at desktop and 390px.",
+    "All major sections become visible only after real viewport entry; reduced-motion path remains available.",
+    "Product subjects are fully visible on clean light stages."
+  ],
+  "verifiedAt": "2026-11-13T05:17:47.788Z"
+}

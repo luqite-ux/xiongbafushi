@@ -3,7 +3,10 @@ import { ProductBrowser } from '@/components/products/product-browser'
 import { CtaBand } from '@/components/site/cta-band'
 import { PageHero } from '@/components/site/page-hero'
 import { Section } from '@/components/site/section'
-import { getProductFilters, listProducts } from '@/data/products'
+import { getProductFilters } from '@/data/products'
+import { listProducts } from '@/lib/products-db'
+
+export const revalidate = 60
 
 export const metadata: Metadata = {
   title: 'Products',

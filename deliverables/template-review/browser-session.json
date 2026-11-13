@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "mode": "OTHER_BROWSER",
+  "engine": "Playwright bundled Chromium headless",
+  "visibleWindow": false,
+  "localUrl": "http://127.0.0.1:4173",
+  "desktop": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\output\\playwright\\template-home-desktop-scrolled.png",
+  "mobile": "D:\\Cursor\\Grand\\dulizhan\\xiongbafushi\\output\\playwright\\template-home-mobile-390-scrolled.png",
+  "taskBrowserClosed": true,
+  "taskServerStopped": true,
+  "verifiedAt": "2026-11-13T05:17:47.788Z"
+}

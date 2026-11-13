@@ -2,11 +2,12 @@
 
 import { useId, useRef, useState, type FormEvent } from 'react'
 import { CheckCircle2, Loader2, TriangleAlert } from 'lucide-react'
-import { Field, FieldDescription, FieldError, FieldGroup, FieldLabel } from '@/components/ui/field'
+import { Field, FieldError, FieldGroup, FieldLabel } from '@/components/ui/field'
 import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
 import { submitRfq, type RfqPayload } from '@/lib/rfq'
 import { cn } from '@/lib/utils'
+import { InquiryCaptchaField } from '@/components/inquiry-captcha-field'
 
 export type ProductOption = { value: string; label: string }
 
@@ -50,6 +51,7 @@ export function RfqForm({ productOptions, defaultProduct, className }: RfqFormPr
   const [status, setStatus] = useState<Status>('idle')
   const [errors, setErrors] = useState<Errors>({})
   const [serverMessage, setServerMessage] = useState('')
+  const [captchaRefreshKey, setCaptchaRefreshKey] = useState(0)
 
   const id = (name: string) => `${uid}-${name}`
   const describedBy = (name: FieldName) => (errors[name] ? `${id(name)}-error` : undefined)
@@ -77,7 +79,9 @@ export function RfqForm({ productOptions, defaultProduct, className }: RfqFormPr
       quantity: readValue(data, 'quantity') || undefined,
       targetMarket: readValue(data, 'targetMarket') || undefined,
       message: readValue(data, 'message'),
-      captcha: readValue(data, 'captcha') || undefined,
+      captchaScope: readValue(data, 'captchaScope'),
+      captchaToken: readValue(data, 'captchaToken'),
+      captchaAnswer: readValue(data, 'captchaAnswer'),
     }
 
     setStatus('submitting')
@@ -90,6 +94,7 @@ export function RfqForm({ productOptions, defaultProduct, className }: RfqFormPr
     }
     setServerMessage(result.message)
     setStatus('error')
+    setCaptchaRefreshKey((value) => value + 1)
   }
 
   if (status === 'success') {
@@ -259,32 +264,7 @@ export function RfqForm({ productOptions, defaultProduct, className }: RfqFormPr
           {errors.message ? <FieldError id={`${id('message')}-error`}>{errors.message}</FieldError> : null}
         </Field>
 
-        <Field>
-          <FieldLabel htmlFor={id('captcha')}>Verification code</FieldLabel>
-          <div className="flex flex-wrap items-stretch gap-3">
-            <div
-              id={id('captcha-image')}
-              role="img"
-              aria-label="Verification image area"
-              className="bg-muted border-foreground/30 text-muted-foreground flex h-11 w-32 items-center justify-center border border-dashed text-xs tracking-[0.3em]"
-            >
-              <span aria-hidden="true">4 CHARS</span>
-            </div>
-            <Input
-              id={id('captcha')}
-              name="captcha"
-              maxLength={4}
-              autoComplete="off"
-              autoCapitalize="off"
-              spellCheck={false}
-              aria-describedby={`${id('captcha')}-hint`}
-              className={cn(controlClass, 'w-32 tracking-[0.35em] uppercase')}
-            />
-          </div>
-          <FieldDescription id={`${id('captcha')}-hint`}>
-            Type the 4 characters shown in the verification image.
-          </FieldDescription>
-        </Field>
+        <InquiryCaptchaField refreshKey={captchaRefreshKey} className="[&_label]:text-foreground [&_button]:rounded-none [&_input]:rounded-none" />
       </FieldGroup>
 
       {status === 'error' ? (
