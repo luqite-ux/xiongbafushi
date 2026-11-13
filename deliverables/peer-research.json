@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "customer": "温州雄霸服饰有限公司",
+  "reviewedAt": "2026-11-13T11:42:00+08:00",
+  "peers": [
+    {
+      "url": "https://nuohuagarment.com/",
+      "pagesReviewed": ["home", "navigation", "products/solutions structure"],
+      "use": ["buyer-type-led hero", "product-programme navigation", "OEM/ODM customization choices", "manufacturing workflow", "factory evidence with stable quote CTA"],
+      "doNotCopy": ["unverified capacity", "unverified factory size", "unverified certifications", "visual identity and copy"]
+    },
+    {
+      "url": "https://thermalproducer.com/?lang=en",
+      "pagesReviewed": ["home", "product families", "OEM process", "FAQ and quote form"],
+      "use": ["clear product-family comparison", "fabric/fit attributes beside each product", "stepwise sampling-to-bulk narrative", "quantity and market fields in RFQ"],
+      "doNotCopy": ["temperature ratings", "MOQ/capacity numbers", "export terms", "mountain-themed visual language"]
+    },
+    {
+      "url": "https://www.etxjust.com/about-us",
+      "pagesReviewed": ["about", "navigation", "product/factory galleries"],
+      "use": ["company story followed by capability evidence", "separate product and factory galleries", "compact manufacturing trust section"],
+      "doNotCopy": ["unverified statistics", "exhibition/client claims", "generic global-trust wording"]
+    },
+    {
+      "url": "https://radhecreationclothing.com/products/kids-wear-collection/",
+      "pagesReviewed": ["kids-wear collection", "navigation", "quote form"],
+      "use": ["collection-led category explanation", "school/everyday/comfort use framing", "RFQ file-upload and quantity inputs"],
+      "doNotCopy": ["unverified gauge/yarn/MOQ values", "their market/project claims"]
+    }
+  ],
+  "internalLibrary": {
+    "projectId": "8bd70fa4-0bbb-4f59-8bf7-f52b86df1b88",
+    "caseSearchResult": "NO_MATCHES",
+    "componentCandidates": [
+      "original-product-motion",
+      "original-cards-motion",
+      "icon:lucide:factory",
+      "icon:lucide:gear"
+    ],
+    "decision": "Use component mechanisms only after package review and implementation validation; do not claim an internal case selection when the case search returned no matches."
+  }
+}

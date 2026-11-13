@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "customer": "温州雄霸服饰有限公司",
+  "primaryLocale": "en",
+  "navigation": ["Home", "Products", "OEM / ODM", "Manufacturing", "About", "News", "Contact"],
+  "productTaxonomy": {
+    "launchProducts": ["XB-SR-001", "XB-CT-002", "XB-PT-003", "XB-LY-004"],
+    "futureCatalogueCapability": "Preserve the seventeen supplied category names in backend-ready taxonomy without fabricating unsupported products."
+  },
+  "homepageSections": [
+    {"id": "hero", "purpose": "State children's thermal/base-layer manufacturing focus and lead to product/RFQ paths using all three supplied banner images."},
+    {"id": "product-collections", "purpose": "Compare the four source-supported launch products by fit, fabric and use."},
+    {"id": "buyer-fit", "purpose": "Show verified served buyer types without named-client logos."},
+    {"id": "oem-odm", "purpose": "Present supported customization dimensions: size, fabric, colour, print, binding and construction."},
+    {"id": "sample-to-bulk", "purpose": "Explain supported sample approval, production and inspection flow using the FAQ facts."},
+    {"id": "manufacturing", "purpose": "Use real factory, work-in-progress and equipment imagery with exact supported statements."},
+    {"id": "quality", "purpose": "Show material intake, cutting/sewing, garment inspection and packing checkpoints without certification or warranty claims."},
+    {"id": "faq", "purpose": "Answer MOQ/pricing, samples, lead time, customization and third-party inspection using supplied answers."},
+    {"id": "contact-rfq", "purpose": "Use a balanced conversion layout with product interest, quantity, market and message fields plus protected CAPTCHA."}
+  ],
+  "conditionalPages": {
+    "cases": "Use only source-supported case/application content. Buyer-type/use-scenario cards are not named customer endorsements.",
+    "certifications": "Do not create a certificate gallery until real product/management certificates are supplied. Business licence remains internal identity evidence.",
+    "news": "Keep backend-driven News route and honest empty state until real articles are published."
+  }
+}
