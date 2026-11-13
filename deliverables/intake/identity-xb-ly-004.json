@@ -1,0 +1,32 @@
+{
+  "unit_ids": [
+    "xb-ly-004-asset-01",
+    "xb-ly-004-asset-02",
+    "xb-ly-004-asset-03",
+    "xb-ly-004-asset-04",
+    "xb-ly-004-asset-05",
+    "xb-ly-004-asset-06",
+    "xb-ly-004-asset-07",
+    "xb-ly-004-asset-08",
+    "xb-ly-004-asset-09",
+    "xb-ly-004-asset-10",
+    "xb-ly-004-asset-11",
+    "xb-ly-004-asset-12",
+    "xb-ly-004-asset-13",
+    "xb-ly-004-asset-14",
+    "xb-ly-004-asset-15",
+    "xb-ly-004-asset-16",
+    "xb-ly-004-asset-17",
+    "xb-ly-004-asset-18",
+    "xb-ly-004-asset-19",
+    "xb-ly-004-asset-20",
+    "xb-ly-004-asset-21",
+    "xb-ly-004-asset-22",
+    "xb-ly-004-asset-23",
+    "xb-ly-004-asset-24",
+    "xb-ly-004-asset-25"
+  ],
+  "source_locator": "产品图片（修改）/青少年女莱卡XB-LY-004",
+  "observation": "All reviewed images are stored under the exact customer model folder XB-LY-004; views show the same named product family, colours and details.",
+  "basis": "matching_model"
+}

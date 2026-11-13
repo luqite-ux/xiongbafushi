@@ -567,57 +567,1297 @@
   "backend_product_content": [],
   "frontend_product_content": [],
   "product_identity": {
-    "review_basis": "Four independent workbook rows and four exact model-labelled source folders.",
-    "units": [
-      {
-        "unit_id": "xb-sr-001",
-        "source": "产品信息!A5:H5",
-        "proposed_product_key": "xb-sr-001"
-      },
-      {
-        "unit_id": "xb-ct-002",
-        "source": "产品信息!A6:H6",
-        "proposed_product_key": "xb-ct-002"
-      },
-      {
-        "unit_id": "xb-pt-003",
-        "source": "产品信息!A7:H7",
-        "proposed_product_key": "xb-pt-003"
-      },
-      {
-        "unit_id": "xb-ly-004",
-        "source": "产品信息!A8:H8",
-        "proposed_product_key": "xb-ly-004"
-      }
-    ],
+    "inventory": {
+      "path": "product-identity-inventory.json",
+      "sha256": "9f0f236b92c0eabce0eb62755b212455a3839a948335524e32d24ab4225dc9f8"
+    },
     "decisions": [
       {
-        "unit_id": "xb-sr-001",
+        "unit_id": "xb-sr-001-asset-01",
         "product_key": "xb-sr-001",
         "relationship": "independent",
         "status": "source_supported",
-        "rationale": "Unique model XB-SR-001 and exact folder label."
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
       },
       {
-        "unit_id": "xb-ct-002",
+        "unit_id": "xb-sr-001-asset-02",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-03",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-04",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-05",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-06",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-07",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-08",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-09",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-10",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-11",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-12",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-13",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-14",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-15",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-16",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-17",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-18",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-19",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-20",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-21",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-22",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-23",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-24",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-25",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-26",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-27",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-28",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-29",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-30",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-31",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-32",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-33",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-34",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-35",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-36",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-37",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-sr-001-asset-38",
+        "product_key": "xb-sr-001",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒圆领XB-SR-001 binds this view to XB-SR-001.",
+        "evidence": {
+          "path": "identity-xb-sr-001.json",
+          "sha256": "cc47af277a7f06b6c693ab059a6487bdd609a0e224f8dc3730d1f3e611b3fe15"
+        }
+      },
+      {
+        "unit_id": "xb-ct-002-asset-01",
         "product_key": "xb-ct-002",
         "relationship": "independent",
         "status": "source_supported",
-        "rationale": "Unique model XB-CT-002 and exact folder label."
+        "rationale": "The exact model-labelled folder 棉花糖XB-CT-002 binds this view to XB-CT-002.",
+        "evidence": {
+          "path": "identity-xb-ct-002.json",
+          "sha256": "7907ea042035d2f1b92df9c0dbecca5dd854202a50a2ce7bc240583209650833"
+        }
       },
       {
-        "unit_id": "xb-pt-003",
+        "unit_id": "xb-ct-002-asset-02",
+        "product_key": "xb-ct-002",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 棉花糖XB-CT-002 binds this view to XB-CT-002.",
+        "evidence": {
+          "path": "identity-xb-ct-002.json",
+          "sha256": "7907ea042035d2f1b92df9c0dbecca5dd854202a50a2ce7bc240583209650833"
+        }
+      },
+      {
+        "unit_id": "xb-ct-002-asset-03",
+        "product_key": "xb-ct-002",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 棉花糖XB-CT-002 binds this view to XB-CT-002.",
+        "evidence": {
+          "path": "identity-xb-ct-002.json",
+          "sha256": "7907ea042035d2f1b92df9c0dbecca5dd854202a50a2ce7bc240583209650833"
+        }
+      },
+      {
+        "unit_id": "xb-ct-002-asset-04",
+        "product_key": "xb-ct-002",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 棉花糖XB-CT-002 binds this view to XB-CT-002.",
+        "evidence": {
+          "path": "identity-xb-ct-002.json",
+          "sha256": "7907ea042035d2f1b92df9c0dbecca5dd854202a50a2ce7bc240583209650833"
+        }
+      },
+      {
+        "unit_id": "xb-ct-002-asset-05",
+        "product_key": "xb-ct-002",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 棉花糖XB-CT-002 binds this view to XB-CT-002.",
+        "evidence": {
+          "path": "identity-xb-ct-002.json",
+          "sha256": "7907ea042035d2f1b92df9c0dbecca5dd854202a50a2ce7bc240583209650833"
+        }
+      },
+      {
+        "unit_id": "xb-ct-002-asset-06",
+        "product_key": "xb-ct-002",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 棉花糖XB-CT-002 binds this view to XB-CT-002.",
+        "evidence": {
+          "path": "identity-xb-ct-002.json",
+          "sha256": "7907ea042035d2f1b92df9c0dbecca5dd854202a50a2ce7bc240583209650833"
+        }
+      },
+      {
+        "unit_id": "xb-ct-002-asset-07",
+        "product_key": "xb-ct-002",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 棉花糖XB-CT-002 binds this view to XB-CT-002.",
+        "evidence": {
+          "path": "identity-xb-ct-002.json",
+          "sha256": "7907ea042035d2f1b92df9c0dbecca5dd854202a50a2ce7bc240583209650833"
+        }
+      },
+      {
+        "unit_id": "xb-ct-002-asset-08",
+        "product_key": "xb-ct-002",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 棉花糖XB-CT-002 binds this view to XB-CT-002.",
+        "evidence": {
+          "path": "identity-xb-ct-002.json",
+          "sha256": "7907ea042035d2f1b92df9c0dbecca5dd854202a50a2ce7bc240583209650833"
+        }
+      },
+      {
+        "unit_id": "xb-ct-002-asset-09",
+        "product_key": "xb-ct-002",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 棉花糖XB-CT-002 binds this view to XB-CT-002.",
+        "evidence": {
+          "path": "identity-xb-ct-002.json",
+          "sha256": "7907ea042035d2f1b92df9c0dbecca5dd854202a50a2ce7bc240583209650833"
+        }
+      },
+      {
+        "unit_id": "xb-ct-002-asset-10",
+        "product_key": "xb-ct-002",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 棉花糖XB-CT-002 binds this view to XB-CT-002.",
+        "evidence": {
+          "path": "identity-xb-ct-002.json",
+          "sha256": "7907ea042035d2f1b92df9c0dbecca5dd854202a50a2ce7bc240583209650833"
+        }
+      },
+      {
+        "unit_id": "xb-ct-002-asset-11",
+        "product_key": "xb-ct-002",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 棉花糖XB-CT-002 binds this view to XB-CT-002.",
+        "evidence": {
+          "path": "identity-xb-ct-002.json",
+          "sha256": "7907ea042035d2f1b92df9c0dbecca5dd854202a50a2ce7bc240583209650833"
+        }
+      },
+      {
+        "unit_id": "xb-ct-002-asset-12",
+        "product_key": "xb-ct-002",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 棉花糖XB-CT-002 binds this view to XB-CT-002.",
+        "evidence": {
+          "path": "identity-xb-ct-002.json",
+          "sha256": "7907ea042035d2f1b92df9c0dbecca5dd854202a50a2ce7bc240583209650833"
+        }
+      },
+      {
+        "unit_id": "xb-ct-002-asset-13",
+        "product_key": "xb-ct-002",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 棉花糖XB-CT-002 binds this view to XB-CT-002.",
+        "evidence": {
+          "path": "identity-xb-ct-002.json",
+          "sha256": "7907ea042035d2f1b92df9c0dbecca5dd854202a50a2ce7bc240583209650833"
+        }
+      },
+      {
+        "unit_id": "xb-ct-002-asset-14",
+        "product_key": "xb-ct-002",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 棉花糖XB-CT-002 binds this view to XB-CT-002.",
+        "evidence": {
+          "path": "identity-xb-ct-002.json",
+          "sha256": "7907ea042035d2f1b92df9c0dbecca5dd854202a50a2ce7bc240583209650833"
+        }
+      },
+      {
+        "unit_id": "xb-ct-002-asset-15",
+        "product_key": "xb-ct-002",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 棉花糖XB-CT-002 binds this view to XB-CT-002.",
+        "evidence": {
+          "path": "identity-xb-ct-002.json",
+          "sha256": "7907ea042035d2f1b92df9c0dbecca5dd854202a50a2ce7bc240583209650833"
+        }
+      },
+      {
+        "unit_id": "xb-ct-002-asset-16",
+        "product_key": "xb-ct-002",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 棉花糖XB-CT-002 binds this view to XB-CT-002.",
+        "evidence": {
+          "path": "identity-xb-ct-002.json",
+          "sha256": "7907ea042035d2f1b92df9c0dbecca5dd854202a50a2ce7bc240583209650833"
+        }
+      },
+      {
+        "unit_id": "xb-ct-002-asset-17",
+        "product_key": "xb-ct-002",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 棉花糖XB-CT-002 binds this view to XB-CT-002.",
+        "evidence": {
+          "path": "identity-xb-ct-002.json",
+          "sha256": "7907ea042035d2f1b92df9c0dbecca5dd854202a50a2ce7bc240583209650833"
+        }
+      },
+      {
+        "unit_id": "xb-ct-002-asset-18",
+        "product_key": "xb-ct-002",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 棉花糖XB-CT-002 binds this view to XB-CT-002.",
+        "evidence": {
+          "path": "identity-xb-ct-002.json",
+          "sha256": "7907ea042035d2f1b92df9c0dbecca5dd854202a50a2ce7bc240583209650833"
+        }
+      },
+      {
+        "unit_id": "xb-ct-002-asset-19",
+        "product_key": "xb-ct-002",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 棉花糖XB-CT-002 binds this view to XB-CT-002.",
+        "evidence": {
+          "path": "identity-xb-ct-002.json",
+          "sha256": "7907ea042035d2f1b92df9c0dbecca5dd854202a50a2ce7bc240583209650833"
+        }
+      },
+      {
+        "unit_id": "xb-ct-002-asset-20",
+        "product_key": "xb-ct-002",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 棉花糖XB-CT-002 binds this view to XB-CT-002.",
+        "evidence": {
+          "path": "identity-xb-ct-002.json",
+          "sha256": "7907ea042035d2f1b92df9c0dbecca5dd854202a50a2ce7bc240583209650833"
+        }
+      },
+      {
+        "unit_id": "xb-ct-002-asset-21",
+        "product_key": "xb-ct-002",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 棉花糖XB-CT-002 binds this view to XB-CT-002.",
+        "evidence": {
+          "path": "identity-xb-ct-002.json",
+          "sha256": "7907ea042035d2f1b92df9c0dbecca5dd854202a50a2ce7bc240583209650833"
+        }
+      },
+      {
+        "unit_id": "xb-ct-002-asset-22",
+        "product_key": "xb-ct-002",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 棉花糖XB-CT-002 binds this view to XB-CT-002.",
+        "evidence": {
+          "path": "identity-xb-ct-002.json",
+          "sha256": "7907ea042035d2f1b92df9c0dbecca5dd854202a50a2ce7bc240583209650833"
+        }
+      },
+      {
+        "unit_id": "xb-ct-002-asset-23",
+        "product_key": "xb-ct-002",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 棉花糖XB-CT-002 binds this view to XB-CT-002.",
+        "evidence": {
+          "path": "identity-xb-ct-002.json",
+          "sha256": "7907ea042035d2f1b92df9c0dbecca5dd854202a50a2ce7bc240583209650833"
+        }
+      },
+      {
+        "unit_id": "xb-ct-002-asset-24",
+        "product_key": "xb-ct-002",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 棉花糖XB-CT-002 binds this view to XB-CT-002.",
+        "evidence": {
+          "path": "identity-xb-ct-002.json",
+          "sha256": "7907ea042035d2f1b92df9c0dbecca5dd854202a50a2ce7bc240583209650833"
+        }
+      },
+      {
+        "unit_id": "xb-ct-002-asset-25",
+        "product_key": "xb-ct-002",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 棉花糖XB-CT-002 binds this view to XB-CT-002.",
+        "evidence": {
+          "path": "identity-xb-ct-002.json",
+          "sha256": "7907ea042035d2f1b92df9c0dbecca5dd854202a50a2ce7bc240583209650833"
+        }
+      },
+      {
+        "unit_id": "xb-ct-002-asset-26",
+        "product_key": "xb-ct-002",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 棉花糖XB-CT-002 binds this view to XB-CT-002.",
+        "evidence": {
+          "path": "identity-xb-ct-002.json",
+          "sha256": "7907ea042035d2f1b92df9c0dbecca5dd854202a50a2ce7bc240583209650833"
+        }
+      },
+      {
+        "unit_id": "xb-ct-002-asset-27",
+        "product_key": "xb-ct-002",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 棉花糖XB-CT-002 binds this view to XB-CT-002.",
+        "evidence": {
+          "path": "identity-xb-ct-002.json",
+          "sha256": "7907ea042035d2f1b92df9c0dbecca5dd854202a50a2ce7bc240583209650833"
+        }
+      },
+      {
+        "unit_id": "xb-pt-003-asset-01",
         "product_key": "xb-pt-003",
         "relationship": "independent",
         "status": "source_supported",
-        "rationale": "Unique model XB-PT-003 and exact folder label."
+        "rationale": "The exact model-labelled folder 舒绒胖童XB-PT-003 binds this view to XB-PT-003.",
+        "evidence": {
+          "path": "identity-xb-pt-003.json",
+          "sha256": "428b81eff6dc2f2a07d319fd08102ae9c354dc47ec916f21a534eafee35339a9"
+        }
       },
       {
-        "unit_id": "xb-ly-004",
+        "unit_id": "xb-pt-003-asset-02",
+        "product_key": "xb-pt-003",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒胖童XB-PT-003 binds this view to XB-PT-003.",
+        "evidence": {
+          "path": "identity-xb-pt-003.json",
+          "sha256": "428b81eff6dc2f2a07d319fd08102ae9c354dc47ec916f21a534eafee35339a9"
+        }
+      },
+      {
+        "unit_id": "xb-pt-003-asset-03",
+        "product_key": "xb-pt-003",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒胖童XB-PT-003 binds this view to XB-PT-003.",
+        "evidence": {
+          "path": "identity-xb-pt-003.json",
+          "sha256": "428b81eff6dc2f2a07d319fd08102ae9c354dc47ec916f21a534eafee35339a9"
+        }
+      },
+      {
+        "unit_id": "xb-pt-003-asset-04",
+        "product_key": "xb-pt-003",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒胖童XB-PT-003 binds this view to XB-PT-003.",
+        "evidence": {
+          "path": "identity-xb-pt-003.json",
+          "sha256": "428b81eff6dc2f2a07d319fd08102ae9c354dc47ec916f21a534eafee35339a9"
+        }
+      },
+      {
+        "unit_id": "xb-pt-003-asset-05",
+        "product_key": "xb-pt-003",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒胖童XB-PT-003 binds this view to XB-PT-003.",
+        "evidence": {
+          "path": "identity-xb-pt-003.json",
+          "sha256": "428b81eff6dc2f2a07d319fd08102ae9c354dc47ec916f21a534eafee35339a9"
+        }
+      },
+      {
+        "unit_id": "xb-pt-003-asset-06",
+        "product_key": "xb-pt-003",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒胖童XB-PT-003 binds this view to XB-PT-003.",
+        "evidence": {
+          "path": "identity-xb-pt-003.json",
+          "sha256": "428b81eff6dc2f2a07d319fd08102ae9c354dc47ec916f21a534eafee35339a9"
+        }
+      },
+      {
+        "unit_id": "xb-pt-003-asset-07",
+        "product_key": "xb-pt-003",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒胖童XB-PT-003 binds this view to XB-PT-003.",
+        "evidence": {
+          "path": "identity-xb-pt-003.json",
+          "sha256": "428b81eff6dc2f2a07d319fd08102ae9c354dc47ec916f21a534eafee35339a9"
+        }
+      },
+      {
+        "unit_id": "xb-pt-003-asset-08",
+        "product_key": "xb-pt-003",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒胖童XB-PT-003 binds this view to XB-PT-003.",
+        "evidence": {
+          "path": "identity-xb-pt-003.json",
+          "sha256": "428b81eff6dc2f2a07d319fd08102ae9c354dc47ec916f21a534eafee35339a9"
+        }
+      },
+      {
+        "unit_id": "xb-pt-003-asset-09",
+        "product_key": "xb-pt-003",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒胖童XB-PT-003 binds this view to XB-PT-003.",
+        "evidence": {
+          "path": "identity-xb-pt-003.json",
+          "sha256": "428b81eff6dc2f2a07d319fd08102ae9c354dc47ec916f21a534eafee35339a9"
+        }
+      },
+      {
+        "unit_id": "xb-pt-003-asset-10",
+        "product_key": "xb-pt-003",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒胖童XB-PT-003 binds this view to XB-PT-003.",
+        "evidence": {
+          "path": "identity-xb-pt-003.json",
+          "sha256": "428b81eff6dc2f2a07d319fd08102ae9c354dc47ec916f21a534eafee35339a9"
+        }
+      },
+      {
+        "unit_id": "xb-pt-003-asset-11",
+        "product_key": "xb-pt-003",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒胖童XB-PT-003 binds this view to XB-PT-003.",
+        "evidence": {
+          "path": "identity-xb-pt-003.json",
+          "sha256": "428b81eff6dc2f2a07d319fd08102ae9c354dc47ec916f21a534eafee35339a9"
+        }
+      },
+      {
+        "unit_id": "xb-pt-003-asset-12",
+        "product_key": "xb-pt-003",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒胖童XB-PT-003 binds this view to XB-PT-003.",
+        "evidence": {
+          "path": "identity-xb-pt-003.json",
+          "sha256": "428b81eff6dc2f2a07d319fd08102ae9c354dc47ec916f21a534eafee35339a9"
+        }
+      },
+      {
+        "unit_id": "xb-pt-003-asset-13",
+        "product_key": "xb-pt-003",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒胖童XB-PT-003 binds this view to XB-PT-003.",
+        "evidence": {
+          "path": "identity-xb-pt-003.json",
+          "sha256": "428b81eff6dc2f2a07d319fd08102ae9c354dc47ec916f21a534eafee35339a9"
+        }
+      },
+      {
+        "unit_id": "xb-pt-003-asset-14",
+        "product_key": "xb-pt-003",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒胖童XB-PT-003 binds this view to XB-PT-003.",
+        "evidence": {
+          "path": "identity-xb-pt-003.json",
+          "sha256": "428b81eff6dc2f2a07d319fd08102ae9c354dc47ec916f21a534eafee35339a9"
+        }
+      },
+      {
+        "unit_id": "xb-pt-003-asset-15",
+        "product_key": "xb-pt-003",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒胖童XB-PT-003 binds this view to XB-PT-003.",
+        "evidence": {
+          "path": "identity-xb-pt-003.json",
+          "sha256": "428b81eff6dc2f2a07d319fd08102ae9c354dc47ec916f21a534eafee35339a9"
+        }
+      },
+      {
+        "unit_id": "xb-pt-003-asset-16",
+        "product_key": "xb-pt-003",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒胖童XB-PT-003 binds this view to XB-PT-003.",
+        "evidence": {
+          "path": "identity-xb-pt-003.json",
+          "sha256": "428b81eff6dc2f2a07d319fd08102ae9c354dc47ec916f21a534eafee35339a9"
+        }
+      },
+      {
+        "unit_id": "xb-pt-003-asset-17",
+        "product_key": "xb-pt-003",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒胖童XB-PT-003 binds this view to XB-PT-003.",
+        "evidence": {
+          "path": "identity-xb-pt-003.json",
+          "sha256": "428b81eff6dc2f2a07d319fd08102ae9c354dc47ec916f21a534eafee35339a9"
+        }
+      },
+      {
+        "unit_id": "xb-pt-003-asset-18",
+        "product_key": "xb-pt-003",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒胖童XB-PT-003 binds this view to XB-PT-003.",
+        "evidence": {
+          "path": "identity-xb-pt-003.json",
+          "sha256": "428b81eff6dc2f2a07d319fd08102ae9c354dc47ec916f21a534eafee35339a9"
+        }
+      },
+      {
+        "unit_id": "xb-pt-003-asset-19",
+        "product_key": "xb-pt-003",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒胖童XB-PT-003 binds this view to XB-PT-003.",
+        "evidence": {
+          "path": "identity-xb-pt-003.json",
+          "sha256": "428b81eff6dc2f2a07d319fd08102ae9c354dc47ec916f21a534eafee35339a9"
+        }
+      },
+      {
+        "unit_id": "xb-pt-003-asset-20",
+        "product_key": "xb-pt-003",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒胖童XB-PT-003 binds this view to XB-PT-003.",
+        "evidence": {
+          "path": "identity-xb-pt-003.json",
+          "sha256": "428b81eff6dc2f2a07d319fd08102ae9c354dc47ec916f21a534eafee35339a9"
+        }
+      },
+      {
+        "unit_id": "xb-pt-003-asset-21",
+        "product_key": "xb-pt-003",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒胖童XB-PT-003 binds this view to XB-PT-003.",
+        "evidence": {
+          "path": "identity-xb-pt-003.json",
+          "sha256": "428b81eff6dc2f2a07d319fd08102ae9c354dc47ec916f21a534eafee35339a9"
+        }
+      },
+      {
+        "unit_id": "xb-pt-003-asset-22",
+        "product_key": "xb-pt-003",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒胖童XB-PT-003 binds this view to XB-PT-003.",
+        "evidence": {
+          "path": "identity-xb-pt-003.json",
+          "sha256": "428b81eff6dc2f2a07d319fd08102ae9c354dc47ec916f21a534eafee35339a9"
+        }
+      },
+      {
+        "unit_id": "xb-pt-003-asset-23",
+        "product_key": "xb-pt-003",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒胖童XB-PT-003 binds this view to XB-PT-003.",
+        "evidence": {
+          "path": "identity-xb-pt-003.json",
+          "sha256": "428b81eff6dc2f2a07d319fd08102ae9c354dc47ec916f21a534eafee35339a9"
+        }
+      },
+      {
+        "unit_id": "xb-pt-003-asset-24",
+        "product_key": "xb-pt-003",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒胖童XB-PT-003 binds this view to XB-PT-003.",
+        "evidence": {
+          "path": "identity-xb-pt-003.json",
+          "sha256": "428b81eff6dc2f2a07d319fd08102ae9c354dc47ec916f21a534eafee35339a9"
+        }
+      },
+      {
+        "unit_id": "xb-pt-003-asset-25",
+        "product_key": "xb-pt-003",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒胖童XB-PT-003 binds this view to XB-PT-003.",
+        "evidence": {
+          "path": "identity-xb-pt-003.json",
+          "sha256": "428b81eff6dc2f2a07d319fd08102ae9c354dc47ec916f21a534eafee35339a9"
+        }
+      },
+      {
+        "unit_id": "xb-pt-003-asset-26",
+        "product_key": "xb-pt-003",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒胖童XB-PT-003 binds this view to XB-PT-003.",
+        "evidence": {
+          "path": "identity-xb-pt-003.json",
+          "sha256": "428b81eff6dc2f2a07d319fd08102ae9c354dc47ec916f21a534eafee35339a9"
+        }
+      },
+      {
+        "unit_id": "xb-pt-003-asset-27",
+        "product_key": "xb-pt-003",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 舒绒胖童XB-PT-003 binds this view to XB-PT-003.",
+        "evidence": {
+          "path": "identity-xb-pt-003.json",
+          "sha256": "428b81eff6dc2f2a07d319fd08102ae9c354dc47ec916f21a534eafee35339a9"
+        }
+      },
+      {
+        "unit_id": "xb-ly-004-asset-01",
         "product_key": "xb-ly-004",
         "relationship": "independent",
         "status": "source_supported",
-        "rationale": "Unique model XB-LY-004 and exact folder label."
+        "rationale": "The exact model-labelled folder 青少年女莱卡XB-LY-004 binds this view to XB-LY-004.",
+        "evidence": {
+          "path": "identity-xb-ly-004.json",
+          "sha256": "54c4f48149b0774a681ede9289547c65b0aa04958fda538afd3157ac59722bed"
+        }
+      },
+      {
+        "unit_id": "xb-ly-004-asset-02",
+        "product_key": "xb-ly-004",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 青少年女莱卡XB-LY-004 binds this view to XB-LY-004.",
+        "evidence": {
+          "path": "identity-xb-ly-004.json",
+          "sha256": "54c4f48149b0774a681ede9289547c65b0aa04958fda538afd3157ac59722bed"
+        }
+      },
+      {
+        "unit_id": "xb-ly-004-asset-03",
+        "product_key": "xb-ly-004",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 青少年女莱卡XB-LY-004 binds this view to XB-LY-004.",
+        "evidence": {
+          "path": "identity-xb-ly-004.json",
+          "sha256": "54c4f48149b0774a681ede9289547c65b0aa04958fda538afd3157ac59722bed"
+        }
+      },
+      {
+        "unit_id": "xb-ly-004-asset-04",
+        "product_key": "xb-ly-004",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 青少年女莱卡XB-LY-004 binds this view to XB-LY-004.",
+        "evidence": {
+          "path": "identity-xb-ly-004.json",
+          "sha256": "54c4f48149b0774a681ede9289547c65b0aa04958fda538afd3157ac59722bed"
+        }
+      },
+      {
+        "unit_id": "xb-ly-004-asset-05",
+        "product_key": "xb-ly-004",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 青少年女莱卡XB-LY-004 binds this view to XB-LY-004.",
+        "evidence": {
+          "path": "identity-xb-ly-004.json",
+          "sha256": "54c4f48149b0774a681ede9289547c65b0aa04958fda538afd3157ac59722bed"
+        }
+      },
+      {
+        "unit_id": "xb-ly-004-asset-06",
+        "product_key": "xb-ly-004",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 青少年女莱卡XB-LY-004 binds this view to XB-LY-004.",
+        "evidence": {
+          "path": "identity-xb-ly-004.json",
+          "sha256": "54c4f48149b0774a681ede9289547c65b0aa04958fda538afd3157ac59722bed"
+        }
+      },
+      {
+        "unit_id": "xb-ly-004-asset-07",
+        "product_key": "xb-ly-004",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 青少年女莱卡XB-LY-004 binds this view to XB-LY-004.",
+        "evidence": {
+          "path": "identity-xb-ly-004.json",
+          "sha256": "54c4f48149b0774a681ede9289547c65b0aa04958fda538afd3157ac59722bed"
+        }
+      },
+      {
+        "unit_id": "xb-ly-004-asset-08",
+        "product_key": "xb-ly-004",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 青少年女莱卡XB-LY-004 binds this view to XB-LY-004.",
+        "evidence": {
+          "path": "identity-xb-ly-004.json",
+          "sha256": "54c4f48149b0774a681ede9289547c65b0aa04958fda538afd3157ac59722bed"
+        }
+      },
+      {
+        "unit_id": "xb-ly-004-asset-09",
+        "product_key": "xb-ly-004",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 青少年女莱卡XB-LY-004 binds this view to XB-LY-004.",
+        "evidence": {
+          "path": "identity-xb-ly-004.json",
+          "sha256": "54c4f48149b0774a681ede9289547c65b0aa04958fda538afd3157ac59722bed"
+        }
+      },
+      {
+        "unit_id": "xb-ly-004-asset-10",
+        "product_key": "xb-ly-004",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 青少年女莱卡XB-LY-004 binds this view to XB-LY-004.",
+        "evidence": {
+          "path": "identity-xb-ly-004.json",
+          "sha256": "54c4f48149b0774a681ede9289547c65b0aa04958fda538afd3157ac59722bed"
+        }
+      },
+      {
+        "unit_id": "xb-ly-004-asset-11",
+        "product_key": "xb-ly-004",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 青少年女莱卡XB-LY-004 binds this view to XB-LY-004.",
+        "evidence": {
+          "path": "identity-xb-ly-004.json",
+          "sha256": "54c4f48149b0774a681ede9289547c65b0aa04958fda538afd3157ac59722bed"
+        }
+      },
+      {
+        "unit_id": "xb-ly-004-asset-12",
+        "product_key": "xb-ly-004",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 青少年女莱卡XB-LY-004 binds this view to XB-LY-004.",
+        "evidence": {
+          "path": "identity-xb-ly-004.json",
+          "sha256": "54c4f48149b0774a681ede9289547c65b0aa04958fda538afd3157ac59722bed"
+        }
+      },
+      {
+        "unit_id": "xb-ly-004-asset-13",
+        "product_key": "xb-ly-004",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 青少年女莱卡XB-LY-004 binds this view to XB-LY-004.",
+        "evidence": {
+          "path": "identity-xb-ly-004.json",
+          "sha256": "54c4f48149b0774a681ede9289547c65b0aa04958fda538afd3157ac59722bed"
+        }
+      },
+      {
+        "unit_id": "xb-ly-004-asset-14",
+        "product_key": "xb-ly-004",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 青少年女莱卡XB-LY-004 binds this view to XB-LY-004.",
+        "evidence": {
+          "path": "identity-xb-ly-004.json",
+          "sha256": "54c4f48149b0774a681ede9289547c65b0aa04958fda538afd3157ac59722bed"
+        }
+      },
+      {
+        "unit_id": "xb-ly-004-asset-15",
+        "product_key": "xb-ly-004",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 青少年女莱卡XB-LY-004 binds this view to XB-LY-004.",
+        "evidence": {
+          "path": "identity-xb-ly-004.json",
+          "sha256": "54c4f48149b0774a681ede9289547c65b0aa04958fda538afd3157ac59722bed"
+        }
+      },
+      {
+        "unit_id": "xb-ly-004-asset-16",
+        "product_key": "xb-ly-004",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 青少年女莱卡XB-LY-004 binds this view to XB-LY-004.",
+        "evidence": {
+          "path": "identity-xb-ly-004.json",
+          "sha256": "54c4f48149b0774a681ede9289547c65b0aa04958fda538afd3157ac59722bed"
+        }
+      },
+      {
+        "unit_id": "xb-ly-004-asset-17",
+        "product_key": "xb-ly-004",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 青少年女莱卡XB-LY-004 binds this view to XB-LY-004.",
+        "evidence": {
+          "path": "identity-xb-ly-004.json",
+          "sha256": "54c4f48149b0774a681ede9289547c65b0aa04958fda538afd3157ac59722bed"
+        }
+      },
+      {
+        "unit_id": "xb-ly-004-asset-18",
+        "product_key": "xb-ly-004",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 青少年女莱卡XB-LY-004 binds this view to XB-LY-004.",
+        "evidence": {
+          "path": "identity-xb-ly-004.json",
+          "sha256": "54c4f48149b0774a681ede9289547c65b0aa04958fda538afd3157ac59722bed"
+        }
+      },
+      {
+        "unit_id": "xb-ly-004-asset-19",
+        "product_key": "xb-ly-004",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 青少年女莱卡XB-LY-004 binds this view to XB-LY-004.",
+        "evidence": {
+          "path": "identity-xb-ly-004.json",
+          "sha256": "54c4f48149b0774a681ede9289547c65b0aa04958fda538afd3157ac59722bed"
+        }
+      },
+      {
+        "unit_id": "xb-ly-004-asset-20",
+        "product_key": "xb-ly-004",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 青少年女莱卡XB-LY-004 binds this view to XB-LY-004.",
+        "evidence": {
+          "path": "identity-xb-ly-004.json",
+          "sha256": "54c4f48149b0774a681ede9289547c65b0aa04958fda538afd3157ac59722bed"
+        }
+      },
+      {
+        "unit_id": "xb-ly-004-asset-21",
+        "product_key": "xb-ly-004",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 青少年女莱卡XB-LY-004 binds this view to XB-LY-004.",
+        "evidence": {
+          "path": "identity-xb-ly-004.json",
+          "sha256": "54c4f48149b0774a681ede9289547c65b0aa04958fda538afd3157ac59722bed"
+        }
+      },
+      {
+        "unit_id": "xb-ly-004-asset-22",
+        "product_key": "xb-ly-004",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 青少年女莱卡XB-LY-004 binds this view to XB-LY-004.",
+        "evidence": {
+          "path": "identity-xb-ly-004.json",
+          "sha256": "54c4f48149b0774a681ede9289547c65b0aa04958fda538afd3157ac59722bed"
+        }
+      },
+      {
+        "unit_id": "xb-ly-004-asset-23",
+        "product_key": "xb-ly-004",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 青少年女莱卡XB-LY-004 binds this view to XB-LY-004.",
+        "evidence": {
+          "path": "identity-xb-ly-004.json",
+          "sha256": "54c4f48149b0774a681ede9289547c65b0aa04958fda538afd3157ac59722bed"
+        }
+      },
+      {
+        "unit_id": "xb-ly-004-asset-24",
+        "product_key": "xb-ly-004",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 青少年女莱卡XB-LY-004 binds this view to XB-LY-004.",
+        "evidence": {
+          "path": "identity-xb-ly-004.json",
+          "sha256": "54c4f48149b0774a681ede9289547c65b0aa04958fda538afd3157ac59722bed"
+        }
+      },
+      {
+        "unit_id": "xb-ly-004-asset-25",
+        "product_key": "xb-ly-004",
+        "relationship": "multiview",
+        "status": "source_supported",
+        "rationale": "The exact model-labelled folder 青少年女莱卡XB-LY-004 binds this view to XB-LY-004.",
+        "evidence": {
+          "path": "identity-xb-ly-004.json",
+          "sha256": "54c4f48149b0774a681ede9289547c65b0aa04958fda538afd3157ac59722bed"
+        }
       }
     ]
   },

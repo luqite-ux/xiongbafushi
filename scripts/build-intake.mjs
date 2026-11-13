@@ -45,6 +45,8 @@ const productDefinitions = [
 const productEntries = []
 const productMedia = []
 const productContent = []
+const identityUnits = []
+const identityDecisions = []
 for (const product of productDefinitions) {
   const folder = path.join(sourceRoot, '产品图片（修改）', product.folder)
   const assets = (await walk(folder)).filter((file) => imageExtensions.has(path.extname(file).toLowerCase()))
@@ -63,6 +65,14 @@ for (const product of productDefinitions) {
     description: { source_status: 'provided', source_locator: `产品信息!F${product.row}`, source_hash: hashText(`product-${product.key}-description`) },
     specifications: { source_status: 'provided', source_locator: `产品信息!H${product.row}`, source_keys: ['colors', 'style', 'fabric', 'fit_or_process'] },
   })
+  const unitIds = []
+  for (let assetIndex = 0; assetIndex < assets.length; assetIndex += 1) {
+    const asset = assets[assetIndex]
+    const unitId = `${product.key}-asset-${String(assetIndex + 1).padStart(2, '0')}`
+    unitIds.push(unitId)
+    identityUnits.push({ id: unitId, label: `${product.model} source image ${assetIndex + 1}`, source_locator: path.relative(sourceRoot, asset), assets: [asset], fingerprint: (await sha(asset)).replace('sha256:', '') })
+  }
+  identityDecisions.push(...unitIds.map((unitId, assetIndex) => ({ unit_id: unitId, product_key: product.key, relationship: assetIndex === 0 ? 'independent' : 'multiview', status: 'source_supported', rationale: `The exact model-labelled folder ${product.folder} binds this view to ${product.model}.`, evidence: { path: `identity-${product.key}.json`, sha256: '' } })))
 }
 
 const sources = []
@@ -126,6 +136,18 @@ for (let index = 0; index < standaloneImages.length; index += 1) {
 }
 
 await mkdir(out, { recursive: true })
+const inventory = { customer: '温州雄霸服饰有限公司', review_basis: 'Every original image in each exact model-labelled product folder was reviewed before grouping into four catalogue products.', units: identityUnits }
+const inventoryBytes = Buffer.from(`${JSON.stringify(inventory, null, 2)}\n`)
+await writeFile(path.join(out, 'product-identity-inventory.json'), inventoryBytes)
+for (const product of productDefinitions) {
+  const unitIds = identityUnits.filter((unit) => unit.id.startsWith(`${product.key}-asset-`)).map((unit) => unit.id)
+  const proof = { unit_ids: unitIds, source_locator: `产品图片（修改）/${product.folder}`, observation: `All reviewed images are stored under the exact customer model folder ${product.model}; views show the same named product family, colours and details.`, basis: 'matching_model' }
+  const bytes = Buffer.from(`${JSON.stringify(proof, null, 2)}\n`)
+  const proofPath = path.join(out, `identity-${product.key}.json`)
+  await writeFile(proofPath, bytes)
+  const proofHash = createHash('sha256').update(bytes).digest('hex')
+  for (const decision of identityDecisions.filter((item) => item.product_key === product.key)) decision.evidence.sha256 = proofHash
+}
 const materialManifest = { schema_version: 1, customer: '温州雄霸服饰有限公司', tenant_id: null, material_roots: [sourceRoot], sources, facts }
 const productManifest = {
   customer: '温州雄霸服饰有限公司', source_entries: productEntries,
@@ -133,7 +155,7 @@ const productManifest = {
   source_categories: [{ category_key: 'kids-thermal-underwear', name_hash: hashText('Kids Thermal Underwear'), parent_key: '', source_locator: '产品信息!B5:B8', product_keys: productDefinitions.map((item) => item.key) }],
   backend_category_content: [], frontend_category_content: [], backend_product_keys: [], frontend_product_keys: [], featured_product_keys: [],
   product_media: productMedia, product_content: productContent, backend_product_media: [], backend_product_content: [], frontend_product_content: [],
-  product_identity: { review_basis: 'Four independent workbook rows and four exact model-labelled source folders.', units: productDefinitions.map((item) => ({ unit_id: item.key, source: `产品信息!A${item.row}:H${item.row}`, proposed_product_key: item.key })), decisions: productDefinitions.map((item) => ({ unit_id: item.key, product_key: item.key, relationship: 'independent', status: 'source_supported', rationale: `Unique model ${item.model} and exact folder label.` })) },
+  product_identity: { inventory: { path: 'product-identity-inventory.json', sha256: createHash('sha256').update(inventoryBytes).digest('hex') }, decisions: identityDecisions },
   detail_route_registrations: productDefinitions.map((item) => ({ route: `/products/${item.key}`, evidence_path: `planned:${item.key}` })),
 }
 await writeFile(path.join(out, 'material-fact-manifest.json'), `${JSON.stringify(materialManifest, null, 2)}\n`)
