@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "guardVersion": "1",
+  "publicStatusPath": "/api/public/service-status/",
+  "defaults": { "serviceExpiryDate": null, "enforcementEnabled": false },
+  "failOpenScenarios": ["query_failed", "timeout", "missing_expiry", "enforcement_disabled", "guard_version_unregistered"],
+  "excludedPaths": ["/admin", "/admin/login", "/api", "/_next", "/favicon.ico", "static-assets"],
+  "guardFiles": ["lib/service-status.ts"],
+  "integrationFiles": ["service-guard-integration.ts"],
+  "expiredPageFiles": ["app/service-expired/page.tsx"],
+  "publicRoutes": ["/", "/about", "/products", "/products/xb-sr-001-brushed-fleece-round-neck-set", "/oem-odm", "/manufacturing", "/news", "/contact"],
+  "backendRegistration": { "registered": true, "guardVersion": "1", "evidencePath": "deliverables/service-guard-registration.json" },
+  "productionVerification": {
+    "normal": { "result": "PASS", "evidencePath": "deliverables/service-guard-normal.json" },
+    "simulatedExpired": { "result": "PASS", "evidencePath": "deliverables/service-guard-simulated-expired.json" },
+    "renewalRecovery": { "result": "PASS", "evidencePath": "deliverables/service-guard-renewal-recovery.json" },
+    "adminReachable": { "result": "PASS", "evidencePath": "deliverables/service-guard-admin-reachable.json" }
+  },
+  "identity": {
+    "taskId": "9998fa6d-7370-4925-9253-301865608a91",
+    "customerTenantId": "102601ac-906a-4fc3-9050-0005d104d38c",
+    "environmentId": "prj_m28rd90qvsknAsdYPjw968X4hcuY",
+    "deploymentSha": "ec312472a1f70144084868745de9f0ee3f07cd08"
+  },
+  "testResourceCleanup": {
+    "evidencePath": "deliverables/service-guard-test-resource-cleanup.json",
+    "ledgerRoot": "D:/Cursor/Grand/huanqiu-admin/deliverables/test-resource-runs/service-guard"
+  }
+}

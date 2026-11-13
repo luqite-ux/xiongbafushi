@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "taskId": "9998fa6d-7370-4925-9253-301865608a91",
+  "customerTenantId": "102601ac-906a-4fc3-9050-0005d104d38c",
+  "environmentId": "prj_m28rd90qvsknAsdYPjw968X4hcuY",
+  "deploymentSha": "ec312472a1f70144084868745de9f0ee3f07cd08",
+  "guardVersion": "1",
+  "check": "simulatedExpired",
+  "result": "PASS",
+  "productionVerified": true,
+  "verifiedAt": "2026-11-13T07:59:19.916Z"
+}

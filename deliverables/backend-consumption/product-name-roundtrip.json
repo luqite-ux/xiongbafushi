@@ -1,0 +1,86 @@
+{
+  "identity": {
+    "taskId": "9998fa6d-7370-4925-9253-301865608a91",
+    "siteId": "8bd70fa4-0bbb-4f59-8bf7-f52b86df1b88",
+    "tenantId": "102601ac-906a-4fc3-9050-0005d104d38c"
+  },
+  "deploymentSha": "0d501bbb6dd93dec2163ca65d49ea6b7f2131683",
+  "productId": "39ee1a53-d6bb-451d-839e-466b35dd8a24",
+  "slug": "xb-sr-001-brushed-fleece-round-neck-set",
+  "backend": {
+    "before": {
+      "name": "Kids' Brushed Fleece Round-Neck Thermal Underwear Set"
+    },
+    "after": {
+      "name": "Kids' Brushed Fleece Round-Neck Thermal Underwear Set CODEX-BACKEND-ROUNDTRIP-20261113"
+    },
+    "restored": {
+      "name": "Kids' Brushed Fleece Round-Neck Thermal Underwear Set"
+    }
+  },
+  "frontend": {
+    "before": {
+      "name": "Kids' Brushed Fleece Round-Neck Thermal Underwear Set"
+    },
+    "after": {
+      "name": "Kids' Brushed Fleece Round-Neck Thermal Underwear Set CODEX-BACKEND-ROUNDTRIP-20261113"
+    },
+    "restored": {
+      "name": "Kids' Brushed Fleece Round-Neck Thermal Underwear Set"
+    }
+  },
+  "requests": {
+    "before": [
+      {
+        "route": "/",
+        "status": 200,
+        "sha256": "fb9a7285cebe9b461e36dfcd0150f61de411c7ff88a161c184a49f507ee7a3da"
+      },
+      {
+        "route": "/products",
+        "status": 200,
+        "sha256": "a1bd6ec056490bdaa38ec055284f415dec5bf9b5be012e6f444f7066ea6cf5b3"
+      },
+      {
+        "route": "/products/xb-sr-001-brushed-fleece-round-neck-set",
+        "status": 200,
+        "sha256": "62269384927d17cdfd9ecaa9ac6c69bccd6fd8c08fe424b53e53bfd53395a56d"
+      }
+    ],
+    "after": [
+      {
+        "route": "/",
+        "status": 200,
+        "sha256": "cecec8874bf8762ccaec2c41c372956774dac2f6fe7cc43d4ff894abe70ffcd9"
+      },
+      {
+        "route": "/products",
+        "status": 200,
+        "sha256": "cac96ccf0c267f68dd0798c681ed50d0ac107e4e2b4ca5bef6b4883d28869ddc"
+      },
+      {
+        "route": "/products/xb-sr-001-brushed-fleece-round-neck-set",
+        "status": 200,
+        "sha256": "ea2b3e0ad8a871ee3eb92243b407f05634dee5c3f352441ffa8d5bc9a6171957"
+      }
+    ],
+    "restored": [
+      {
+        "route": "/",
+        "status": 200,
+        "sha256": "0236b4d0bb497d452458b3554959d0497aea8aa8ffc7fd4baa08f9fe62e36b82"
+      },
+      {
+        "route": "/products",
+        "status": 200,
+        "sha256": "a1bd6ec056490bdaa38ec055284f415dec5bf9b5be012e6f444f7066ea6cf5b3"
+      },
+      {
+        "route": "/products/xb-sr-001-brushed-fleece-round-neck-set",
+        "status": 200,
+        "sha256": "d9747f0236f428f045549c975d94d71e50b0952d04e52add7566f93581fdff3f"
+      }
+    ]
+  },
+  "verifiedAt": "2026-11-13T07:18:38.289Z"
+}

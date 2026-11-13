@@ -3,7 +3,7 @@
   "taskId": "9998fa6d-7370-4925-9253-301865608a91",
   "customerTenantId": "102601ac-906a-4fc3-9050-0005d104d38c",
   "environmentId": "kznqbvcyehtjcsgkurso.supabase.co",
-  "deploymentSha": "d132b024bfae4fef9fc78ca6367bf40542d7ff16",
+  "deploymentSha": "5593f3a202e38bf08db57b48056876cae2634893",
   "reports": [
     {
       "schemaVersion": 1,
@@ -57,6 +57,45 @@
       "errors": [],
       "unresolvedIntents": [],
       "result": "NOT_APPLICABLE"
+    },
+    {
+      "schemaVersion": 1,
+      "taskId": "9998fa6d-7370-4925-9253-301865608a91",
+      "customerTenantId": "102601ac-906a-4fc3-9050-0005d104d38c",
+      "environmentId": "kznqbvcyehtjcsgkurso.supabase.co",
+      "deploymentSha": "5593f3a202e38bf08db57b48056876cae2634893",
+      "runId": "onboarding-8ad31bb1-c509-48c9-b0ac-010934722752",
+      "ledgerRevision": 4,
+      "coverageComplete": true,
+      "resources": [
+        {
+          "intentId": "session",
+          "kind": "session",
+          "resourceId": "login-onboarding-8ad31bb1-c509-48c9-b0ac-010934722752",
+          "marker": "onboarding-8ad31bb1-c509-48c9-b0ac-010934722752:session",
+          "creationState": "settled",
+          "ownershipEvidence": "PASS",
+          "deleteResult": "DELETED",
+          "readbackResult": "ABSENT",
+          "remaining": 0,
+          "verifiedAt": "2026-11-13T07:15:46.617Z"
+        },
+        {
+          "intentId": "content-draft",
+          "kind": "content-draft",
+          "resourceId": "site-codex-onboarding-d66d236a-d6c2-481a-86b4-1d02441cb5e0",
+          "marker": "onboarding-8ad31bb1-c509-48c9-b0ac-010934722752:content-draft",
+          "creationState": "settled",
+          "ownershipEvidence": "PASS",
+          "deleteResult": "DELETED",
+          "readbackResult": "ABSENT",
+          "remaining": 0,
+          "verifiedAt": "2026-11-13T07:16:11.624Z"
+        }
+      ],
+      "errors": [],
+      "unresolvedIntents": [],
+      "result": "PASS"
     }
   ]
 }

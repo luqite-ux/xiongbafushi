@@ -1,0 +1,81 @@
+{
+  "identity": {
+    "taskId": "9998fa6d-7370-4925-9253-301865608a91",
+    "customerTenantId": "102601ac-906a-4fc3-9050-0005d104d38c",
+    "environmentId": "prj_m28rd90qvsknAsdYPjw968X4hcuY",
+    "deploymentSha": "ec312472a1f70144084868745de9f0ee3f07cd08"
+  },
+  "guardVersion": "1",
+  "startedAt": "2026-11-13T07:58:01.884Z",
+  "checks": {
+    "normal": {
+      "status": {
+        "http": 200,
+        "data": {
+          "available": true,
+          "status": "active",
+          "checkedAt": "2026-11-13T07:58:01.989Z",
+          "version": 1
+        }
+      },
+      "page": {
+        "http": 200,
+        "expired": false,
+        "normal": true,
+        "admin": false
+      },
+      "verifiedAt": "2026-11-13T07:58:05.235Z"
+    },
+    "simulatedExpired": {
+      "ok": true,
+      "status": {
+        "http": 200,
+        "data": {
+          "available": false,
+          "status": "expired",
+          "checkedAt": "2026-11-13T07:59:17.659Z",
+          "version": 1
+        }
+      },
+      "page": {
+        "http": 200,
+        "expired": true,
+        "normal": false,
+        "admin": false
+      },
+      "verifiedAt": "2026-11-13T07:59:19.916Z"
+    },
+    "adminReachable": {
+      "page": {
+        "http": 200,
+        "expired": false,
+        "normal": false,
+        "admin": true
+      },
+      "iconHttp": 200,
+      "verifiedAt": "2026-11-13T07:59:20.600Z"
+    },
+    "renewalRecovery": {
+      "ok": true,
+      "status": {
+        "http": 200,
+        "data": {
+          "available": true,
+          "status": "active",
+          "checkedAt": "2026-11-13T08:00:16.297Z",
+          "version": 1
+        }
+      },
+      "page": {
+        "http": 200,
+        "expired": false,
+        "normal": true,
+        "admin": false
+      },
+      "verifiedAt": "2026-11-13T08:00:19.071Z"
+    }
+  },
+  "restored": true,
+  "result": "PASS",
+  "completedAt": "2026-11-13T08:00:19.074Z"
+}

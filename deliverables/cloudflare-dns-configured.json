@@ -1,0 +1,59 @@
+{
+  "configuredAt": "2026-11-13T06:59:55.923Z",
+  "zone": {
+    "id": "2fb2c5858513ea35cac92a98b6d13a53",
+    "name": "xiongbafushi.com",
+    "status": "active",
+    "name_servers": [
+      "eleanor.ns.cloudflare.com",
+      "sterling.ns.cloudflare.com"
+    ]
+  },
+  "preservedMailRecordCount": 7,
+  "created": [
+    {
+      "id": "77eaf4dac973a08620369d49ef2a3949",
+      "type": "A",
+      "name": "xiongbafushi.com",
+      "content": "216.150.1.1",
+      "proxied": false
+    },
+    {
+      "id": "435a2ccf761b8a543f17acddcf8648e2",
+      "type": "A",
+      "name": "xiongbafushi.com",
+      "content": "216.150.16.1",
+      "proxied": false
+    },
+    {
+      "id": "ea2bae41ba8d6b85106d286390eb673f",
+      "type": "CNAME",
+      "name": "www.xiongbafushi.com",
+      "content": "4ecf954d3c2f6065.vercel-dns-016.com",
+      "proxied": false
+    }
+  ],
+  "readback": [
+    {
+      "id": "435a2ccf761b8a543f17acddcf8648e2",
+      "type": "A",
+      "name": "xiongbafushi.com",
+      "content": "216.150.16.1",
+      "proxied": false
+    },
+    {
+      "id": "77eaf4dac973a08620369d49ef2a3949",
+      "type": "A",
+      "name": "xiongbafushi.com",
+      "content": "216.150.1.1",
+      "proxied": false
+    },
+    {
+      "id": "ea2bae41ba8d6b85106d286390eb673f",
+      "type": "CNAME",
+      "name": "www.xiongbafushi.com",
+      "content": "4ecf954d3c2f6065.vercel-dns-016.com",
+      "proxied": false
+    }
+  ]
+}
