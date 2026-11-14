@@ -49,7 +49,7 @@ export default function AboutPage() {
 
       <Section id="company" labelledBy="company-title">
         <div className="grid gap-12 lg:grid-cols-12 lg:gap-16">
-          <div className="lg:col-span-5">
+          <div className="lg:sticky lg:top-28 lg:col-span-5 lg:self-start">
             <SectionHeader
               id="company-title"
               eyebrow="The company"
