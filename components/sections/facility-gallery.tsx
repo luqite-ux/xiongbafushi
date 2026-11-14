@@ -1,6 +1,9 @@
 import { Section, SectionHeader } from '@/components/site/section'
 import { getFacility, type FacilityImage } from '@/data/content'
 import { FacilityFigure } from '@/components/sections/manufacturing'
+import Image from 'next/image'
+import { Reveal } from '@/components/motion/reveal'
+import equipment from '@/data/equipment.json'
 
 function pick(images: FacilityImage[], key: string) {
   const image = images.find((item) => item.key === key)
@@ -61,6 +64,19 @@ export function FacilityGallery() {
           delay={180}
           className="md:col-span-4"
         />
+      </div>
+      <div className="mt-16 border-t pt-12">
+        <SectionHeader id="equipment-title" eyebrow="Sewing equipment" title="Machines behind the garment construction" description="Lockstitch, coverstitch and industrial sewing equipment supports the production of knitted garments." />
+        <div className="mt-8 grid gap-8 md:grid-cols-3">
+          {equipment.map((machine, index) => (
+            <Reveal key={machine.title} delay={index * 60}>
+              <figure>
+                <Image src={machine.src} alt={machine.alt} width={568} height={258} sizes="(min-width: 768px) 33vw, 100vw" className="h-auto w-full" />
+                <figcaption className="mt-4"><h3 className="font-serif text-2xl">{machine.title}</h3><p className="text-muted-foreground mt-2 text-sm leading-relaxed">{machine.description}</p></figcaption>
+              </figure>
+            </Reveal>
+          ))}
+        </div>
       </div>
     </Section>
   )

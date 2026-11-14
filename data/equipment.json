@@ -1,0 +1,26 @@
+[
+  {
+    "title": "DUMA",
+    "description": "Computer-controlled lockstitch sewing machine.",
+    "src": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/xiongbafushi/equipment/1d3f1d144fc6c484dc710ebe.jpeg",
+    "alt": "DUMA sewing machine identification",
+    "source": "企业资料!D17 / xl/media/image14.jpeg",
+    "sha256": "1d3f1d144fc6c484dc710ebecc924aab607ee876e011683ed6b1b62f0b9c7cc0"
+  },
+  {
+    "title": "SHING RAY FW-720-TB",
+    "description": "Coverstitch machine for knit garment sewing.",
+    "src": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/xiongbafushi/equipment/26dfab8549ef765aeebd9a14.jpeg",
+    "alt": "SHING RAY FW-720-TB sewing machine identification",
+    "source": "企业资料!E17 / xl/media/image15.jpeg",
+    "sha256": "26dfab8549ef765aeebd9a1413076173eefcc96122e3073795932b9d50264404"
+  },
+  {
+    "title": "MEGASEW",
+    "description": "Industrial sewing machine used in garment production.",
+    "src": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/xiongbafushi/equipment/6a7430680cb20b4dbfa4d4dc.jpeg",
+    "alt": "MEGASEW sewing machine identification",
+    "source": "企业资料!F17 / xl/media/image16.jpeg",
+    "sha256": "6a7430680cb20b4dbfa4d4dc88e54f1012d3b936d738f4786351466c02f5c660"
+  }
+]

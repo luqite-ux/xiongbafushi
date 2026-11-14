@@ -1,4 +1,5 @@
 import { defaultLocale, type Locale } from '@/lib/site'
+import verifiedFaq from './verified-faq.json'
 
 export type HeroSlide = {
   id: string
@@ -362,7 +363,7 @@ export async function getHeroSlides(locale: Locale = defaultLocale) {
 }
 
 export async function getFaqGroups(locale: Locale = defaultLocale) {
-  return content[locale].faqGroups
+  return [{ id: 'buyer-questions', title: 'Buyer questions', items: verifiedFaq.map(item => ({ question: item.question[locale], answer: item.answer[locale] })) }]
 }
 
 export async function getNewsPosts(locale: Locale = defaultLocale): Promise<NewsPost[]> {

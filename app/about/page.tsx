@@ -54,7 +54,7 @@ export default function AboutPage() {
               id="company-title"
               eyebrow="The company"
               title="Garment development and production under one roof"
-              description="We work with brands, importers and wholesalers who want thermal sets that fit well, feel right against the skin and arrive ready for their market."
+              description="Founded on 24 June 2021 in Yishan, Cangnan County, Wenzhou, we bring garment development, production and sales together. We work with brands, cross-border sellers and wholesalers on thermal sets and knitted apparel, from samples and small trial orders to bulk production."
             />
             <Reveal delay={140} className="mt-8">
               <CtaLink href="/manufacturing" variant="text">

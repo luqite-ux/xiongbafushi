@@ -1,0 +1,137 @@
+[
+  {
+    "id": "products",
+    "question": {
+      "en": "What garments do you manufacture?"
+    },
+    "answer": {
+      "en": "Our range includes children’s thermal and base-layer sets, school clothing, teen and girls’ knitwear, long-sleeve and quick-dry T-shirts, and gift apparel. The online catalogue currently presents four thermal sets with detailed fabric and fit information."
+    }
+  },
+  {
+    "id": "custom",
+    "question": {
+      "en": "Do you offer OEM / ODM and custom options?"
+    },
+    "answer": {
+      "en": "Yes. We support private-label OEM and ODM style development, including sizes, fabrics, fit, colours, prints, binding and sewing construction. Send your design or reference garment to discuss the details."
+    }
+  },
+  {
+    "id": "use",
+    "question": {
+      "en": "Who are your garments made for?"
+    },
+    "answer": {
+      "en": "We work with childrenswear brands, school-uniform buyers, maternity and baby wholesalers, cross-border sellers, and gift supply chains. Uses include next-to-skin layers, everyday homewear, schoolwear, and sports or leisure clothing."
+    }
+  },
+  {
+    "id": "samples",
+    "question": {
+      "en": "Can you supply samples, and what do they cost?"
+    },
+    "answer": {
+      "en": "Stock samples and custom development samples are available. Stock samples carry a sample fee; custom samples carry a development fee. Samples can be shipped, with shipping paid by the customer. Ask for the fees for your selected style."
+    }
+  },
+  {
+    "id": "sample-time",
+    "question": {
+      "en": "How long does sampling take?"
+    },
+    "answer": {
+      "en": "Stock samples usually take about 1–3 days; custom samples usually take about 5–7 days. Confirm the schedule for your fabric and design when ordering."
+    }
+  },
+  {
+    "id": "approval",
+    "question": {
+      "en": "Do I approve a sample before bulk production?"
+    },
+    "answer": {
+      "en": "Yes. Custom orders proceed to bulk production after you approve the sample. Bulk garments follow the approved sample’s fabric, workmanship and agreed specifications."
+    }
+  },
+  {
+    "id": "moq",
+    "question": {
+      "en": "What is the minimum order quantity?"
+    },
+    "answer": {
+      "en": "Contact us with your style, size range, fabric and estimated quantity so we can confirm the order requirements. Small trial orders can be discussed."
+    }
+  },
+  {
+    "id": "price",
+    "question": {
+      "en": "Do you offer volume and repeat-order pricing?"
+    },
+    "answer": {
+      "en": "Yes. Unit pricing decreases with larger order quantities, and repeat bulk orders from long-term customers can receive cooperation discounts. Significant fabric-cost or exchange-rate changes may affect pricing; we notify customers in advance."
+    }
+  },
+  {
+    "id": "quote",
+    "question": {
+      "en": "What is included in the quotation?"
+    },
+    "answer": {
+      "en": "Basic packaging is included. Shipping and taxes are excluded. Confirm any special packaging or delivery requirements in your RFQ."
+    }
+  },
+  {
+    "id": "production",
+    "question": {
+      "en": "What is the usual production lead time?"
+    },
+    "answer": {
+      "en": "Regular orders usually take 7–15 days, adjusted for order quantity and construction complexity. Peak-season demand can extend the schedule; timing is discussed with you in advance. Expedited production may be available when capacity allows."
+    }
+  },
+  {
+    "id": "progress",
+    "question": {
+      "en": "Can I receive production progress updates?"
+    },
+    "answer": {
+      "en": "Yes. We can share updates on cutting, sewing and final inspection as your order progresses."
+    }
+  },
+  {
+    "id": "checks",
+    "question": {
+      "en": "What inspections do you carry out?"
+    },
+    "answer": {
+      "en": "Checks cover incoming fabrics, cutting and sewing, finished garments and packing. We inspect garments before dispatch and support third-party inspection. Please discuss the inspection arrangements with us before production."
+    }
+  },
+  {
+    "id": "reports",
+    "question": {
+      "en": "Are technical data sheets or test reports available?"
+    },
+    "answer": {
+      "en": "No standard technical data sheets or test reports are currently available. Product pages list the available specifications, and you can review a sample before placing an order."
+    }
+  },
+  {
+    "id": "rfq",
+    "question": {
+      "en": "What should I include in an RFQ?"
+    },
+    "answer": {
+      "en": "Include your company, business email, product or reference design, size range, fabric and other custom requirements. Estimated quantity, target market and desired schedule help us prepare a relevant reply."
+    }
+  },
+  {
+    "id": "contact",
+    "question": {
+      "en": "How can I contact the team?"
+    },
+    "answer": {
+      "en": "Use the RFQ form, email info@xiongbafushi.com, or call 17205771033. Our address is 1/F, Building 2, No. 80 Xinghua Street, Yishan Town, Cangnan County, Wenzhou, Zhejiang, China."
+    }
+  }
+]
