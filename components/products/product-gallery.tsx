@@ -32,7 +32,7 @@ export function ProductGallery({ productName, images }: ProductGalleryProps) {
   }
 
   return (
-    <div>
+    <div className="min-w-0">
       <button
         type="button"
         onClick={() => setLightboxOpen(true)}

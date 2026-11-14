@@ -32,7 +32,7 @@ export function ProductDetail({ product }: { product: Product }) {
           </ol>
         </nav>
         <div className="grid gap-10 lg:grid-cols-12 lg:gap-14">
-          <div className="lg:col-span-7">
+          <div className="min-w-0 lg:col-span-7">
             <ProductGallery productName={product.name} images={product.images} />
           </div>
 
