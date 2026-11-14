@@ -57,13 +57,38 @@ export function ProductGallery({ productName, images }: ProductGalleryProps) {
         <span className="sr-only">Open enlarged image: {current.caption}</span>
       </button>
 
-      <p className="text-muted-foreground mt-3 text-sm" aria-live="polite">
-        {index + 1} / {count} — {current.caption}
-      </p>
+      <div className="mt-3 flex min-h-11 items-center justify-between gap-3">
+        <p className="text-muted-foreground min-w-0 text-sm" aria-live="polite">
+          {index + 1} / {count} — {current.caption}
+        </p>
+        {count > 1 ? (
+          <div className="flex shrink-0" aria-label="Image navigation">
+            <button
+              type="button"
+              onClick={() => step(-1)}
+              className="hover:text-rust focus-visible:ring-ring inline-flex size-11 items-center justify-center border transition-colors focus-visible:ring-2 focus-visible:outline-none"
+            >
+              <ChevronLeft aria-hidden="true" className="size-5" />
+              <span className="sr-only">Previous image</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => step(1)}
+              className="hover:text-rust focus-visible:ring-ring -ml-px inline-flex size-11 items-center justify-center border transition-colors focus-visible:ring-2 focus-visible:outline-none"
+            >
+              <ChevronRight aria-hidden="true" className="size-5" />
+              <span className="sr-only">Next image</span>
+            </button>
+          </div>
+        ) : null}
+      </div>
 
-      <ul className="mt-4 grid grid-cols-4 gap-3" aria-label={`${productName} images`}>
+      <ul
+        className="mt-3 flex snap-x snap-mandatory gap-3 overflow-x-auto pb-3 [scrollbar-color:var(--border)_transparent] [scrollbar-width:thin]"
+        aria-label={`${productName} images`}
+      >
         {images.map((image, imageIndex) => (
-          <li key={image.src}>
+          <li key={image.src} className="w-20 shrink-0 snap-start sm:w-24">
             <button
               type="button"
               onClick={() => setIndex(imageIndex)}
