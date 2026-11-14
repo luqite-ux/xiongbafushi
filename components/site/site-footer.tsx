@@ -71,7 +71,7 @@ export async function SiteFooter() {
 
       <div className="border-t">
         <p className="text-muted-foreground mx-auto w-full max-w-[1280px] px-5 py-6 text-sm sm:px-8 lg:px-10">
-          © <CurrentYear fallbackYear={buildYear} /> {siteConfig.legalName}
+          © <CurrentYear fallbackYear={buildYear} /> {siteConfig.legalName} All rights reserved.
         </p>
       </div>
     </footer>

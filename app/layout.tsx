@@ -4,6 +4,7 @@ import { Hanken_Grotesk, Newsreader } from 'next/font/google'
 import { SiteFooter } from '@/components/site/site-footer'
 import { SiteHeader } from '@/components/site/site-header'
 import { siteConfig } from '@/lib/site'
+import { getContactSettings } from '@/lib/contact-settings'
 import { PREVIEW_COOKIE, siteContentMetadata } from '@/lib/site-content/site-content'
 import './globals.css'
 
@@ -27,6 +28,7 @@ const baseMetadata: Metadata = {
   },
   description: siteConfig.description,
   applicationName: siteConfig.name,
+  robots: { index: true, follow: true, 'max-image-preview': 'large' },
   icons: {
     icon: [{ url: '/icon.svg', type: 'image/svg+xml' }],
   },
@@ -57,9 +59,15 @@ export default async function RootLayout({
   children: React.ReactNode
 }>) {
   const preview = (await cookies()).has(PREVIEW_COOKIE)
+  const contact = await getContactSettings()
+  const schema = { '@context': 'https://schema.org', '@graph': [
+    { '@type': 'Organization', '@id': 'https://xiongbafushi.com/#organization', name: siteConfig.legalName, url: 'https://xiongbafushi.com', logo: 'https://xiongbafushi.com/icon.svg', email: contact.email, telephone: contact.phone, address: contact.address },
+    { '@type': 'WebSite', '@id': 'https://xiongbafushi.com/#website', name: siteConfig.name, url: 'https://xiongbafushi.com', publisher: { '@id': 'https://xiongbafushi.com/#organization' }, inLanguage: 'en' },
+  ] }
   return (
     <html lang="en" className={`${display.variable} ${body.variable}`} suppressHydrationWarning>
       <head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, '\\u003c') }} />
         <script dangerouslySetInnerHTML={{ __html: motionReadyScript }} />
         <noscript>
           <style>{`[data-reveal]{opacity:1!important;transform:none!important}.hero-slide:not([data-active='true']){display:none}.hero-slide[data-active='true']{opacity:1;visibility:visible}`}</style>

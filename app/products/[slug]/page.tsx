@@ -22,6 +22,8 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
     description: product.summary,
     alternates: { canonical: `/products/${product.slug}` },
     openGraph: {
+      type: 'website',
+      url: `https://xiongbafushi.com/products/${product.slug}`,
       title: `${product.model} ${product.name}`,
       description: product.summary,
       images: product.images[0] ? [{ url: product.images[0].src, alt: product.images[0].alt }] : undefined,
@@ -38,6 +40,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'Product', '@id': `https://xiongbafushi.com/products/${product.slug}#product`, url: `https://xiongbafushi.com/products/${product.slug}`, name: product.name, model: product.model, description: product.description, image: product.images.map(image => new URL(image.src, 'https://xiongbafushi.com').href), manufacturer: { '@id': 'https://xiongbafushi.com/#organization' }, additionalProperty: product.specs.map(spec => ({ '@type': 'PropertyValue', name: spec.label, value: spec.value })) }).replace(/</g, '\\u003c') }} />
       <ProductDetail product={product} />
       {related.length > 0 ? (
         <Section id="related-products" tone="sand" labelledBy="related-products-title">
