@@ -140,7 +140,7 @@ export function HeroCarousel({ slides, titleStyle }: { slides: HeroSlide[]; titl
                     className={cn(
                       'pointer-events-auto max-w-xl xl:max-w-[27rem]',
                       copyOnRight ? 'xl:ml-auto' : 'xl:mr-auto',
-                      slide.localScrim && 'xl:bg-background/60 xl:-m-6 xl:p-6',
+                      slide.localScrim && 'xl:bg-background/60 xl:p-6',
                     )}
                   >
                     <p
