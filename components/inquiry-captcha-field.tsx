@@ -98,7 +98,7 @@ export function InquiryCaptchaField({
           inputMode="text"
           aria-describedby={error ? `${answerName}-error` : undefined}
           className="h-11 w-32 rounded-lg border border-slate-300 bg-white px-3 text-base uppercase tracking-[0.25em] text-slate-950 outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-600/20 disabled:cursor-not-allowed disabled:bg-slate-100"
-          placeholder="Enter code"
+          placeholder="Code"
         />
         <button
           type="button"
