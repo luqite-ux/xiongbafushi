@@ -2,6 +2,7 @@
 
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
 import type { FaqGroup } from '@/data/content'
+import { cn } from '@/lib/utils'
 
 function FaqGroupBlock({ group }: { group: FaqGroup }) {
   return (
@@ -23,12 +24,20 @@ function FaqGroupBlock({ group }: { group: FaqGroup }) {
   )
 }
 
-export function FaqGroups({ groups }: { groups: FaqGroup[] }) {
+export function FaqGroups({ groups, className }: { groups: FaqGroup[]; className?: string }) {
+  if (groups.length === 1) {
+    return (
+      <div className={className}>
+        <FaqGroupBlock group={groups[0]} />
+      </div>
+    )
+  }
+
   const midpoint = Math.ceil(groups.length / 2)
   const columns = [groups.slice(0, midpoint), groups.slice(midpoint)]
 
   return (
-    <div className="mt-14 grid gap-x-14 gap-y-12 lg:grid-cols-2">
+    <div className={cn('grid gap-x-14 gap-y-12 lg:grid-cols-2', className)}>
       {columns.map((column, columnIndex) => (
         <div key={columnIndex} className="flex flex-col gap-12">
           {column.map((group) => (

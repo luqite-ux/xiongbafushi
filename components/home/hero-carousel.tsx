@@ -102,7 +102,9 @@ export function HeroCarousel({ slides, titleStyle }: { slides: HeroSlide[]; titl
         {slides.map((slide, slideIndex) => {
           const active = slideIndex === index
           const Heading = active ? 'h1' : 'h2'
-          const copyOnRight = slide.copySide === 'right'
+          // The manufacturing artwork reserves its clean copy-safe area on the right.
+          // Keep that composition explicit even when maintained content replaces text fields.
+          const copyOnRight = slide.id === 'manufacturing' || slide.copySide === 'right'
 
           return (
             <div

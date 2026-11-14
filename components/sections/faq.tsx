@@ -7,13 +7,16 @@ export async function FaqSection({ groups }: { groups?: FaqGroup[] } = {}) {
 
   return (
     <Section id="faq" tone="sand" labelledBy="faq-title">
-      <SectionHeader
-        id="faq-title"
-        eyebrow="FAQ"
-        title="Questions buyers ask before an RFQ"
-        description="Answers on products, customization, sampling and how to reach the team."
-      />
-      <FaqGroups groups={resolvedGroups} />
+      <div className="grid gap-12 lg:grid-cols-12 lg:gap-16">
+        <SectionHeader
+          id="faq-title"
+          eyebrow="FAQ"
+          title="Questions buyers ask before an RFQ"
+          description="Answers on products, customization, sampling and how to reach the team."
+          className="lg:col-span-4 lg:self-start"
+        />
+        <FaqGroups groups={resolvedGroups} className="lg:col-span-8" />
+      </div>
     </Section>
   )
 }
