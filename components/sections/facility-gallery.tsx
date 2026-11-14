@@ -17,7 +17,7 @@ export function FacilityGallery() {
         id="facility-title"
         eyebrow="Inside the facility"
         title="Workshop, sample room, warehouse and office"
-        description="Photographs from the working areas that support each order, from sample development to packing."
+        description="See the working areas used for sample development, sewing, order handling and packing."
       />
 
       <div className="mt-14 grid gap-x-5 gap-y-10 md:grid-cols-12">

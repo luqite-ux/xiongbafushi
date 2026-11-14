@@ -11,7 +11,7 @@ import { siteConfig } from '@/lib/site'
 export const metadata: Metadata = {
   title: 'About',
   description:
-    'Wenzhou Xiongba Apparel Co., Ltd. develops and manufactures children’s and teen thermal underwear and base-layer sets for B2B buyers.',
+    'Wenzhou Xiongba Apparel Co., Ltd. develops and manufactures children’s and teen thermal underwear and base-layer sets for brands, importers and wholesalers.',
   alternates: { canonical: '/about' },
 }
 

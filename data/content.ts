@@ -68,7 +68,7 @@ const content = {
           'Sewing operators at industrial machines in a bright workshop, with rolls of fabric and crates of garments beside the work tables',
         eyebrow: 'Wenzhou garment manufacturer',
         headline: 'From Sample Room to Bulk Production',
-        body: 'Children’s and teen thermal sets developed from sample to bulk, with the workshop, sample room and packing area shown on this site.',
+        body: 'Children’s and teen thermal sets developed from sample to bulk through our sample room, sewing workshop and packing area.',
         cta: { label: 'View Manufacturing', href: '/manufacturing' },
         copySide: 'right',
         imagePosition: 'left center',
@@ -239,7 +239,7 @@ const content = {
         src: '/images/facility/facility-exterior.jpg',
         alt: 'Exterior of the factory buildings with a gated entrance, a parking area and a delivery truck',
         title: 'Factory buildings',
-        caption: 'The factory compound, seen from the gated entrance and parking area.',
+        caption: 'Gated access, parking and loading space connect the production buildings with incoming and outgoing deliveries.',
       },
       {
         key: 'sample-room',

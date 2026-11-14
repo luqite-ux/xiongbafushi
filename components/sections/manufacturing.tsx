@@ -52,7 +52,7 @@ export function ManufacturingSection() {
             id="manufacturing-title"
             eyebrow="Manufacturing"
             title="See where your garments are made"
-            description="Photographs of the sewing workshop, sample room and packing area, so you can review the working environment before you start."
+            description="Follow the working path from sample development and sewing through inspection, packing and dispatch preparation."
           />
           <Reveal delay={140} className="mt-8 max-w-md">
             <p className="text-muted-foreground leading-relaxed">

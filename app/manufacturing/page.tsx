@@ -10,7 +10,7 @@ import { QualitySection } from '@/components/sections/quality'
 export const metadata: Metadata = {
   title: 'Manufacturing',
   description:
-    'Photographs of the XIONGBA sewing workshop, sample room, warehouse and office in Wenzhou, with the inspection checkpoints that apply to each order.',
+    'Explore the XIONGBA sewing workshop, sample room, packing area and office in Wenzhou, together with the inspection checkpoints used for each order.',
   alternates: { canonical: '/manufacturing' },
 }
 
@@ -41,7 +41,7 @@ export default function ManufacturingPage() {
       <PageHero
         eyebrow="Manufacturing"
         title="Where XIONGBA garments are developed and made"
-        description="Our working areas as they are: the sewing workshop, sample room, warehouse and office. Review them before you send a brief."
+        description="Explore the sewing workshop, sample room, packing area and office, then review the checkpoints that support an order from sample to dispatch."
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Manufacturing' }]}
       />
 

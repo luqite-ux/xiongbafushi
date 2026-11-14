@@ -16,7 +16,7 @@ export function BuyerFit() {
               id="buyer-fit-title"
               eyebrow="Buyer fit"
               title="Find the starting point that matches your range"
-              description="These are sourcing starting points, not a customer list. Pick the one closest to your programme and we will guide you to the right models."
+              description="Choose the sourcing profile closest to your programme, then compare the models and customization options that fit it."
             />
           </div>
         </div>
