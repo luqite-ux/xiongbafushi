@@ -1,10 +1,12 @@
 import Link from 'next/link'
-import { Mail, MapPin } from 'lucide-react'
+import { Mail, MapPin, Phone } from 'lucide-react'
 import { CurrentYear } from '@/components/site/current-year'
 import { Wordmark } from '@/components/site/wordmark'
 import { navItems, siteConfig } from '@/lib/site'
+import { getContactSettings } from '@/lib/contact-settings'
 
-export function SiteFooter() {
+export async function SiteFooter() {
+  const contact = await getContactSettings()
   const buildYear = new Date().getFullYear()
 
   return (
@@ -40,16 +42,22 @@ export function SiteFooter() {
           <ul className="mt-4 space-y-3">
             <li>
               <a
-                href={`mailto:${siteConfig.email}`}
+                href={`mailto:${contact.email}`}
                 className="inline-flex min-h-11 items-center gap-3 underline-offset-4 hover:underline"
               >
                 <Mail aria-hidden="true" className="text-rust size-4 shrink-0" />
-                {siteConfig.email}
+                {contact.email}
+              </a>
+            </li>
+            <li>
+              <a href={`tel:${contact.phone.replace(/[^+\d]/g, '')}`} className="inline-flex min-h-11 items-center gap-3 underline-offset-4 hover:underline">
+                <Phone aria-hidden="true" className="text-rust size-4 shrink-0" />
+                {contact.phone}
               </a>
             </li>
             <li className="flex items-start gap-3">
               <MapPin aria-hidden="true" className="text-rust mt-1 size-4 shrink-0" />
-              <span>{siteConfig.location}</span>
+              <span>{contact.address}</span>
             </li>
           </ul>
           <Link

@@ -5,6 +5,7 @@ import { Section, SectionHeader } from '@/components/site/section'
 import { getFacility } from '@/data/content'
 import { listProducts } from '@/data/products'
 import { siteConfig } from '@/lib/site'
+import { getContactSettings } from '@/lib/contact-settings'
 
 type ContactRfqProps = {
   variant?: 'home' | 'page'
@@ -20,6 +21,7 @@ const rfqChecklist = [
 
 export async function ContactRfq({ variant = 'home', defaultProduct }: ContactRfqProps) {
   const products = await listProducts()
+  const contact = await getContactSettings()
   const exterior = getFacility().find((image) => image.key === 'exterior')
 
   const productOptions: ProductOption[] = [
@@ -72,8 +74,8 @@ export async function ContactRfq({ variant = 'home', defaultProduct }: ContactRf
                 <dd>Children&apos;s and teen thermal underwear and base-layer sets</dd>
               </div>
               <div className="grid grid-cols-[7rem_1fr] gap-4 py-3">
-                <dt className="text-muted-foreground">Location</dt>
-                <dd>{siteConfig.location}</dd>
+                <dt className="text-muted-foreground">Address</dt>
+                <dd>{contact.address}</dd>
               </div>
               <div className="grid grid-cols-[7rem_1fr] gap-4 py-3">
                 <dt className="text-muted-foreground">Services</dt>
@@ -83,12 +85,16 @@ export async function ContactRfq({ variant = 'home', defaultProduct }: ContactRf
                 <dt className="text-muted-foreground">Email</dt>
                 <dd>
                   <a
-                    href={`mailto:${siteConfig.email}`}
+                    href={`mailto:${contact.email}`}
                     className="hover:text-rust font-semibold underline underline-offset-4"
                   >
-                    {siteConfig.email}
+                    {contact.email}
                   </a>
                 </dd>
+              </div>
+              <div className="grid grid-cols-[7rem_1fr] gap-4 py-3">
+                <dt className="text-muted-foreground">Phone</dt>
+                <dd><a href={`tel:${contact.phone.replace(/[^+\d]/g, '')}`} className="hover:text-rust font-semibold underline underline-offset-4">{contact.phone}</a></dd>
               </div>
             </dl>
           </div>

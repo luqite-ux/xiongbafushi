@@ -2,29 +2,213 @@
   "schemaVersion": 1,
   "templateFamily": "consumer-soft-goods",
   "navigation": [
-    {"label": "Home", "route": "/", "level": 1, "source": "project navigation rule", "referencePeer": "thermalproducer.com"},
-    {"label": "Products", "route": "/products", "level": 1, "source": "four verified launch products", "referencePeer": "nuohuagarment.com"},
-    {"label": "OEM / ODM", "route": "/oem-odm", "level": 1, "source": "workbook customization facts", "referencePeer": "nuohuagarment.com"},
-    {"label": "Manufacturing", "route": "/manufacturing", "level": 1, "source": "real factory and equipment images", "referencePeer": "nuohuagarment.com"},
-    {"label": "About", "route": "/about", "level": 1, "source": "verified company identity", "referencePeer": "etxjust.com"},
-    {"label": "News", "route": "/news", "level": 1, "source": "backend-driven publishing capability", "referencePeer": "etxjust.com"},
-    {"label": "Contact", "route": "/contact", "level": 1, "source": "formal contact and RFQ requirement", "referencePeer": "thermalproducer.com"}
+    {
+      "label": "Home",
+      "route": "/",
+      "level": 1,
+      "source": "project navigation rule",
+      "referencePeer": "thermalproducer.com"
+    },
+    {
+      "label": "Products",
+      "route": "/products",
+      "level": 1,
+      "source": "four verified launch products",
+      "referencePeer": "nuohuagarment.com"
+    },
+    {
+      "label": "OEM / ODM",
+      "route": "/oem-odm",
+      "level": 1,
+      "source": "workbook customization facts",
+      "referencePeer": "nuohuagarment.com"
+    },
+    {
+      "label": "Manufacturing",
+      "route": "/manufacturing",
+      "level": 1,
+      "source": "real factory and equipment images",
+      "referencePeer": "nuohuagarment.com"
+    },
+    {
+      "label": "About",
+      "route": "/about",
+      "level": 1,
+      "source": "verified company identity",
+      "referencePeer": "etxjust.com"
+    },
+    {
+      "label": "News",
+      "route": "/news",
+      "level": 1,
+      "source": "backend-driven publishing capability",
+      "referencePeer": "etxjust.com"
+    },
+    {
+      "label": "Contact",
+      "route": "/contact",
+      "level": 1,
+      "source": "formal contact and RFQ requirement",
+      "referencePeer": "thermalproducer.com"
+    }
   ],
   "productTaxonomy": [
-    {"customerProduct": "XB-SR-001", "category": "Children's Thermal Sets", "route": "/products/xb-sr-001", "source": "workbook product row and model folder"},
-    {"customerProduct": "XB-CT-002", "category": "Children's Thermal Sets", "route": "/products/xb-ct-002", "source": "workbook product row and model folder"},
-    {"customerProduct": "XB-PT-003", "category": "Plus-Fit Children's Thermal Sets", "route": "/products/xb-pt-003", "source": "workbook product row and model folder"},
-    {"customerProduct": "XB-LY-004", "category": "Teen Thermal Sets", "route": "/products/xb-ly-004", "source": "workbook product row and model folder"}
+    {
+      "customerProduct": "XB-SR-001",
+      "category": "Children's Thermal Sets",
+      "route": "/products/xb-sr-001-brushed-fleece-round-neck-set",
+      "source": "workbook product row and model folder"
+    },
+    {
+      "customerProduct": "XB-CT-002",
+      "category": "Children's Thermal Sets",
+      "route": "/products/xb-ct-002-cotton-candy-soft-knit-set",
+      "source": "workbook product row and model folder"
+    },
+    {
+      "customerProduct": "XB-PT-003",
+      "category": "Plus-Fit Children's Thermal Sets",
+      "route": "/products/xb-pt-003-plus-fit-brushed-fleece-set",
+      "source": "workbook product row and model folder"
+    },
+    {
+      "customerProduct": "XB-LY-004",
+      "category": "Teen Thermal Sets",
+      "route": "/products/xb-ly-004-teen-girls-lycra-cotton-set",
+      "source": "workbook product row and model folder"
+    }
   ],
   "homepageSections": [
-    {"sectionId": "hero", "type": "hero", "purpose": "Identify thermal/base-layer offer and direct selection or RFQ.", "informationGain": "Offer, audience and next action in one view.", "factSource": "three supplied banners and workbook business profile", "contentType": "banner carousel", "desktopStrategy": "per-image safe-area DOM copy", "mobile390Strategy": "separate copy and focused image", "componentDecision": "custom accessible carousel", "referencePeers": ["thermalproducer.com", "nuohuagarment.com"]},
-    {"sectionId": "product-collections", "type": "products", "purpose": "Compare the four launch products.", "informationGain": "Fit, fabric and wearer differences across verified models.", "factSource": "four workbook rows and complete image folders", "contentType": "product collection cards", "desktopStrategy": "four-card editorial grid", "mobile390Strategy": "stacked full-product cards", "componentDecision": "custom data-driven cards", "referencePeers": ["nuohuagarment.com", "thermalproducer.com"]},
-    {"sectionId": "buyer-fit", "type": "applications", "purpose": "Help sourcing roles recognize fit.", "informationGain": "Verified buyer types without named-client endorsements.", "factSource": "workbook company profile", "contentType": "icon-supported buyer cards", "desktopStrategy": "compact four-card row", "mobile390Strategy": "two-column compact cards", "componentDecision": "custom Lucide icon cards", "referencePeers": ["nuohuagarment.com"]},
-    {"sectionId": "oem-odm", "type": "capabilities", "purpose": "Explain supported customization.", "informationGain": "Size, fabric, colour, print, binding and construction choices.", "factSource": "workbook customization fields", "contentType": "option matrix and garment visual", "desktopStrategy": "matrix beside real product", "mobile390Strategy": "stacked options then image", "componentDecision": "custom option matrix", "referencePeers": ["nuohuagarment.com"]},
-    {"sectionId": "sample-to-bulk", "type": "process", "purpose": "Explain ordering progression.", "informationGain": "Sample approval, production and inspection sequence.", "factSource": "workbook FAQ and process answers", "contentType": "process timeline", "desktopStrategy": "horizontal connected steps", "mobile390Strategy": "vertical steps", "componentDecision": "custom accessible timeline", "referencePeers": ["nuohuagarment.com", "thermalproducer.com"]},
-    {"sectionId": "manufacturing", "type": "manufacturing", "purpose": "Provide real operational evidence.", "informationGain": "Workshop, office, warehouse, sample room and equipment context.", "factSource": "nine company images and embedded workbook images", "contentType": "editorial factory mosaic", "desktopStrategy": "asymmetric image composition", "mobile390Strategy": "curated vertical gallery", "componentDecision": "custom media composition", "referencePeers": ["nuohuagarment.com", "etxjust.com"]},
-    {"sectionId": "quality", "type": "quality", "purpose": "Describe neutral checkpoints.", "informationGain": "Material intake, sewing, garment inspection and packing checkpoints.", "factSource": "workbook process facts and workshop evidence", "contentType": "semantic icon process", "desktopStrategy": "four concise process cards", "mobile390Strategy": "vertical sequence", "componentDecision": "custom Lucide process cards", "referencePeers": ["nuohuagarment.com"]},
-    {"sectionId": "faq", "type": "faq", "purpose": "Resolve sourcing questions.", "informationGain": "Complete supplied answers about sample, customization, timing and inspection.", "factSource": "workbook FAQ sheet", "contentType": "grouped accordion", "desktopStrategy": "balanced two-column accordion", "mobile390Strategy": "single-column progressive accordion", "componentDecision": "custom accessible accordion", "referencePeers": ["thermalproducer.com"]},
-    {"sectionId": "contact-rfq", "type": "contact", "purpose": "Collect an actionable request.", "informationGain": "Product, quantity, market and message context with formal contact.", "factSource": "formal email and project RFQ requirements", "contentType": "company summary plus protected form", "desktopStrategy": "balanced two-column composition", "mobile390Strategy": "summary above form", "componentDecision": "custom RFQ form shell", "referencePeers": ["thermalproducer.com", "nuohuagarment.com"]}
+    {
+      "sectionId": "hero",
+      "type": "hero",
+      "purpose": "Identify thermal/base-layer offer and direct selection or RFQ.",
+      "informationGain": "Offer, audience and next action in one view.",
+      "factSource": "three supplied banners and workbook business profile",
+      "contentType": "banner carousel",
+      "desktopStrategy": "per-image safe-area DOM copy",
+      "mobile390Strategy": "separate copy and focused image",
+      "componentDecision": "custom accessible carousel",
+      "referencePeers": [
+        "thermalproducer.com",
+        "nuohuagarment.com"
+      ]
+    },
+    {
+      "sectionId": "product-collections",
+      "type": "products",
+      "purpose": "Compare the four launch products.",
+      "informationGain": "Fit, fabric and wearer differences across verified models.",
+      "factSource": "four workbook rows and complete image folders",
+      "contentType": "product collection cards",
+      "desktopStrategy": "four-card editorial grid",
+      "mobile390Strategy": "stacked full-product cards",
+      "componentDecision": "custom data-driven cards",
+      "referencePeers": [
+        "nuohuagarment.com",
+        "thermalproducer.com"
+      ]
+    },
+    {
+      "sectionId": "buyer-fit",
+      "type": "applications",
+      "purpose": "Help sourcing roles recognize fit.",
+      "informationGain": "Verified buyer types without named-client endorsements.",
+      "factSource": "workbook company profile",
+      "contentType": "icon-supported buyer cards",
+      "desktopStrategy": "compact four-card row",
+      "mobile390Strategy": "two-column compact cards",
+      "componentDecision": "custom Lucide icon cards",
+      "referencePeers": [
+        "nuohuagarment.com"
+      ]
+    },
+    {
+      "sectionId": "oem-odm",
+      "type": "capabilities",
+      "purpose": "Explain supported customization.",
+      "informationGain": "Size, fabric, colour, print, binding and construction choices.",
+      "factSource": "workbook customization fields",
+      "contentType": "option matrix and garment visual",
+      "desktopStrategy": "matrix beside real product",
+      "mobile390Strategy": "stacked options then image",
+      "componentDecision": "custom option matrix",
+      "referencePeers": [
+        "nuohuagarment.com"
+      ]
+    },
+    {
+      "sectionId": "sample-to-bulk",
+      "type": "process",
+      "purpose": "Explain ordering progression.",
+      "informationGain": "Sample approval, production and inspection sequence.",
+      "factSource": "workbook FAQ and process answers",
+      "contentType": "process timeline",
+      "desktopStrategy": "horizontal connected steps",
+      "mobile390Strategy": "vertical steps",
+      "componentDecision": "custom accessible timeline",
+      "referencePeers": [
+        "nuohuagarment.com",
+        "thermalproducer.com"
+      ]
+    },
+    {
+      "sectionId": "manufacturing",
+      "type": "manufacturing",
+      "purpose": "Provide real operational evidence.",
+      "informationGain": "Workshop, office, warehouse, sample room and equipment context.",
+      "factSource": "nine company images and embedded workbook images",
+      "contentType": "editorial factory mosaic",
+      "desktopStrategy": "asymmetric image composition",
+      "mobile390Strategy": "curated vertical gallery",
+      "componentDecision": "custom media composition",
+      "referencePeers": [
+        "nuohuagarment.com",
+        "etxjust.com"
+      ]
+    },
+    {
+      "sectionId": "quality",
+      "type": "quality",
+      "purpose": "Describe neutral checkpoints.",
+      "informationGain": "Material intake, sewing, garment inspection and packing checkpoints.",
+      "factSource": "workbook process facts and workshop evidence",
+      "contentType": "semantic icon process",
+      "desktopStrategy": "four concise process cards",
+      "mobile390Strategy": "vertical sequence",
+      "componentDecision": "custom Lucide process cards",
+      "referencePeers": [
+        "nuohuagarment.com"
+      ]
+    },
+    {
+      "sectionId": "faq",
+      "type": "faq",
+      "purpose": "Resolve sourcing questions.",
+      "informationGain": "Complete supplied answers about sample, customization, timing and inspection.",
+      "factSource": "workbook FAQ sheet",
+      "contentType": "grouped accordion",
+      "desktopStrategy": "balanced two-column accordion",
+      "mobile390Strategy": "single-column progressive accordion",
+      "componentDecision": "custom accessible accordion",
+      "referencePeers": [
+        "thermalproducer.com"
+      ]
+    },
+    {
+      "sectionId": "contact-rfq",
+      "type": "contact",
+      "purpose": "Collect an actionable request.",
+      "informationGain": "Product, quantity, market and message context with formal contact.",
+      "factSource": "formal email and project RFQ requirements",
+      "contentType": "company summary plus protected form",
+      "desktopStrategy": "balanced two-column composition",
+      "mobile390Strategy": "summary above form",
+      "componentDecision": "custom RFQ form shell",
+      "referencePeers": [
+        "thermalproducer.com",
+        "nuohuagarment.com"
+      ]
+    }
   ]
 }
